@@ -1,290 +1,169 @@
 ---
 lab:
-  title: 'Lab 6: Cara membangun solusi otomatis'
+  title: 'Lab 4: Cara membangun solusi otomatis'
   module: 'Module 4: Get Started with Power Automate'
-ms.openlocfilehash: 9b26af0345e67d338409a3712fd77e581721ab29
-ms.sourcegitcommit: ef58c858463b890e923ef808b1d43405423943fd
+ms.openlocfilehash: 9b07c81fad82867bb54c2889687075fa7a463b81
+ms.sourcegitcommit: 36c8fda9cdc6f448416d7000e38c1606bea87d2e
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 01/27/2022
-ms.locfileid: "137898998"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "144812946"
 ---
 # <a name="module-4-get-started-with-power-automate"></a>Modul 4: Memulai dengan Power Automate
 ## <a name="lab-how-to-build-an-automated-solution"></a>Lab: Cara membangun solusi otomatis
 
 ## <a name="scenario"></a>Skenario
 
-Bellows College adalah organisasi pendidikan dengan beberapa gedung di kampus. Pengunjung kampus saat ini tercatat dalam jurnal kertas. Informasi tidak diambil secara konsisten, dan tidak ada sarana untuk mengumpulkan dan menganalisis data tentang kunjungan di seluruh kampus. 
+Bellows College adalah organisasi pendidikan dengan beberapa gedung di kampus. Pengunjung kampus saat ini tercatat dalam jurnal kertas. Informasi tidak diambil secara konsisten, dan tidak ada sarana untuk mengumpulkan dan menganalisis data tentang kunjungan di seluruh kampus.
 
 Administrasi kampus ingin memodernisasi sistem pendaftaran pengunjung mereka dengan akses ke gedung dikendalikan oleh personel keamanan dan semua kunjungan harus didaftarkan sebelumnya dan dicatat oleh pemandu mereka.
 
-Sepanjang kursus ini, Anda akan membangun aplikasi dan melakukan otomatisasi untuk memungkinkan administrasi dan personel keamanan Bellows College mengelola dan mengontrol akses ke gedung-gedung di kampus. 
+Sepanjang kursus ini, Anda akan membangun aplikasi dan melakukan otomatisasi untuk memungkinkan administrasi dan personel keamanan Bellows College mengelola dan mengontrol akses ke gedung-gedung di kampus.
 
-Di lab ini, Anda akan membuat alur Power Automate untuk mengotomatiskan berbagai bagian manajemen kampus. 
+Di lab ini, Anda akan membuat alur Power Automate untuk mengirim email kepada pengunjung saat kunjungan dijadwalkan.
 
 # <a name="high-level-lab-steps"></a>Langkah-langkah lab tingkat tinggi
 
 Berikut ini telah diidentifikasi sebagai persyaratan yang harus Anda terapkan untuk menyelesaikan proyek:
 
-* Kode unik yang diberikan kepada setiap pengunjung harus tersedia bagi mereka sebelum kunjungan mereka.
-* Personel keamanan perlu menerima pemberitahuan tentang pengunjung yang melebihi batas waktu yang dijadwalkan.
+-   Kontak perlu diberi tahu melalui email saat kunjungan dijadwalkan.
 
 ## <a name="prerequisites"></a>Prasyarat
 
-* Penyelesaian **Modul 0 Lab 0 - Memvalidasi lingkungan lab**
-* Penyelesaian **Modul 2 Lab 1 - Pengantar Microsoft Dataverse**
-* Aplikasi Staf Kampus dibuat di **Modul 3 Lab 2 – Cara membuat aplikasi kanvas, bagian 2** (untuk pengujian)
-* Kontak John Doe dibuat dengan alamat email pribadi di **Modul 3 Lab 4 - Cara membuat aplikasi berbasis model** (untuk pengujian)
+-   Penyelesaian **Modul 0 Lab 0 - Memvalidasi lingkungan lab**
 
-## <a name="things-to-consider-before-you-begin"></a>Hal-hal yang perlu dipertimbangkan sebelum memulai
+-   Penyelesaian **Modul 2 Lab 1 - Pengantar Microsoft Dataverse**
 
--   Apa mekanisme distribusi yang paling tepat untuk kode pengunjung?
--   Bagaimana perpanjangan dapat diukur dan kebijakan yang ketat dapat ditegakkan?
+-   Kontak John Doe dibuat dengan alamat email pribadi yang diisi
 
 # <a name="exercise-1-create-visit-notification-flow"></a>Latihan \#1: Membuat alur Pemberitahuan Kunjungan
 
-**Tujuan:** Dalam latihan ini, Anda akan membuat alur Power Automate yang mengimplementasikan persyaratan. Pengunjung harus dikirimi email yang menyertakan kode unik yang ditetapkan untuk kunjungan.
+**Tujuan:** Dalam latihan ini, Anda akan membuat alur Power Automate yang mengimplementasikan persyaratan. Pengunjung harus dikirimi email yang menyertakan kode unik yang ditetapkan ke kunjungan saat kunjungan dibuat.
 
-## <a name="task-1-create-flow"></a>Tugas \#1: Membuat alur
+## <a name="task-1-create-a-flow"></a>Tugas \#1: Buat alur
 
-1.  Buka solusi Manajemen Kampus Anda.
+1.  Navigasikan ke <https://make.powerapps.com>. Anda mungkin perlu mengautentikasi ulang - klik **Masuk** dan ikuti petunjuk jika diperlukan.
 
-    -   Masuk ke <https://make.powerapps.com>
+2.  Pilih lingkungan **Latihan [inisial saya]** Anda di kanan atas jika belum dipilih.
 
-    -   Pilih **lingkungan** Anda.
+2.  Di menu navigasi kiri, pilih **Alur**.
 
-    -   Pilih **Solusi**.
+4.  Jika diminta, pilih **Mulai**.
 
-    -   Klik untuk membuka solusi **Manajemen Kampus** Anda.
+5.  Klik **Alur baru** dan pilih **Alur cloud otomatis**.
 
-2.  Klik **Baru** dan pilih **Otomatis**, **Alur cloud**, lalu **Otomatis**. Tindakan ini akan membuka editor alur Power Automate di jendela baru.
+6.  Masukkan "Kunjungi Pemberitahuan" untuk **nama Flow**.
 
-3. Di **Pilih pemicu alur Anda**, cari **Microsoft Dataverse**.
+7.  Di **Pilih pemicu alur Anda**, cari **Dataverse**.
 
-4. Pilih pemicu **Bila baris ditambahkan, diubah, atau dihapus**, lalu klik **Buat**.
+8.  Pilih pemicu **Bila baris ditambahkan, diubah, atau dihapus**, lalu klik **Buat**.
 
-   * Pilih **Ditambahkan** untuk **Ubah jenis**
-   
-   * Pilih **Kunjungan** untuk **Nama tabel**
-   
-   * Pilih **Organisasi** untuk **Cakupan**
-   
-   * Pada langkah pemicu, klik elipsis ( **...** ) dan klik **Ganti nama**. Ganti nama pemicu ini **"Saat kunjungan ditambahkan"** . Ini adalah praktik yang baik, sehingga Anda dan editor alur lainnya dapat memahami tujuan dari langkah tersebut tanpa harus menyelami detailnya.
+9.  Isi kondisi pemicu untuk alur:
 
-5. Pilih **Langkah Baru**. Langkah ini diperlukan untuk mengambil informasi pengunjung, termasuk alamat email.
+    1.  Pilih **Ditambahkan** untuk **Ubah jenis**
 
-6. Cari **Microsoft Dataverse**.
+    2.  Pilih **Kunjungan** untuk **Nama tabel**
 
-7. Pilih tindakan **Dapatkan baris menurut ID**. 
+    3.  Pilih **Organisasi** untuk **Cakupan**
 
-   * Pilih **Kontak** sebagai **Nama tabel**
-   
-   * Di bidang **ID Baris**, pilih **Pengunjung (Nilai)** dari daftar konten Dinamis.
-   
-   * Pada tindakan ini, klik elipsis ( **...** ) dan klik **Ganti nama**. Ganti nama tindakan ini **"Dapatkan Pengunjung"** . Ini adalah praktik yang baik, sehingga Anda dan editor alur lainnya dapat memahami tujuan dari langkah tersebut tanpa harus menyelami detailnya.
+    4.  Pada langkah pemicu, klik elipsis ( **...** ) dan klik **Ganti nama**.
+        Ganti nama pemicu ini **"Saat kunjungan ditambahkan"** . Ini adalah praktik yang baik, sehingga Anda dan editor alur lainnya dapat memahami tujuan dari langkah tersebut tanpa harus menyelami detailnya.
 
-8. Klik **Langkah Baru**. Ini adalah langkah yang akan membuat dan mengirim email ke pengunjung.
+## <a name="task-2-create-a-step-to-get-the-visitor-row"></a>Tugas \#2: Membuat langkah untuk mendapatkan baris pengunjung
 
-9. Cari *email*, pilih konektor **Office 365 Outlook** dan tindakan **Kirim email (V2)** .
+1.  Pilih **Langkah Baru**. Langkah ini diperlukan untuk mengambil informasi pengunjung, termasuk alamat email.
 
-   * Jika diminta untuk Menerima persyaratan dan ketentuan untuk menggunakan tindakan ini, klik **Terima**.
-   
-   * Pilih bidang **Ke**, pilih **Email** dari daftar konten Dinamis. Perhatikan bahwa ini berada di bawah header **Dapatkan Pengunjung**. Ini berarti Anda memilih Email yang terkait dengan Pengunjung yang Anda cari di langkah sebelumnya. 
+2.  Cari **Dataverse**.
 
-   * Masukkan **Kunjungan terjadwal Anda ke Bellows College** di bidang **Subjek**.
+3.  Pilih tindakan **Dapatkan baris berdasarkan ID**.
 
-   * Masukkan teks berikut di **Isi Email**:  
-        
-        > Konten dinamis perlu ditempatkan di tempat bidang diberi nama dalam tanda kurung. Disarankan untuk menyalin & menempel semua teks terlebih dahulu dan kemudian menambahkan konten dinamis di tempat yang benar.
-   
-        ```
-        Dear {First Name},
+4.  Pilih **Kontak** sebagai **Nama tabel**
 
-        You are currently scheduled to visit Bellows Campus from {Scheduled Start} until {Scheduled End}.
+5.  Pilih bidang **ID Baris**. Perhatikan bahwa jendela muncul untuk memilih Konten atau Ekspresi dinamis. 
 
-        Your security code is {Code}, please do not share it. You will be required to produce this code during your visit.
+6.  Di bidang **ID Baris**, pilih **Pengunjung (Nilai)** dari daftar konten Dinamis. Dalam langkah ini, Anda mencari Kontak untuk baris Kunjungan yang dibuat untuk memicu alur ini. Karena alamat email adalah bagian dari tabel Kontak, Anda akan memerlukan informasi ini untuk mengirim email ke pengunjung. 
 
-        Best regards,
+7.  Pada tindakan ini, klik elipsis ( **...** ) dan klik **Ganti nama**.
+        Ganti nama tindakan ini **"Dapatkan Pengunjung"** . Ini adalah praktik yang baik, sehingga Anda dan editor alur lainnya dapat memahami tujuan dari langkah tersebut tanpa harus menyelami detailnya.
 
-        Campus Administration
-        Bellows College
-        ```
-   
-10.  Pilih nama alur **Tanpa Judul** di bagian atas dan ganti namanya menjadi `Visit notification`
+## <a name="task-3-create-a-step-to-send-an-email-to-the-visitor"></a>Tugas \#3: Membuat langkah untuk mengirim email ke pengunjung
 
-11. Tekan **Simpan**
+1.  Klik **Langkah Baru**. Ini adalah langkah yang akan mengirim email ke pengunjung.
 
-    Biarkan tab alur ini terbuka untuk tugas berikutnya. Alur Anda akan terlihat kira-kira seperti berikut:
+2.  Cari *email*, pilih konektor **Office 365 Outlook** dan tindakan **Kirim email (V2)** .
 
-![gambar](https://user-images.githubusercontent.com/78555251/118340724-ccb13300-b4d9-11eb-96c2-c7b005bb9ac0.png)
+3.  Jika diminta untuk Menerima persyaratan dan ketentuan untuk menggunakan tindakan ini, klik **Terima**.
 
-## <a name="task-2-validate-and-test-the-flow"></a>Tugas \#2: Memvalidasi dan menguji alurnya
-
-1.  Buka tab baru di browser Anda dan navigasikan ke <https://make.powerapps.com>
-
-2.  Klik **Aplikasi** dan pilih aplikasi **Staf Kampus** yang Anda buat
-
-3.  Dengan membiarkan tab ini terbuka, navigasikan kembali ke tab sebelumnya dengan alur Anda. 
-
-4.  Pada bilah perintah, klik **Uji**. Pilih **Secara Manual** lalu **Simpan & Uji**.
-
-5.  Dengan membiarkan tab alur terbuka, navigasikan kembali ke tab sebelumnya dengan aplikasi **Staf Kampus**.
-
-6.  Tekan **+** untuk menambahkan catatan Kunjungan baru
-
-7.  Masukkan **John Doe** sebagai **Nama** dan pilih **Gedung**
-
-8.  Pilih **John Doe** sebagai **Pengunjung**
-
-9.  Pilih **Waktu Mulai yang Dijadwalkan** dan **Waktu Selesai yang Dijadwalkan** untuk tanggal mana pun di masa mendatang.
-
-10.  Tekan ikon **Tanda Centang** untuk menyimpan kunjungan baru
-
-11.  Navigasikan kembali ke tab sebelumnya dengan alur yang sedang diuji. Perhatikan saat alur dijalankan. Jika ada kesalahan, kembali dan bandingkan alur Anda dengan contoh di atas. Jika email berhasil dikirim, Anda akan menerimanya di kotak masuk Anda. 
-
-12.  Klik panah kembali pada bilah perintah
-
-13.  Di bagian **Detail**, perhatikan bahwa **Status** diatur ke **Aktif**. Ini berarti alur Anda akan berjalan setiap kali Kunjungan baru dibuat, sampai Anda mematikannya. Setiap kali alur berjalan, Anda akan melihatnya ditambahkan ke daftar **riwayat proses 28 hari**.
-
-14.  Matikan alur dengan mengklik **Matikan** pada bilah perintah. Anda mungkin perlu menekan elipsis ( **...** ) untuk melihat opsi ini.
-
-15.  Tutup jendela ini.
-
-# <a name="exercise-2-create-security-sweep-flow"></a>Latihan #2: Membuat alur Pembersihan Keamanan
-
-**Tujuan:** Dalam latihan ini, Anda akan membuat alur Power Automate yang mengimplementasikan persyaratan. Pembersihan keamanan perlu dilakukan setiap 15 menit, dan keamanan harus diberitahu jika ada pengunjung yang melebihi waktu yang dijadwalkan.
-
-## <a name="task-1-create-flow-to-retrieve-records"></a>Tugas 1: Membuat alur untuk mengambil catatan
-
-1. Buka solusi Manajemen Kampus Anda.
-
-   -   Masuk ke <https://make.powerapps.com>
-
-   -   Pilih **Lingkungan** Anda.
-
-   -   Pilih **Solusi**.
-
-   -   Klik untuk membuka solusi **Manajemen Kampus** Anda.
-
-2. Klik **Baru** dan pilih **Otomatisasi**, **Alur cloud**, lalu **Terjadwal**. Tindakan ini akan membuka editor alur Power Automate di jendela baru.
-
-3. Atur alur agar berulang setiap **15** menit.
-
-4. Klik **Buat**.
-
-5. Klik **Langkah baru**. Cari *Saat ini* dan pilih konektor **Microsoft Dataverse**. Pilih tindakan **Daftar baris**.
-
-   * Masukkan **Kunjungan** sebagai **Nama tabel**
-   
-   * Klik **Tampilkan opsi tingka lanjut**
-
-   * Masukkan ekspresi berikut sebagai **Filter baris**
-
-   ```
-     statecode eq 0 and bc_actualstart ne null and bc_actualend eq null and Microsoft.Dynamics.CRM.OlderThanXMinutes(PropertyName='bc_scheduledend',PropertyValue=15)
-   ```
-   
-   * Untuk memecahnya:
-       * **statecode eq 0** memfilter kunjungan aktif (dengan Status sama dengan Aktif)
-       * **bc_actualstart ne null** membatasi pencarian pada kunjungan yang memiliki nilai Waktu Mulai Aktual, yaitu ada check-in
-       * **bc_actualend eq null** membatasi pencarian pada kunjungan yang tidak ada check out (Actual End tidak memiliki nilai) 
-       * **Microsoft.Dynamics.CRM.OlderThanXMinutes(PropertyName='bc_scheduledend',PropertyValue=15)** membatasi kunjungan yang seharusnya diselesaikan lebih dari 15 menit yang lalu.
-
-   * Pada tindakan ini, klik elipsis ( **...** ) dan klik **Ganti nama**. Ganti nama tindakan ini **"Daftar kunjungan aktif yang berakhir lebih dari 15 menit yang lalu"** . Ini adalah praktik yang baik, sehingga Anda dan editor alur lainnya dapat memahami tujuan dari langkah tersebut tanpa harus menyelami detailnya.
-
-6.  Klik **Langkah baru**. Cari *Terapkan*, pilih **Terapkan ke setiap** tindakan 
-
-7.  Pilih **nilai** dari konten dinamis di bidang **Pilih output dari langkah sebelumnya**. Perhatikan bahwa ini berada di bawah header abu-abu **Daftar kunjungan aktif yang berakhir lebih dari 15 menit yang lalu**. Ini berarti Anda memilih daftar kunjungan yang Anda cari di langkah sebelumnya. 
-
-8.  Ambil data Gedung untuk catatan terkait
-
-    * Klik **Tambahkan tindakan** di dalam Terapkan ke Setiap perulangan.
+4.  Pilih **Tambahkan konten dinamis** di bagian bidang **Kepada**. 
     
-    * Pilih **Microsoft Dataverse**. 
-    
-    * Pilih tindakan **Dapatkan baris menurut ID**.
-    
-    * Pilih **Gedung** sebagai **Nama tabel**
-    
-    * Pilih **Gedung (Nilai)** sebagai **ID Baris** dari konten Dinamis
-    
-    * Klik **...** di samping **Dapatkan catatan**, pilih **Ganti nama**. Masukkan **Dapatkan bangunan** sebagai nama langkah
-    
-9.  Mengambil data Pengunjung untuk catatan terkait
+5.  Pilih **Email** dari daftar konten Dinamis.
+        > Notice that it is beneath the **Get the visitor** header. This means you
+        are selecting the Email that is related to the Visitor that you looked
+        up in the previous step.
 
-    * Klik **Tambahkan tindakan** di dalam Terapkan ke Setiap perulangan.
-    
-    * Pilih **Microsoft Dataverse**.
-    
-    * Pilih tindakan **Dapatkan baris menurut ID**.
-    
-    * Pilih **Kontak** sebagai **Nama tabel**
-    
-    * Pilih **Pengunjung (Nilai)** sebagai **ID Baris** dari konten Dinamis
-    
-    * Klik **...** di samping **Dapatkan catatan**, pilih **Ganti nama**. Masukkan **Dapatkan pengunjung** sebagai nama langkah
-    
-10.  Mengirim Pemberitahuan Email
+6.  Masukkan **Kunjungan terjadwal Anda ke Bellows College** di bidang **Subjek**.
 
-     * Klik **Tambahkan tindakan** di dalam Terapkan ke Setiap perulangan. Tambahkan tindakan **Kirim email (V2)** dari koneksi **Office 365 Outlook**.
+7.  Masukkan teks berikut di **Isi Email**:
 
-11.  Masukkan alamat email Anda sebagai **Kepada**
+>   Konten dinamis perlu ditempatkan di tempat bidang diberi nama dalam tanda kurung. Disarankan untuk menyalin & menempel semua teks terlebih dahulu dan kemudian menambahkan konten dinamis di tempat yang benar.
 
-12.  Masukkan hal berikut ini di bidang **Subjek**. **Nama Lengkap** adalah konten dinamis dari langkah **Dapatkan pengunjung**.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Dear {First Name},
 
-   ```
-   {Full Name} overstayed their welcome
-   ```
-   
-13.  Masukkan hal berikut ini di bidang **Isi**. **Nama** adalah konten dinamis dari langkah **Dapatkan bangunan**. Anda mungkin perlu menggulir ke bagian bawah daftar.
+   You are currently scheduled to visit Bellows Campus from {Scheduled Start} until {Scheduled End}.
 
-   ```
-   There is an overstay in building {Name}.
-         
-   Best,
-         
-   Campus Security
-   ```
+   Best regards,
 
-14.  Pilih nama alur **Tanpa Judul** di sudut kiri atas dan ganti namanya menjadi **Security Sweep**
+   Campus Administration
+   Bellows College
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-15.  Tekan **Simpan**
+8.  Sorot teks **{First Name}** . Ganti dengan bidang **Nama Depan** dari langkah **Dapatkan Pengunjung**.
 
-    Alur Anda akan terlihat kira-kira seperti berikut:
+9.  Sorot teks **{Scheduled Start}** . Ganti dengan bidang **Mulai Terjadwal** dari langkah **Saat kunjungan ditambahkan**.
 
-![Pembersihan keamanan alur terjadwal bagian 1](media/4-power-automate-security-sweep-flow.png)
+10.  Sorot teks **{Scheduled End}** . Ganti dengan bidang **Akhir Terjadwal** dari Langkah **Saat kunjungan ditambahkan**.
 
-## <a name="task-2-validate-and-test-the-flow"></a>Tugas #2: Memvalidasi dan menguji alurnya
+11.  Klik **Simpan**.
 
-Alur Anda akan mulai mengirimi Anda email (ke email yang Anda tentukan saat membuat kontak John Doe sebelumnya) jika ada kunjungan yang memenuhi persyaratan yang ditetapkan dalam alur.
+Biarkan tab alur ini terbuka untuk tugas berikutnya. Alur Anda akan terlihat kira-kira seperti berikut:
 
-1. Validasi bahwa Anda memiliki catatan kunjungan yang:
+![Contoh langkah alur.](media/4-Flow.png)
 
-   1. Memiliki status aktif
-   
-   2. Akhir yang Dijadwalkan sudah lewat (lebih dari 15 menit)
-   
-   3. Waktu Mulai Aktual memiliki nilai.
-   
-   > **Catatan**: Untuk melihat data ini, navigasikan ke make.powerapps.com di tab baru. Klik Solusi di panel kiri untuk menemukan solusi Anda. Pilih entitas Kunjungan, lalu pilih tab Data. Klik Kunjungan Aktif di sudut kanan atas untuk menampilkan pemilih tampilan, lalu pilih Semua bidang.
-   
-2. Navigasikan ke alur **Pembersihan Keamanan** Anda, jika belum ada di sana.
+## <a name="task-4-validate-and-test-the-flow"></a>Tugas \#4: Memvalidasi dan menguji alurnya
 
-3. Saat alur Anda terbuka, klik **Uji**.
+1.  Buka tab baru di browser Anda dan navigasikan ke <https://make.powerapps.com>.
 
-4. Pilih **Secara Manual**.
+2.  Pilih lingkungan **Latihan [inisial saya]** Anda di kanan atas jika belum dipilih.
 
-5. Klik **Simpan & Uji** dan **Jalankan Alur**.
+3.  Klik **Aplikasi** dan pilih aplikasi **berbasis model Manajemen Kampus** yang Anda buat sebelumnya.
 
-6. Saat alur bersaing, klik **Selesai**. 
+3.  Dengan membiarkan tab browser ini terbuka, navigasikan kembali ke tab sebelumnya dengan alur Anda.
 
-7. Luaskan **Terapkan ke masing-masing**, lalu luaskan langkah **Kirim pemberitahuan email**. Periksa nilai **Subjek**, **Isi Email**.
+4.  Pada bilah perintah, klik **Uji**. Pilih **Secara Manual** lalu klik **Uji**.
 
-8. Pilih panah kembali ke detail alur Pembersihan Keamanan. Pilih **Matikan** pada bilah perintah. Hal ini untuk mencegah alur dari mengeksekusi pada jadwal pada sistem pengujian.
+5.  Navigasikan ke tab browser dengan aplikasi berbasis model Anda terbuka. 
+
+6.  Di menu navigasi sebelah kiri, pilih **Kunjungan**
+
+6. Tekan tombol **+ Baru** untuk menambahkan data **Kunjungan** baru.
+
+7. Lengkapi catatan Kunjungan sebagai berikut:
+
+    -   **Nama:** Kunjungan Pengujian
+
+    -   **Pengunjung:** John Doe
+
+    -   **Jadwal Mulai:** Besok pukul 08.00
+
+    -   **Jadwal Selesai:** Besok pukul 09.00
+
+8. Pilih tombol **Simpan dan Tutup**.
+
+9. Navigasikan ke tab browser dengan pengujian alur Anda berjalan. Setelah penundaan singkat, Anda akan melihat alur berjalan. Di sinilah Anda dapat menangkap masalah apa pun dalam alur atau mengonfirmasi bahwa alur berhasil dijalankan. 
+
+Setelah beberapa saat, Anda akan melihat email di kotak masuk, karena Anda mengisi email John Doe sebagai email pribadi. Perhatikan bahwa email mungkin masuk ke folder Email Sampah Anda.
 
 # <a name="challenges"></a>Tantangan
 
-* Tambahkan Waktu Mulai Aktual dan Waktu Selesai Terjadwal ke isi email.
-* Bagaimana Anda bisa memastikan pemformatan tanggal yang ramah pengguna digunakan di isi email?
-* Apakah mungkin untuk membuat tabel dengan informasi perpanjangan dan hanya mengirim satu email?
-* Bisakah Anda membuat kode batang untuk kode kunjungan? Kapan hal ini akan berguna?
+-   Coba ubah pemformatan pada email. Bagaimana cara membuatnya terlihat lebih profesional? 
