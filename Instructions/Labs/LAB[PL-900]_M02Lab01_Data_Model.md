@@ -2,12 +2,12 @@
 lab:
   title: 'Lab 1: Pemodelan Data'
   module: 'Module 2: Introduction to Microsoft Dataverse'
-ms.openlocfilehash: c3ea362eebf9156f069a9ab8635859e6186c1626
-ms.sourcegitcommit: 0118c25a230425d0ccba16e6c3922053ee07c183
+ms.openlocfilehash: 9edefbdf214d5a0f2e0693ffdf024dfc05c032c5
+ms.sourcegitcommit: dbffa13e13419f5b9aadc894eb95fd16215b2ebf
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "144810908"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "146458362"
 ---
 # <a name="module-2-introduction-to-microsoft-dataverse"></a>Modul 2: Pengenalan Microsoft Dataverse
 
@@ -58,170 +58,166 @@ Kami ingin memberikan setiap kunjungan nomor unik yang dapat dengan mudah dimasu
 
 >   Kami menggunakan perilaku **tidak bergantung pada zona waktu** untuk mencatat informasi tanggal dan waktu, karena waktu kunjungan ke lokasi gedung selalu dalam waktu lokal dan tidak boleh berubah jika dilihat dari zona waktu yang berbeda.
 
-1.  Masuk ke <https://make.powerapps.com> (jika Anda belum masuk)
+1. Masuk ke [https://make.powerapps.com](https://make.powerapps.com/) (jika Anda belum masuk)
 
-2.  Pilih lingkungan **Latihan [inisial saya]** Anda di kanan atas jika belum dipilih.
+2. Pilih lingkungan **Latihan [inisial saya]** Anda di kanan atas jika belum dipilih.
 
-3.  Di menu navigasi sebelah kiri, perluas Dataverse, dan pilih Tabel.
+3. Di menu navigasi sebelah kiri, perluas Dataverse, dan pilih Tabel.
 
-4.  Klik **Tabel baru**.
+4. Klik **Tabel baru**.
 
-5.  Masukkan **Kunjungan** untuk **Nama Tampilan**.
+5. Masukkan **Kunjungan** untuk **Nama Tampilan**.
 
-6.  Klik **Buat**. Tindakan ini akan mulai menyediakan tabel di latar belakang sementara Anda dapat mulai menambahkan kolom lain.
+6. Klik **Simpan**. Tindakan ini akan mulai menyediakan tabel di latar belakang sementara Anda dapat mulai menambahkan kolom lain.
 
-7.  Membuat kolom Mulai Terjadwal
+7. Setelah tabel dibuat, pada bagian **Skema**, pilih **Kolom.** 
 
-    1.  Anda akan diarahkan ke halaman kolom tabel Kunjungan.
+8. Pilih **Kolom baru** dan konfigurasikan sebagai berikut: 
 
-    2.  Pastikan Anda telah memilih tab **Kolom** dan klik **Tambahkan kolom**.
+    - Masukkan **Jadwal Mulai** untuk **Nama tampilan**.
 
-    3.  Masukkan **Jadwal Mulai** untuk **Nama tampilan**.
+    - Pilih **Tanggal dan Waktu** untuk **Jenis data**.
 
-    4.  Pilih **Tanggal dan Waktu** untuk **Jenis data**.
+    - Di **Diperlukan**, pilih **Bisnis diperlukan**.
 
-    5.  Di **Diperlukan**, pilih **Diperlukan**.
+    - Luaskan bagian **Opsi tingkat lanjut**.
 
-    6.  Luaskan bagian **Opsi tingkat lanjut**.
+    - Di **Perilaku**, pilih **Zona waktu independen**.
 
-    7.  Di **Perilaku**, pilih **Zona waktu independen**.
+    - Klik **Simpan**.
 
-    8.  Klik **Selesai**.
+9. Membuat kolom Waktu Selesai yang Dijadwalkan 
 
-8.  Membuat kolom Waktu Selesai yang Dijadwalkan
+    - Klik **Tambahkan kolom**.
 
-    1.  Klik **Tambahkan kolom**.
+    - Masukkan **Jadwal Selesai** untuk **Nama tampilan**.
 
-    2.  Masukkan **Jadwal Selesai** untuk **Nama tampilan**.
+    - Pilih **Tanggal dan Waktu** untuk **Jenis data**.
 
-    3.  Pilih **Tanggal dan Waktu** untuk **Jenis data**.
+    - Di **Diperlukan**, pilih **Bisnis diperlukan**.
 
-    4.  Di **Diperlukan**, pilih **Diperlukan**.
+    - Luaskan bagian **Opsi tingkat lanjut**.
 
-    5.  Luaskan bagian **Opsi tingkat lanjut**.
+    - Di **Perilaku**, pilih **Zona waktu independen**.
 
-    6.  Di **Perilaku**, pilih **Zona waktu independen**.
+    - Klik **Simpan**.
 
-    7.  Klik **Selesai**.
+10. Membuat kolom Waktu Mulai Aktual
 
-9.  Membuat kolom Waktu Mulai Aktual
+    - Klik **Tambahkan kolom**.
 
-    1.  Klik **Tambahkan kolom**.
+    - Masukkan **Waktu Mulai Sebenarnya** untuk **Nama tampilan**.
 
-    2.  Masukkan **Waktu Mulai Sebenarnya** untuk **Nama tampilan**.
+    - Pilih **Tanggal dan Waktu** untuk **Jenis data**.
 
-    3.  Pilih **Tanggal dan Waktu** untuk **Jenis data**.
+    - Di **Diperlukan**, biarkan bagian ini sebagai **Opsional.**
 
-    4.  Di **Diperlukan**, biarkan ini sebagai **Opsional**.
+    - Luaskan bagian **Opsi tingkat lanjut**.
 
-    5.  Luaskan bagian **Opsi tingkat lanjut**.
+    - Di **Perilaku**, pilih **Zona waktu independen**.
 
-    6.  Di **Perilaku**, pilih **Zona waktu independen**.
+    - Klik **Simpan**.
 
-    7.  Klik **Selesai**.
+11. Buat kolom Akhir Aktual
 
-10. Buat kolom Akhir Aktual
+    - Klik **Tambahkan kolom**.
 
-    1.  Klik **Tambahkan kolom**.
+    - Masukkan **Waktu Selesai Sebenarnya** untuk **Nama tampilan**.
 
-    2.  Masukkan **Waktu Selesai Sebenarnya** untuk **Nama tampilan**.
+    - Pilih **Tanggal dan Waktu** untuk **Jenis data**.
 
-    3.  Pilih **Tanggal dan Waktu** untuk **Jenis data**.
+    - Di **Diperlukan**, biarkan ini sebagai **Opsional**.
 
-    4.  Di **Diperlukan**, biarkan ini sebagai **Opsional**.
+    - Luaskan bagian **Opsi tingkat lanjut**.
 
-    5.  Luaskan bagian **Opsi tingkat lanjut**.
+    - Di **Perilaku**, pilih **Zona waktu independen**.
 
-    6.  Di **Perilaku**, pilih **Zona waktu independen**.
+    - Klik **Simpan**.
 
-    7.  Klik **Selesai**.
+12. Buat kolom Kode
 
-11. Buat kolom Kode
+    - Klik **Tambahkan kolom**.
 
-    1.  Klik **Tambahkan kolom**.
+    - Masukkan **Kode** untuk **Nama tampilan**.
 
-    2.  Masukkan **Kode** untuk **Nama tampilan**.
+    - Pilih **Nomor Otomatis** untuk **Jenis data**.
 
-    3.  Pilih **Nomor Otomatis** untuk **Jenis data**.
-    
-    4.  Pilih **Nomor awalan tanggal** untuk **Jenis nomor otomatis**.
+    - Pilih **Nomor awalan tanggal** untuk **Jenis nomor otomatis**.
 
-    5.  Klik **Selesai**.
+    - Klik **Simpan**.
 
-12. Buat kolom pencarian Pengunjung
+13. Buat kolom pencarian Pengunjung
 
-    1.  Klik **Tambahkan kolom**.
+    - Klik **Tambahkan kolom**.
 
-    2.  Masukkan **Pengunjung** untuk **Nama tampilan**.
+    - Masukkan **Pengunjung** untuk **Nama tampilan**.
 
-    3.  Pilih **Pencarian** untuk **Jenis data**.
+    - Pilih **Pencarian** untuk **Jenis data**.
 
-    4.  Pilih **Kontak** untuk **Tabel Terkait.**
+    - Pilih **Kontak** untuk **Tabel Terkait.**
 
-    5.  Luaskan bagian **Opsi tingkat lanjut**.
-    
-    6.  Masukkan **visitor_id** untuk **Nama hubungan**.
-    
-    7.  Klik **Selesai**.
+    - Luaskan bagian **Opsi tingkat lanjut**.
 
-13. Klik **Simpan Tabel** di kanan bawah.
+    - Masukkan **visitor_id** untuk **Nama hubungan**.
 
-# <a name="exercise-2-import-data"></a>Latihan \#2: Mengimpor Data
+    - Klik **Simpan**.
+
+ 
+
+Latihan #2: Mengimpor Data
 
 **Tujuan:** Dalam latihan ini Anda akan mengimpor data sampel ke dalam database Dataverse.
 
-## <a name="task-1-import-the-visitsxls-file"></a>Tugas \#1: Impor file Visits.xls.
+Tugas 1: Impor file Visits.xls.
 
-Dalam tugas ini Anda akan mengimpor data Kunjungan dari file Excel. 
+Dalam tugas ini Anda akan mengimpor data Kunjungan dari file Excel.
 
-1.  Anda harus menyimpan file **Visits.xls** di Desktop. Unduh [Visits.xls](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/Visits.xlsx) jika belum.
+1. Anda harus menyimpan file **Visits.xls** di Desktop. Unduh [Visits.xls](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/Visits.xlsx) jika belum.
 
-2.  Jika belum masuk, masuk ke <https://make.powerapps.com>.
+2. Jika belum masuk, masuk ke [https://make.powerapps.com](https://make.powerapps.com/).
 
-3.  Pilih lingkungan **Latihan [inisial saya]** Anda di kanan atas jika belum dipilih.
+3. Pilih lingkungan **Latihan [inisial saya]** Anda di kanan atas jika belum dipilih.
 
-4.  Di menu navigasi sebelah kiri, luaskan **Dataverse**, dan pilih tabel.
-    >   Anda mungkin melihat ini sebagai Tabel Data \> di layar Anda. 
+4. Di menu navigasi sebelah kiri, luaskan **Dataverse**, dan pilih tabel.
 
-5.  Cari dan buka tabel **Kunjungan**, yang Anda buat di latihan sebelumnya.
+Anda mungkin melihat ini sebagai Data > Tabel di layar Anda.
 
-6.  Dengan menggunakan menu di bagian atas, pilih panah drop-down di samping **Data**, pilih panah di samping **Dapatkan data**, lalu pilih **Dapatkan data dari Excel**.
+5. Cari dan buka tabel **Kunjungan**, yang Anda buat di latihan sebelumnya.
 
-7.  Dari menu yang muncul, pilih tombol **Unggah**.
+6. Dengan menggunakan menu di bagian atas, pilih panah drop-down di samping **Impor**, pilih **Impor data dari Excel**.
 
-8.  Cari dan pilih file **Visits.xls** yang Anda unduh sebelumnya. *(Perhatikan bahwa diperlukan satu atau dua menit untuk mengunggah file. Jangan khawatir jika Anda mendapatkan pesan bahwa ada kesalahan pemetaan, kami akan memperbaikinya nanti.)*
+7. Dari menu yang muncul, pilih tombol **Unggah**.
+
+8. Cari dan pilih file **Visits.xls** yang Anda unduh sebelumnya. (Perlu diketahui bahwa perlu satu atau dua menit untuk mengunggah file. Jangan khawatir jika Anda mendapatkan pesan bahwa ada kesalahan pemetaan, kita akan memperbaiki kesalahan tersebut selanjutnya.)
 
 9. Pilih **Kolom peta.**
 
 10. Petakan Kolom seperti yang tercantum di bawah ini:
 
-    | Kunjungi kolom Db | Nilai Sumber   |
-    |------------------|-----------------|
-    | Akhir Aktual       | Waktu selesai sebenarnya      |
-    | Mulai Aktual     | Waktu mulai sebenarnya    |
-    | Kode             | Kode            |
-    | Nama             | Nama            |
-    | Waktu Selesai yang Dijadwalkan    | Jadwal Selesai   |
-    | Waktu Mulai yang Dijadwalkan  | Jadwal mulai |
+| Kunjungi kolom Db| Nilai Sumber |
+| - |
+| Akhir Aktual| Waktu selesai sebenarnya |
+| Mulai Aktual| Waktu mulai sebenarnya |
+| Kode| Kode |
+| Nama| Nama |
+| Waktu Selesai yang Dijadwalkan| Jadwal Selesai |
+| Waktu Mulai yang Dijadwalkan| Jadwal mulai |
+
 
 11. Biarkan semua bidang lainnya diatur ke **Tidak Diatur**.
 
 12. Di pojok kanan atas layar, pilih **Simpan perubahan**.
 
-13. Pada layar **Impor data**, verifikasi bahwa status pemetaan menyatakan, "Pemetaan berhasil".
+13. Pada layar **Impor data**, verifikasi bahwa status pemetaan menyatakan “Pemetaan berhasil”.
 
 14. Pilih **Impor** di sudut kanan atas untuk menyelesaikan impor data.
 
-**Catatan:** *Diperlukan waktu beberapa menit hingga data diimpor ke tabel Anda. Jangan khawatir jika Anda mendapatkan beberapa kesalahan, itu normal, dan tidak akan memengaruhi kursus lainnya.*
+**Catatan:** Diperlukan beberapa menit agar data Anda diimpor ke tabel Anda. Jangan khawatir jika Anda mendapatkan beberapa kesalahan, kesalahan tersebut normal, dan tidak akan memengaruhi kursus lainnya.
 
-## <a name="task-2-verify-data-import"></a>Tugas \#2: Memverifikasi Impor Data
+Tugas #2: Memverifikasi Impor Data
 
-1.  Setelah data Anda diimpor, gunakan menu navigasi di sebelah kiri layar untuk memilih tabel **Kunjungan** lagi.
+1. Setelah data Anda diimpor, gunakan menu navigasi di sebelah kiri layar untuk memilih tabel **Kunjungan** lagi.
 
-2.  Perhatikan bahwa Anda memiliki banyak tab untuk tabel Kunjungan. Ini termasuk Cikynns, Hubungan, Aturan bisnis, Tampilan, dan banyak lagi. 
-
-3.  Pilih tab **Data** untuk tabel Kunjungan. Ini di bawah **Tabel** \> **Kunjungan**.
-
-3.  Verifikasi bahwa ada catatan di tabel Anda. Anda dapat mengubah tampilan dengan memilih nama tampilan di kanan atas dan mengubahnya menjadi **Semua Kolom**. 
+2. Pastikan Anda melihat data yang diimpor pada bagian **Kolom dan data kunjungan**. 
 
 Selamat, Anda telah berhasil membuat sebuah tabel baru dan mengimpor data.
