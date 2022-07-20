@@ -2,12 +2,12 @@
 lab:
   title: 'Lab 5: Cara membuat dasbor sederhana'
   module: 'Module 5: Get Started with Power BI'
-ms.openlocfilehash: 8d104c42de9d4114c668a63a4d8d30cbbcc4b39e
-ms.sourcegitcommit: 36c8fda9cdc6f448416d7000e38c1606bea87d2e
+ms.openlocfilehash: 1df94fcda0e59554c10ed772314e5138936b73a8
+ms.sourcegitcommit: 50e1a519a6893e02a4a0c2c6bef93cafd2513611
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "144812934"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "147125737"
 ---
 # <a name="module-5-get-started-with-power-bi"></a>Modul 5: Memulai dengan Power BI
 ## <a name="lab-how-to-build-a-simple-dashboard"></a>Lab: Cara membuat dasbor sederhana
@@ -88,9 +88,9 @@ Anda sekarang telah menyiapkan layanan Power BI untuk digunakan di lab Anda.
 
 5.  Klik laporan di luar bagan pai untuk membatalkan pilihan dan pilih bagan kolom bertumpuk di panel **Visualisasi**.
 
-6.  Tekan panah drop-down di samping **bc_Visit** di panel Bidang. Seret bidang **Kunjungan** dan letakkan di kotak **Nilai**.
+6.  Tekan panah drop-down di samping **bc_Visit** di panel Bidang. Seret bidang **Kunjungan** dan lepas ke kotak target **Sumbu Y**.
 
-7.  Seret bidang **Mulai** dan jatuhkan ke kotak target **Sumbu**.
+7.  Seret bidang **Mulai** dan lepas ke kotak target **Sumbu X**.
 
 8.  Di panel Visualisasi, klik **x** di samping **Tahun** dan **Kuartal** untuk menyisakan hanya total **Bulan** dan **Hari** pada sumbu.
 
