@@ -2,17 +2,16 @@
 lab:
   title: 'Lab 3: Cara membuat aplikasi berbasis model'
   module: 'Module 3: Get started with Power Apps'
-ms.openlocfilehash: c69ca883cc8f8c8b00ed3f67fb18f93b035726e3
-ms.sourcegitcommit: 50e1a519a6893e02a4a0c2c6bef93cafd2513611
+ms.openlocfilehash: a5176245ed8ec696049d78e1022e82aa8236057f
+ms.sourcegitcommit: 8a89b7eacd1a65eaa7c5d6bff0dc7254991c4dde
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "147125761"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "147154419"
 ---
-# <a name="module-3-get-started-with-power-apps"></a>Modul 3: Mulai dengan Power Apps
-## <a name="lab-how-to-build-a-model-driven-app"></a>Lab: Cara membuat aplikasi berbasis model
+# <a name="lab-3-how-to-build-a-model-driven-app"></a>Lab 3: Cara membuat aplikasi berbasis model
 
-# <a name="scenario"></a>Skenario
+## <a name="scenario"></a>Skenario
 
 Bellows College adalah organisasi pendidikan dengan beberapa gedung di kampus. Pengunjung kampus saat ini tercatat dalam jurnal kertas. Informasi tidak diambil secara konsisten, dan tidak ada sarana untuk mengumpulkan dan menganalisis data tentang kunjungan di seluruh kampus.
 
@@ -42,25 +41,20 @@ Keduanya akan diintegrasikan ke aplikasi berbasis model untuk pengalaman penggun
 
 Prasyarat
 
-- Penyelesaian **Modul 0 Lab - Memvalidasi lingkungan lab**
-
-- Penyelesaian **Modul 2 Lab - Pemodelan data**
-
-- Penyelesaian **Modul 3 Lab - Cara membuat aplikasi kanvas**
+- Penyelesaian **Modul 0 Lab 0 - Memvalidasi lingkungan lab**
+- Menyelesaikan **Modul 2 Lab 1 - Membuat Model Data**
 
 Hal-hal yang perlu dipertimbangkan sebelum memulai
 
 - Perubahan apa yang harus kami lakukan untuk meningkatkan pengalaman pengguna?
-
 - Apa yang harus kami sertakan dalam aplikasi berbasis model berdasarkan model data yang telah kami buat?
-
 - Penyesuaian apa yang dapat dilakukan pada peta situs aplikasi berbasis model?
 
-Latihan #1: Menyesuaikan Tampilan dan Formulir
+## <a name="exercise-1-customize-views-and-forms"></a>Latihan 1: Menyesuaikan Tampilan serta Formulir
 
 **Tujuan:** Dalam latihan ini, Anda akan menyesuaikan tampilan dan bentuk tabel yang dibuat khusus yang akan digunakan dalam aplikasi berbasis model.
 
-Tugas 1: Mengedit Formulir Kunjungan
+### <a name="task-1-edit-visit-form"></a>Tugas \#1: Mengedit Formulir Kunjungan
 
 1. Masuk ke [https://make.powerapps.com](https://make.powerapps.com/) jika Anda belum masuk.
 
@@ -70,23 +64,23 @@ Tugas 1: Mengedit Formulir Kunjungan
 
 Jika Anda tidak melihat tabel Kunjungi, pastikan Anda berada di lingkungan yang benar (langkah 2).
 
-4. Pada bagian Pengalaman Data, pilih **Formulir** dan klik untuk membuka formulir Informasi dengan jenis formulir **Utama**.
+4. Pada bagian **Pengalaman data**, pilih **Formulir** dan klik untuk membuka formulir Informasi dengan jenis formulir **Utama**.
 
-**PENTING:** Karena secara default semua formulir diberi nama Informasi, pastikan untuk memverifikasi bahwa formulir yang Anda pilih memiliki Jenis Formulir **Utama** dan bukan yang lain. Secara default, formulir memiliki dua bidang: Nama (Bidang Utama) dan Pemilik.
+**PENTING:** Karena secara default semua formulir diberi nama Informasi, pastikan untuk memverifikasi bahwa formulir yang Anda pilih memiliki Jenis Formulir **Utama** dan bukan yang lain. Secara default, formulir memiliki dua bidang: Nama dan Pemilik.
 
 5. Di sisi kanan layar di panel Properti, pilih bidang **Nama Tampilan**, dan ubah ke **Informasi Utama**.
 
 6. Di menu bagian atas layar, pilih **+ Bidang formulir** dan tambahkan bidang berikut di bawah bidang **Pemilik** dengan menyeret kolom ke formulir atau cukup mengklik nama kolom:
 
-    0. **Pengunjung**
+    1. **Pengunjung**
 
     1. **Waktu Mulai yang Dijadwalkan**
 
-    2. **Waktu Selesai yang Dijadwalkan**
+    1. **Waktu Selesai yang Dijadwalkan**
 
-    3. **Mulai Aktual**
+    1. **Mulai Aktual**
 
-    4. **Akhir Aktual**
+    1. **Akhir Aktual**
 
 7. Seret kolom **Kode** dan letakkan di header formulir.
 
@@ -100,25 +94,25 @@ Header adalah area kanan atas formulir. Anda mungkin perlu menciutkan panel Prop
 
 11. Klik **Terbitkan** di kanan atas dan tunggu hingga penerbitan selesai.
 
-12. Jika tampilan edit dibuka di tab atau jendela browser baru, tutup tampilan tersebut. Jika tidak, klik **Kembali** di kiri atas layar. Anda sekarang harus kembali ke Tab Formulir tabel Kunjungan.
+12. Jika tampilan edit dibuka di tab atau jendela browser baru, tutup tampilan tersebut. Jika tidak, klik **Kembali** di kiri atas layar. Anda sekarang harus kembali ke Formulir tabel Kunjungan.
 
-13. Menggunakan petunjuk navigasi di kiri atas (Tabel>Kunjungan>Formulir). Pilih **Kunjungan** untuk kembali ke layar utama tabel **Kunjungan**. 
+13. Menggunakan petunjuk navigasi di kiri atas (Tabel>Kunjungan>Formulir). Pilih **Kunjungan** untuk kembali ke layar utama tabel **Kunjungan**.
 
-Tugas #2: Edit tampilan Kunjungan Aktif
+### <a name="task-2-edit-active-visits-view"></a>Tugas \#2: Edit tampilan Kunjungan Aktif
 
 Dalam tugas ini, kita akan mengubah tampilan Kunjungan Aktif default dan membuat tampilan baru untuk kunjungan hari ini.
 
-1. Pada bagian Pengalaman data, pilih **Tampilan** dan klik untuk membuka tampilan **Kunjungan Aktif** Anda.
+1. Pada bagian **Pengalaman data**, pilih **Tampilan** dan klik untuk membuka tampilan **Kunjungan Aktif** Anda.
 
 2. Tambahkan bidang berikut ke tampilan dengan mengklik atau menyeret dan menjatuhkan bidang:
 
-    0. **Kode**
+    1. **Kode**
 
-    1. **Pengunjung**
+    2. **Pengunjung**
 
-    2. **Waktu Mulai yang Dijadwalkan**
+    3. **Waktu Mulai yang Dijadwalkan**
 
-    3. **Waktu Selesai yang Dijadwalkan**
+    4. **Waktu Selesai yang Dijadwalkan**
 
 3. Klik kolom **Dibuat Pada** dan pilih **Hapus**. Bidang **Dibuat Pada** sekarang akan dihapus dari tampilan.
 
@@ -128,11 +122,11 @@ Dalam tugas ini, kita akan mengubah tampilan Kunjungan Aktif default dan membuat
 
 6. Klik **Terbitkan** dan tunggu hingga penerbitan selesai.
 
-Tugas #3: Membuat tampilan baru untuk kunjungan hari ini
+### <a name="task-3-create-new-view-for-todays-visits"></a>Tugas #3: Membuat tampilan baru untuk kunjungan hari ini
 
 Sekarang, kita akan mengkloning tampilan untuk membuat tampilan baru untuk kunjungan hari ini.
 
-PENTING: Pastikan Anda tidak menutup tampilan Kunjungan Aktif, karena kita akan memanfaatkannya untuk membuat tampilan kunjungan hari ini yang baru. 
+PENTING: Pastikan Anda tidak menutup tampilan Kunjungan Aktif, karena kita akan memanfaatkannya untuk membuat tampilan kunjungan hari ini yang baru.
 
 1. Klik **panah dropdown** di sebelah tombol Simpan (hati-hati jangan sampai tidak sengaja menekan tombol itu) dan pilih **Simpan Sebagai**.
 
@@ -156,25 +150,27 @@ PENTING: Pastikan Anda tidak menutup tampilan Kunjungan Aktif, karena kita akan 
 
 2. Klik **Terbitkan** dan tunggu hingga penerbitan selesai.
 
-Latihan #2: Membuat Aplikasi Berbasis Model
+## <a name="exercise-2-create-model-driven-app"></a>Latihan 2: Membuat Aplikasi Berbasis Model
 
-**Tujuan:** Dalam latihan ini, Anda akan membuat aplikasi berbasis model, menyesuaikan peta situs, dan menguji aplikasi.
+**Tujuan:** Dalam latihan ini, Anda akan membuat aplikasi berbasis model, menyesuaikan peta situs, serta menguji aplikasi.
 
 Demi kesederhanaan dan waktu, kita tidak akan membahas beberapa kolom Kunjungan di lab ini.
 
-Tugas 1: Membuat Aplikasi
+### <a name="task-1-create-app"></a>Tugas \#1: Membuat aplikasi
 
 1. Masuk ke [https://make.powerapps.com](https://make.powerapps.com/) (jika Anda belum masuk).
 
 2. Pilih lingkungan **Latihan [inisial saya]** Anda di kanan atas jika belum dipilih.
 
+3.  Jika perlu, klik ikon **Beranda** di sisi kiri layar.
+
 3. Buat Aplikasi Berbasis Model:
 
-    0. Pilih **Aplikasi kosong** di bagian **Mulai dari** layar Beranda.
+    1. Pilih **Aplikasi kosong** di bagian **Mulai dari** layar Beranda.
 
     1. Di bagian **Aplikasi kosong berdasarkan Dataverse**, pilih **Buat**.
 
-    2. Masukkan **Manajemen Kampus Bellows** untuk Nama dan pilih **Buat**.
+    1. Masukkan **Manajemen Kampus Bellows** untuk Nama dan pilih **Buat**.
 
 4. Setelah aplikasi berbasis model baru Anda dimuat, pilih tombol **+ Tambahkan Halaman**.
 
@@ -182,7 +178,7 @@ Tugas 1: Membuat Aplikasi
 
 6. Tambahkan tabel berikut:
 
-    0. Kunjungan
+    1. Kunjungan
 
     1. Kontak
 
@@ -194,13 +190,13 @@ Tugas 1: Membuat Aplikasi
 
 10. Di sisi kanan layar, di bagian **Opsi Tampilan**, ubah properti **Judul** menjadi **Keamanan**.
 
-Tugas #2: Mengedit aplikasi Anda
+### <a name="task-2-edit-your-app"></a>Tugas #2: Mengedit aplikasi Anda
 
 Setelah memiliki semua komponen yang diperlukan yang ditambahkan ke aplikasi berbasis model Anda, sekarang kami akan mengatur item.
 
 1. Di Panel Navigasi, di bawah grup keamanan, pilih **SubArea1**.
 
-2. Pilih **Ellipsis**, dan dari menu yang muncul, pilih hapus **SubArea1**.
+2. Pilih **Ellipsis**, dan dari menu yang muncul, pilih **Hapus SubArea1**.
 
 3. Di menu navigasi sebelah kiri, pilih **Halaman**.
 
@@ -226,43 +222,43 @@ Setelah memiliki semua komponen yang diperlukan yang ditambahkan ke aplikasi ber
 
 14. Setelah **Simpan** selesai, pilih tombol **Terbitkan** untuk menerbitkan perubahan Anda.
 
-Tugas #3: Menguji Aplikasi
+### <a name="task-3-test-application"></a>Tugas #3: Menguji Aplikasi
 
 1. Mulai aplikasi
 
-    0. Pilih **Putar** untuk membuka aplikasi Anda di jendela baru.
+    1. Pilih **Putar** untuk membuka aplikasi Anda di jendela baru.
 
 2. Membuat Kontak baru
 
-    0. Aplikasi akan terbuka pada tampilan **Kontak Aktif Saya**. Jika tidak, pilih Kontak di bagian kiri.
+    1. Aplikasi akan terbuka pada tampilan **Kontak Aktif Saya**. Jika tidak, harap pilih Kontak di navigasi bagian kiri.
 
     1. Klik **Baru** dari menu atas.
 
-    2. Berikan **Nama Depan** sebagai John dan **Nama Belakang** sebagai Doe.
+    1. Berikan **Nama Depan** sebagai John dan **Nama Belakang** sebagai Doe.
 
-    3. Berikan email pribadi Anda sebagai **Email**. Ini akan digunakan di lab mendatang di mana Anda akan menerima email.
+    1. Berikan email pribadi Anda sebagai **Email**. Ini akan digunakan di lab mendatang di mana Anda akan menerima email.
 
-    4. Klik **Simpan dan Tutup**.
+    1. Klik **Simpan & Tutup**.
 
-    5. Anda sekarang akan melihat kontak yang dibuat pada tampilan **Kontak Aktif**.
+    1. Anda kini akan melihat kontak yang dibuat pada tampilan **Kontak Aktif Saya**.
 
 3. Membuat Kunjungan baru
 
-    0. Pilih **Kunjungan** dari peta situs.
+    1. Pilih **Kunjungan** dari navigasi peta situs sebelah kiri.
 
-    1. Klik **Baru**.
+    1. Klik **+ Baru**.
 
-    2. Masukkan bidang sebagai berikut
+    1. Masukkan bidang sebagai berikut
 
-        0. **Nama**: Kunjungan pengujian baru
+        1. **Nama**: Kunjungan pengujian baru
 
         1. **Pengunjung**: pilih John Doe
 
-        2. **Waktu Mulai yang Dijadwalkan**: pilih tanggal besok dan pukul 14.00 sebagai waktu mulai
+        1. **Waktu Mulai yang Dijadwalkan**: pilih tanggal besok dan pukul 14.00 sebagai waktu mulai
 
-        3. **Waktu Selesai yang Dijadwalkan**: pilih tanggal besok dan pukul 15.30 sebagai waktu selesai
+        1. **Waktu Selesai yang Dijadwalkan**: pilih tanggal besok dan pukul 15.30 sebagai waktu selesai
 
-- Klik **Simpan dan Tutup**. Ini akan membuat Kunjungan dan Anda akan dapat melihatnya di Tampilan Kunjungan Aktif.
+- Klik **Simpan & Tutup**. Ini akan membuat Kunjungan dan Anda akan dapat melihatnya di Tampilan Kunjungan Aktif.
 
 - Ubah tampilan menjadi **Kunjungan Hari Ini**. Anda sekarang tidak akan melihat kunjungan baru lagi dalam tampilan, karena dijadwalkan untuk besok.
 
@@ -274,6 +270,6 @@ Aplikasi Anda yang sedang berjalan akan terlihat kira-kira seperti berikut:
 
 Selamat! Anda telah membuat dan mengonfigurasi aplikasi berbasis model pertama Anda.
 
-# <a name="challenges"></a>Tantangan
+## <a name="challenges"></a>Tantangan
 
--   Pilih tampilan dan formulir tertentu untuk Kontak
+- Pilih tampilan dan formulir tertentu untuk Kontak
