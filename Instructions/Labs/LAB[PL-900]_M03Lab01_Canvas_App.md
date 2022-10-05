@@ -2,20 +2,15 @@
 lab:
   title: 'Lab 2: Cara membuat aplikasi kanvas'
   module: 'Module 3: Get started with Power Apps'
-ms.openlocfilehash: 9a9a447ac07176e7f7ed3471c105b2d06fa60c97
-ms.sourcegitcommit: 8a89b7eacd1a65eaa7c5d6bff0dc7254991c4dde
-ms.translationtype: HT
-ms.contentlocale: id-ID
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "147154431"
 ---
+
 # <a name="lab-2-how-to-build-a-canvas-app"></a>Lab 2: Cara membuat aplikasi kanvas
 
 ## <a name="scenario"></a>Skenario
 
-Bellows College adalah organisasi pendidikan dengan beberapa gedung di kampus. Kunjungan kampus saat ini dicatat dalam jurnal kertas. Informasi tidak diambil secara konsisten, dan tidak ada sarana untuk mengumpulkan dan menganalisis data tentang kunjungan di seluruh kampus.
+Bellows College is an educational organization with multiple buildings on campus. Campus visits are currently recorded in paper journals. The information is not captured consistently, and there are no means to collect and analyze data about the visits across the entire campus.
 
-Saat ini, administrasi kampus memanfaatkan spreadsheet Excel untuk melacak pendaftaran pengunjung. Mereka ingin memodernisasi sistem pendaftaran pengunjung tempat akses ke gedung dikontrol oleh staf keamanan dan semua kunjungan harus didaftarkan sebelumnya dan dicatat oleh tuan rumah mereka.
+Currently, campus administration is leveraging an Excel spreadsheet to track visitor registration. They would like to modernize their visitor registration system where access to the buildings is controlled by security personnel and all visits are required to be pre-registered and recorded by their hosts.
 
 Sepanjang kursus ini, Anda akan membangun aplikasi dan melakukan otomatisasi untuk memungkinkan administrasi dan personel keamanan Bellows College mengelola dan mengontrol akses ke gedung-gedung di kampus.
 
@@ -42,11 +37,11 @@ Kami akan mengikuti garis besar di bawah ini untuk mendesain aplikasi kanvas:
 
 ### <a name="task-1-create-the-visits-app"></a>Tugas \#1: Membuat aplikasi bagi Kunjungan
 
-1.  Navigasikan ke <https://make.powerapps.com>. Anda mungkin perlu mengautentikasi ulang - klik **Masuk** dan ikuti petunjuk jika diperlukan.
+1.  Navigate to <ph id="ph1">&lt;https://make.powerapps.com&gt;</ph>. You may need to reauthenticate - click <bpt id="p1">**</bpt>Sign in<ept id="p1">**</ept> and follow instructions if needed.
 
 2.  Pilih lingkungan **Latihan [inisial saya]** Anda di kanan atas jika belum dipilih.
 
-3.  Jika perlu, klik ikon **Beranda** di sisi kiri layar. Di bagian **Mulai dari**, pilih **Dataverse**.
+3.  If necessary, click the <bpt id="p1">**</bpt>Home<ept id="p1">**</ept> icon on the left side of the screen. Under the <bpt id="p1">**</bpt>Start from<ept id="p1">**</ept> section, select <bpt id="p2">**</bpt>Dataverse<ept id="p2">**</ept>.
 
 4.  Pilih koneksi Dataverse Anda.
 
@@ -65,17 +60,17 @@ Kami akan mengikuti garis besar di bawah ini untuk mendesain aplikasi kanvas:
 
 ![Aplikasi kanvas dibuat dari data Kunjungan.](media/2-canvas-app-from-data.png)
 
-9. Di perancang aplikasi, harap pilih tombol **pratinjau aplikasi** (ikon Putar) pada bilah perintah. *(Anda juga dapat melihat pratinjau aplikasi dengan menekan F5 pada keyboard.)* Silakan melihat-lihat dan lihat tampilan aplikasi Anda yang unik.
+9. Bellows College adalah organisasi pendidikan dengan beberapa gedung di kampus.
 
 10. Tutup pratinjau aplikasi dengan memilih **X** di kanan atas layar.
 
-Selamat, Anda telah berhasil membuat Power App dari tabel Dataverse. Langkah selanjutnya dalam proses ini adalah menyesuaikan aplikasi agar sesuai dengan branding perguruan tinggi Anda. Serangkaian langkah selanjutnya akan memandu Anda menyediakan beberapa penyesuaian tambahan untuk aplikasi.
+Kunjungan kampus saat ini dicatat dalam jurnal kertas.
 
 ### <a name="task-2-modify-and-theme-the-newly-created-app"></a>Tugas \#2: Mengubah dan membuat tema aplikasi yang baru dibuat
 
 Dalam tugas ini, Anda akan menyesuaikan teks header di masing-masing dari tiga layar untuk aplikasi Anda (Telusuri, Detail, dan Edit) dan ubah tema aplikasi.
 
-1.  Anda berada di layar Telusuri. Pilih label **Kunjungan** di layar.
+1.  Informasi tidak diambil secara konsisten, dan tidak ada sarana untuk mengumpulkan dan menganalisis data tentang kunjungan di seluruh kampus.
 
 1.  Di sisi kanan layar, di tab Properti, perbarui properti kontrol **Teks** menjadi **“Bellows College Visits”** .
 
@@ -113,12 +108,12 @@ Dalam tugas ini, Anda akan menguji aplikasi baru Anda.
 
 3.  Di menu navigasi sebelah kiri, pilih **BrowseScreen1**.
 
-4.  Di perancang aplikasi, harap pilih tombol **pratinjau aplikasi** (ikon Putar) pada bilah perintah. *(Anda juga dapat melihat pratinjau aplikasi dengan menekan F5 pada keyboard.)*
+4.  In the app designer, select the <bpt id="p1">**</bpt>preview the app<ept id="p1">**</ept> button (Play icon) on the command bar. <bpt id="p1">*</bpt>(You can also preview the app by pressing F5 on your keyboard.)<ept id="p1">*</ept>
 
 4.  Setelah aplikasi terbuka, di bidang **Item Pencarian**, masukkan teks **Maria**
      *(Perhatikan bagaimana item di galeri memfilter berdasarkan apa yang diketik dalam bidang pencarian).*
 
-5.  Setelah rekaman **Contoso Suites** untuk **Maria Campbell** ditampilkan, klik baris untuk menavigasi untuk membuka detail kunjungan tersebut. (**Catatan**: *Jika lebih dari satu data Contoso Suites Maria Campbell ditampilkan, pilih salah satu*)
+5.  Saat ini, administrasi kampus memanfaatkan spreadsheet Excel untuk melacak pendaftaran pengunjung.
 
 6.  Untuk mengedit catatan, pilih **Ikon Pensil** di sudut kanan atas aplikasi.
 
@@ -126,7 +121,7 @@ Dalam tugas ini, Anda akan menguji aplikasi baru Anda.
 
 8.  Di kanan atas layar, klik Ikon **X** untuk kembali ke editor aplikasi kanvas.
 
-Selamat! Anda telah membuat dan mengonfigurasi aplikasi kanvas pertama Anda.
+Mereka ingin memodernisasi sistem pendaftaran pengunjung tempat akses ke gedung dikontrol oleh staf keamanan dan semua kunjungan harus didaftarkan sebelumnya dan dicatat oleh tuan rumah mereka.
 
 ## <a name="challenges"></a>Tantangan
 

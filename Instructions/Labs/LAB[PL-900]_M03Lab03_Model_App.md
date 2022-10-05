@@ -2,13 +2,8 @@
 lab:
   title: 'Lab 3: Cara membuat aplikasi berbasis model'
   module: 'Module 3: Get started with Power Apps'
-ms.openlocfilehash: a5176245ed8ec696049d78e1022e82aa8236057f
-ms.sourcegitcommit: 8a89b7eacd1a65eaa7c5d6bff0dc7254991c4dde
-ms.translationtype: HT
-ms.contentlocale: id-ID
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "147154419"
 ---
+
 # <a name="lab-3-how-to-build-a-model-driven-app"></a>Lab 3: Cara membuat aplikasi berbasis model
 
 ## <a name="scenario"></a>Skenario
@@ -146,9 +141,9 @@ PENTING: Pastikan Anda tidak menutup tampilan Kunjungan Aktif, karena kita akan 
 
 **Catatan:** Karena kita tidak lagi memfilter status tampilan, kita akan mendapatkan semua kunjungan hari ini termasuk kunjungan yang telah selesai. Kolom ini akan membantu membedakan kunjungan yang telah selesai dan kunjungan yang sedang berlangsung.
 
-1. Klik **Simpan**.
+9. Klik **Simpan**.
 
-2. Klik **Terbitkan** dan tunggu hingga penerbitan selesai.
+10. Klik **Terbitkan** dan tunggu hingga penerbitan selesai.
 
 ## <a name="exercise-2-create-model-driven-app"></a>Latihan 2: Membuat Aplikasi Berbasis Model
 
@@ -186,7 +181,7 @@ Demi kesederhanaan dan waktu, kita tidak akan membahas beberapa kolom Kunjungan 
 
 8. Menggunakan ikon navigasi di sisi kiri layar, pilih **Navigasi**.
 
-9. Di Panel Navigasi, pilih **Grup 1** di bawah teks bertuliskan bilah Navigasi.
+9. Di Panel Navigasi, pilih **Grup 1** di bawah teks bertuliskan bilah Navigasi. Anda mungkin perlu memperluas menu di sebelah kiri.
 
 10. Di sisi kanan layar, di bagian **Opsi Tampilan**, ubah properti **Judul** menjadi **Keamanan**.
 
@@ -260,7 +255,7 @@ Setelah memiliki semua komponen yang diperlukan yang ditambahkan ke aplikasi ber
 
 - Klik **Simpan & Tutup**. Ini akan membuat Kunjungan dan Anda akan dapat melihatnya di Tampilan Kunjungan Aktif.
 
-- Ubah tampilan menjadi **Kunjungan Hari Ini**. Anda sekarang tidak akan melihat kunjungan baru lagi dalam tampilan, karena dijadwalkan untuk besok.
+- Ubah tampilan ke **Kunjungan Hari Ini** dengan menggunakan menu drop-down di samping **Kunjungan Aktif**. Anda sekarang tidak akan melihat kunjungan baru lagi dalam tampilan, karena dijadwalkan untuk besok.
 
 4. Anda dapat menambahkan lebih banyak catatan pengujian.
 
