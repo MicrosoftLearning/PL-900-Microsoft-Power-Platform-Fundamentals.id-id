@@ -8,7 +8,7 @@ lab:
 
 ## <a name="scenario"></a>Skenario
 
-Bellows College is an educational organization with multiple buildings on campus. Campus visitors are currently recorded in paper journals. The information is not captured consistently, and there are no means to collect and analyze data about the visits across the entire campus.
+Bellows College adalah organisasi pendidikan dengan beberapa gedung di kampus. Pengunjung kampus saat ini tercatat dalam jurnal kertas. Informasi tidak diambil secara konsisten, dan tidak ada sarana untuk mengumpulkan dan menganalisis data tentang kunjungan di seluruh kampus.
 
 Administrasi kampus ingin memodernisasi sistem pendaftaran pengunjung mereka dengan akses ke gedung dikendalikan oleh personel keamanan dan semua kunjungan harus didaftarkan sebelumnya dan dicatat oleh pemandu mereka.
 
@@ -32,7 +32,7 @@ Kami akan mengikuti langkah-langkah di bawah ini untuk merancang dan membuat das
 ## <a name="things-to-consider-before-you-begin"></a>Hal-hal yang perlu dipertimbangkan sebelum memulai
 
 -   Siapa target audiens laporan?
--   How will the audience consume the report? Typical device? Location?
+-   Bagaimana audiens akan menggunakan laporan? Perangkat khusus? Lokasi?
 -   Apakah Anda memiliki data yang cukup untuk divisualisasikan?
 -   Apa kemungkinan karakteristik yang dapat Anda gunakan untuk menganalisis data tentang kunjungan?
 
@@ -56,7 +56,7 @@ Kami akan mengikuti langkah-langkah di bawah ini untuk merancang dan membuat das
 
 7.  Setelah pemuatan data selesai, perluas **Ruang kerja saya** dan pilih laporan **kunjungan** (perhatikan bahwa Jenis diatur ke **Laporan**).
 
-8.  Click <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept>. If <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept> menu item is not visible click <bpt id="p2">**</bpt>...<ept id="p2">**</ept> and then select <bpt id="p3">**</bpt>Edit<ept id="p3">**</ept>.
+8.  Klik **Edit**. Jika item menu **Edit** tidak terlihat, klik **...** lalu pilih **Edit**.
 
 Anda sekarang telah menyiapkan layanan Power BI untuk digunakan di lab Anda.
 
@@ -64,15 +64,15 @@ Anda sekarang telah menyiapkan layanan Power BI untuk digunakan di lab Anda.
 
 1.  Tekan ikon **Bagan pai** di panel **Visualisasi** untuk menyisipkan bagan.
 
-2.  Press the drop-down arrow beside <bpt id="p1">**</bpt>bc_building<ept id="p1">**</ept> in the Fields pane. Drag the <bpt id="p1">**</bpt>Building<ept id="p1">**</ept> field and drop it into <bpt id="p2">**</bpt>Legend<ept id="p2">**</ept> box.
+2.  Tekan panah drop-down di samping **bc_Visit** di panel Bidang. Seret bidang **Gedung** dan letakkan di kotak **Legenda**.
 
-3.  Bellows College adalah organisasi pendidikan dengan beberapa gedung di kampus.
+3.  Seret bidang **Kunjungan** dan letakkan di kotak **Nilai**.
 
 4.  Ubah ukuran diagram lingkaran menggunakan handel sudut sehingga semua komponen diagram terlihat.
 
 5.  Klik laporan di luar bagan pai untuk membatalkan pilihan dan pilih bagan kolom bertumpuk di panel **Visualisasi**.
 
-6.  Pengunjung kampus saat ini tercatat dalam jurnal kertas.
+6.  Tekan panah drop-down di samping **bc_Visit** di panel Bidang. Seret bidang **Kunjungan** dan lepas ke kotak target **Sumbu Y**.
 
 7.  Seret bidang **Mulai** dan lepas ke kotak target **Sumbu X**.
 
@@ -84,7 +84,7 @@ Anda sekarang telah menyiapkan layanan Power BI untuk digunakan di lab Anda.
 
     1.  Pilih berbagai potongan bangunan pada diagram pai dan amati perubahan pada laporan waktu.
 
-    2.  Informasi tidak diambil secara konsisten, dan tidak ada sarana untuk mengumpulkan dan menganalisis data tentang kunjungan di seluruh kampus.
+    2.  Klik pada grafik kolom. Tekan panah bawah untuk mengaktifkan mode **Telusuri paling detail** (atau klik kanan pada bagan dan pilih **Telusuri paling detail**), lalu klik kolom untuk menelusuri paling detail ke tingkat berikutnya (hari).
 
     3.  Telusuri ke atas dan ke bawah dan pilih berbagai batang pada bagan kolom waktu untuk mengamati perubahan pada laporan pai.
 
@@ -96,13 +96,13 @@ Anda sekarang telah menyiapkan layanan Power BI untuk digunakan di lab Anda.
 
 1.  Anda harus membuka laporan dari tugas sebelumnya.
 
-2.  Select <bpt id="p1">**</bpt>Pin to a dashboard<ept id="p1">**</ept> on the menu. Depending on the layout you may need to press <bpt id="p1">**</bpt>...<ept id="p1">**</ept> to show additional menu items.
+2.  Pilih **Sematkan ke dasbor** pada menu. Tergantung pada tata letak, Anda mungkin perlu menekan **...** untuk menampilkan item menu tambahan.
 
 3.  Pilih **Dasbor baru** pada perintah **Sematkan ke dasbor**.
 
 4.  Masukkan **Manajemen Kampus** sebagai **Nama dasbor**, tekan **Sematkan langsung**.
 
-5.  A pop-up will prompt you that the dashboard has been created. Select <bpt id="p1">**</bpt>Go to dashboard<ept id="p1">**</ept>.
+5.  Jendela pop-up akan muncul dengan pemberitahuan bahwa dasbor telah dibuat. Pilih **Buka dasbor**.
 
 6.  Uji interaktivitas diagram lingkaran dan batang yang ditampilkan.
 
@@ -110,7 +110,7 @@ Anda sekarang telah menyiapkan layanan Power BI untuk digunakan di lab Anda.
 
 1.  Dalam dasbor **Manajemen Kampus**, pilih bilah **Ajukan pertanyaan tentang data Anda** di bagian atas.
 
-2.  Enter <bpt id="p1">**</bpt>buildings by number of visits<ept id="p1">**</ept> in Q&amp;A area. A bar chart will be displayed.
+2.  Masukkan **bangunan menurut jumlah kunjungan** di area Tanya Jawab. Diagram batang akan ditampilkan.
 
 3.  Pilih **Sematkan visual**.
 
@@ -118,7 +118,7 @@ Anda sekarang telah menyiapkan layanan Power BI untuk digunakan di lab Anda.
 
 5.  Klik **Keluar dari Q&A**.
 
-Your <bpt id="p1">**</bpt>Campus Management<ept id="p1">**</ept> dashboard should be displayed with three visuals on it. You may have to scroll down to see the new Q&amp;A visual.
+Dasbor **Manajemen Kampus** Anda akan ditampilkan dengan tiga visual di atasnya. Anda mungkin harus menggulir ke bawah untuk melihat visual Q&A yang baru.
 
 Dasbor Anda akan terlihat seperti berikut:
 
