@@ -8,13 +8,13 @@ lab:
 
 ## <a name="scenario"></a>Skenario
 
-Bellows College is an educational organization with multiple buildings on campus. Campus visits are currently recorded in paper journals. The information is not captured consistently, and there are no means to collect and analyze data about the visits across the entire campus.
+Bellows College adalah organisasi pendidikan dengan beberapa gedung di kampus. Kunjungan kampus saat ini dicatat dalam jurnal kertas. Informasi tidak diambil secara konsisten, dan tidak ada sarana untuk mengumpulkan dan menganalisis data tentang kunjungan di seluruh kampus.
 
 Administrasi kampus ingin memodernisasi sistem pendaftaran pengunjung mereka dengan akses ke gedung dikendalikan oleh personel keamanan dan semua kunjungan harus didaftarkan sebelumnya dan dicatat oleh pemandu mereka.
 
 Sepanjang kursus ini, Anda akan membangun aplikasi dan melakukan otomatisasi untuk memungkinkan administrasi dan personel keamanan Bellows College mengelola dan mengontrol akses ke gedung-gedung di kampus.
 
-In this lab you will access your environment, create a Microsoft Dataverse database, and create a solution to track your changes. You will also create a data model to support the following requirements:
+Di lab ini Anda akan mengakses lingkungan Anda, membuat database Microsoft Dataverse, dan membuat solusi untuk melacak perubahan Anda. Anda juga akan membuat model data untuk mendukung persyaratan berikut:
 
 - R1 – Melacak informasi untuk kunjungan kampus terjadwal
 
@@ -28,7 +28,7 @@ Terakhir, Anda akan mengimpor data sampel ke Microsoft Dataverse.
 
 Untuk mempersiapkan lingkungan belajar Anda, Anda akan:
 
-- Refer to the <bpt id="p1">[</bpt>data model document<ept id="p1">](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/blob/master/Allfiles/Campus%20Management.png)</ept> for the metadata description (tables and relationships). You can hold CTRL+click or right click the link to open the data model document in a new window.
+- Lihat [dokumen model data](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/blob/master/Allfiles/Campus%20Management.png) untuk deskripsi metadata (tabel dan hubungan). Anda dapat menahan CTRL+klik atau klik kanan tautan untuk membuka dokumen model data di jendela baru.
 - Buat tabel Kunjungan
 - impor data Kunjungan menggunakan spreadsheet Excel
 
@@ -166,7 +166,7 @@ Kami ingin memberikan setiap kunjungan nomor unik yang dapat dengan mudah dimasu
 
 Dalam tugas ini Anda akan mengimpor data Kunjungan dari file Excel.
 
-1. You should have the <bpt id="p1">**</bpt>Visits.xlsx<ept id="p1">**</ept> file stored on your Desktop. Download <bpt id="p1">[</bpt>Visits.xlsx<ept id="p1">](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/Visits.xlsx)</ept> if you do not.
+1. Anda harus menyimpan file **Visits.xlsx** pada Desktop. Unduh [Visits.xlsx](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/Visits.xlsx) jika belum.
 
 2. Jika belum masuk, masuk ke [https://make.powerapps.com](https://make.powerapps.com/).
 
@@ -180,7 +180,7 @@ Dalam tugas ini Anda akan mengimpor data Kunjungan dari file Excel.
 
 7. Dari menu yang muncul, pilih tombol **Unggah**.
 
-8. Bellows College adalah organisasi pendidikan dengan beberapa gedung di kampus.
+8. Cari dan pilih file **Visits.xlsx** yang Anda unduh sebelumnya. (Perlu diketahui bahwa perlu satu atau dua menit untuk mengunggah file. Jangan khawatir jika Anda mendapatkan pesan bahwa ada kesalahan pemetaan, kita akan memperbaiki kesalahan tersebut selanjutnya.)
 
 9. Klik **Petakan kolom** (Catatan: Anda mungkin perlu menggulir ke kanan untuk melihat opsi kolom peta).
 
@@ -203,7 +203,7 @@ Dalam tugas ini Anda akan mengimpor data Kunjungan dari file Excel.
 
 14. Pilih **Impor** pada sudut kanan atas untuk menyelesaikan impor data.
 
-Kunjungan kampus saat ini dicatat dalam jurnal kertas.
+**Catatan:** Diperlukan beberapa menit agar data Anda diimpor ke tabel Anda. Jangan khawatir jika Anda mendapatkan beberapa kesalahan, kesalahan tersebut normal, dan tidak akan memengaruhi kursus lainnya.
 
 15. Klik **X** untuk menutup panel data impor.
 

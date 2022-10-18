@@ -8,7 +8,7 @@ lab:
 
 ## <a name="scenario"></a>Skenario
 
-Bellows College is an educational organization with multiple buildings on campus. Campus visitors are currently recorded in paper journals. The information is not captured consistently, and there are no means to collect and analyze data about the visits across the entire campus.
+Bellows College adalah organisasi pendidikan dengan beberapa gedung di kampus. Pengunjung kampus saat ini tercatat dalam jurnal kertas. Informasi tidak diambil secara konsisten, dan tidak ada sarana untuk mengumpulkan dan menganalisis data tentang kunjungan di seluruh kampus.
 
 Administrasi kampus ingin memodernisasi sistem pendaftaran pengunjung mereka dengan akses ke gedung dikendalikan oleh personel keamanan dan semua kunjungan harus didaftarkan sebelumnya dan dicatat oleh pemandu mereka.
 
@@ -31,11 +31,11 @@ Berikut ini telah diidentifikasi sebagai persyaratan yang harus Anda terapkan un
 
 ## <a name="exercise-1-create-visit-notification-flow"></a>Latihan 1: Membuat alur Pemberitahuan Kunjungan
 
-<bpt id="p1">**</bpt>Objective:<ept id="p1">**</ept> In this exercise, you will create a Power Automate flow that implements the requirement. The visitor should be sent an email that includes the unique code assigned to the visit when a visit is created.
+**Tujuan:** Dalam latihan ini, Anda akan membuat alur Power Automate yang mengimplementasikan persyaratan. Pengunjung harus dikirimi email yang menyertakan kode unik yang ditetapkan ke kunjungan saat kunjungan dibuat.
 
 ### <a name="task-1-create-a-flow"></a>Tugas \#1: Buat alur
 
-1.  Navigate to <ph id="ph1">&lt;https://make.powerapps.com&gt;</ph>. You may need to reauthenticate - click <bpt id="p1">**</bpt>Sign in<ept id="p1">**</ept> and follow instructions if needed.
+1.  Navigasikan ke <https://make.powerapps.com>. Anda mungkin perlu mengautentikasi ulang - klik **Masuk** dan ikuti petunjuk jika diperlukan.
 
 2.  Pilih lingkungan **Latihan [inisial saya]** Anda di kanan atas jika belum dipilih.
 
@@ -59,11 +59,11 @@ Berikut ini telah diidentifikasi sebagai persyaratan yang harus Anda terapkan un
 
     3.  Pilih **Organisasi** untuk **Cakupan**
 
-    4.  On the trigger step, click the ellipsis (<bpt id="p1">**</bpt>...<ept id="p1">**</ept>) and click <bpt id="p2">**</bpt>Rename<ept id="p2">**</ept>. Rename this trigger <bpt id="p1">**</bpt>"When a visit is added"<ept id="p1">**</ept>. This is a good practice, so you and other flow editors can understand the purpose of the step without having to dive into the details.
+    4.  Pada langkah pemicu, klik elipsis ( **...** ) dan klik **Ganti nama**. Ganti nama pemicu ini **"Saat kunjungan ditambahkan"** . Ini adalah praktik yang baik, sehingga Anda dan editor alur lainnya dapat memahami tujuan dari langkah tersebut tanpa harus menyelami detailnya.
 
 ### <a name="task-2-create-a-step-to-get-the-visitor-row"></a>Tugas \#2: Membuat langkah untuk mendapatkan baris pengunjung
 
-1.  Bellows College adalah organisasi pendidikan dengan beberapa gedung di kampus.
+1.  Pilih **+ Langkah baru**. Langkah ini diperlukan untuk mengambil informasi pengunjung, termasuk alamat email.
 
 2.  Cari **Dataverse**.
 
@@ -71,16 +71,16 @@ Berikut ini telah diidentifikasi sebagai persyaratan yang harus Anda terapkan un
 
 4.  Pilih **Kontak** sebagai **Nama tabel**
 
-5.  Pengunjung kampus saat ini tercatat dalam jurnal kertas.
+5.  Pilih bidang **ID Baris**. Perhatikan bahwa jendela muncul untuk memilih Konten atau Ekspresi dinamis.
 
-6.  Informasi tidak diambil secara konsisten, dan tidak ada sarana untuk mengumpulkan dan menganalisis data tentang kunjungan di seluruh kampus.
+6.  Di bidang **ID Baris**, pilih **Pengunjung (Nilai)** dari daftar konten Dinamis. Dalam langkah ini, Anda mencari Kontak untuk baris Kunjungan yang dibuat untuk memicu alur ini. Karena alamat email adalah bagian dari tabel Kontak, Anda akan memerlukan informasi ini untuk mengirim email ke pengunjung.
 
-7.  On this action, click the ellipsis (<bpt id="p1">**</bpt>...<ept id="p1">**</ept>) and click <bpt id="p2">**</bpt>Rename<ept id="p2">**</ept>.
-        Rename this action <bpt id="p1">**</bpt>"Get the Visitor"<ept id="p1">**</ept>. This is a good practice, so you and other flow editors can understand the purpose of the step without having to dive into the details.
+7.  Pada tindakan ini, klik elipsis ( **...** ) dan klik **Ganti nama**.
+        Ganti nama tindakan ini **"Dapatkan Pengunjung"** . Ini adalah praktik yang baik, sehingga Anda dan editor alur lainnya dapat memahami tujuan dari langkah tersebut tanpa harus menyelami detailnya.
 
 ### <a name="task-3-create-a-step-to-send-an-email-to-the-visitor"></a>Tugas \#3: Membuat langkah untuk mengirim email ke pengunjung
 
-1.  Click <bpt id="p1">**</bpt>+ New step<ept id="p1">**</ept>. This is the step that will send an email to the visitor.
+1.  Klik **+ Langkah baru**. Ini adalah langkah yang akan mengirim email ke pengunjung.
 
 2.  Cari *email*, pilih konektor **Office 365 Outlook** dan tindakan **Kirim email (V2)** .
 
@@ -97,7 +97,7 @@ Berikut ini telah diidentifikasi sebagai persyaratan yang harus Anda terapkan un
 
 7.  Masukkan teks berikut di **Isi Email**:
 
->   Dynamic content needs to be placed where fields are named in brackets. It is recommended to copy &amp; paste all text first and then add dynamic content in the correct places.
+>   Konten dinamis perlu ditempatkan di tempat bidang diberi nama dalam tanda kurung. Disarankan untuk menyalin & menempel semua teks terlebih dahulu dan kemudian menambahkan konten dinamis di tempat yang benar.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
    Dear {First Name},
@@ -110,15 +110,15 @@ Berikut ini telah diidentifikasi sebagai persyaratan yang harus Anda terapkan un
    Bellows College
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-8.  Highlight the <bpt id="p1">**</bpt>{First Name}<ept id="p1">**</ept> text. Replace it with the <bpt id="p1">**</bpt>First Name<ept id="p1">**</ept> field from the <bpt id="p2">**</bpt>Get the Visitor<ept id="p2">**</ept> step.
+8.  Sorot teks **{First Name}** . Ganti dengan bidang **Nama Depan** dari langkah **Dapatkan Pengunjung**.
 
-9.  Highlight the <bpt id="p1">**</bpt>{Scheduled Start}<ept id="p1">**</ept> text. Replace it with the <bpt id="p1">**</bpt>Scheduled Start<ept id="p1">**</ept> field <bpt id="p2">**</bpt>When a visit is added<ept id="p2">**</ept> step.
+9.  Sorot teks **{Scheduled Start}** . Ganti dengan bidang **Mulai Terjadwal** dari langkah **Saat kunjungan ditambahkan**.
 
-10.  Highlight the <bpt id="p1">**</bpt>{Scheduled End}<ept id="p1">**</ept> text. Replace it with the <bpt id="p1">**</bpt>Scheduled End<ept id="p1">**</ept> field from the <bpt id="p2">**</bpt>When a visit is added<ept id="p2">**</ept> step.
+10.  Sorot teks **{Scheduled End}** . Ganti dengan bidang **Jadwal Akhir** dari langkah **Saat kunjungan ditambahkan**.
 
 11.  Klik **Simpan**.
 
-Leave this flow tab open for the next task. You flow should look approximately like the following:
+Biarkan tab alur ini terbuka untuk tugas berikutnya. Alur Anda akan terlihat kira-kira seperti berikut:
 
 ![Contoh langkah alur.](media/4-Flow.png)
 
@@ -132,7 +132,7 @@ Leave this flow tab open for the next task. You flow should look approximately l
 
 3.  Dengan membiarkan tab browser ini terbuka, navigasikan kembali ke tab sebelumnya dengan alur Anda.
 
-4.  On the command bar, click <bpt id="p1">**</bpt>Test<ept id="p1">**</ept>. Select <bpt id="p1">**</bpt>Manually<ept id="p1">**</ept> and then click <bpt id="p2">**</bpt>Test<ept id="p2">**</ept>.
+4.  Pada bilah perintah, klik **Uji**. Pilih **Secara Manual** lalu klik **Uji**.
 
 5.  Navigasikan ke tab browser dengan aplikasi berbasis model Anda terbuka. 
 
@@ -152,10 +152,10 @@ Leave this flow tab open for the next task. You flow should look approximately l
 
 8. Pilih tombol **Simpan dan Tutup**.
 
-9. Navigate to the browser tab with your flow test running. After a short delay, you should see the flow running. This is where you can catch any issues in the flow or confirm that it ran successfully.
+9. Navigasikan ke tab browser dengan pengujian alur Anda berjalan. Setelah penundaan singkat, Anda akan melihat alur berjalan. Di sinilah Anda dapat menangkap masalah apa pun dalam alur atau mengonfirmasi bahwa alur berhasil dijalankan.
 
-After a short delay, you should see an email in your inbox, since you populated John Doe's email as your personal email. Note that it may go to your Junk Email folder.
+Setelah beberapa saat, Anda akan melihat email di kotak masuk, karena Anda mengisi email John Doe sebagai email pribadi. Perhatikan bahwa email mungkin masuk ke folder Email Sampah Anda.
 
 ## <a name="challenges"></a>Tantangan
 
-- Play around with the formatting on the email. How can you make it more professional looking?
+- Coba ubah pemformatan pada email. Bagaimana cara membuatnya terlihat lebih profesional?
