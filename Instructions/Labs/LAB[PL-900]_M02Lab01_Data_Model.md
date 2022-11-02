@@ -162,9 +162,7 @@ Kami ingin memberikan setiap kunjungan nomor unik yang dapat dengan mudah dimasu
 
 **Tujuan:** Dalam latihan ini Anda akan mengimpor data sampel ke dalam database Dataverse.
 
-### <a name="task-1-import-the-visitsxlsx-file"></a>Tugas \#1: File Import the Visits.xlsx
-
-Dalam tugas ini Anda akan mengimpor data Kunjungan dari file Excel.
+### <a name="task-11-load-excel-file-to-onedrive"></a>Tugas \#1.1: Memuat file Excel ke OneDrive
 
 1. Anda harus menyimpan file **Visits.xlsx** pada Desktop. Unduh [Visits.xlsx](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/Visits.xlsx) jika belum.
 
@@ -172,42 +170,64 @@ Dalam tugas ini Anda akan mengimpor data Kunjungan dari file Excel.
 
 3. Pilih lingkungan **Latihan [inisial saya]** Anda di kanan atas jika belum dipilih.
 
-4. Di menu navigasi sebelah kiri, perluas **Dataverse**, dan pilih **Tabel**.
+4. Klik tombol Waffle di sudut kiri atas untuk mengubah aplikasi dan pilih **OneDrive**. (Mungkin perlu beberapa saat hingga OneDrive Anda siap. Klik OneDrive Anda siap saat melihatnya di layar.)
 
-5. Cari dan buka tabel **Kunjungan**, yang Anda buat di latihan sebelumnya.
+5. Klik **Unggah** dari menu bagian atas dan pilih **File**.
 
-6. Dengan menggunakan menu di bagian atas, pilih panah drop-down di samping **Impor**, pilih **Impor data dari Excel**.
+6. Cari dan pilih file **Visits.xlsx**, kemudian klik **Buka**.
 
-7. Dari menu yang muncul, pilih tombol **Unggah**.
+ **Catatan:** File ini terletak di folder **Semua File** pada komputer Anda.
+ 
+### <a name="task-12-create-a-dataflow"></a>Tugas \#1.2: Membuat aliran data
 
-8. Cari dan pilih file **Visits.xlsx** yang Anda unduh sebelumnya. (Perlu diketahui bahwa perlu satu atau dua menit untuk mengunggah file. Jangan khawatir jika Anda mendapatkan pesan bahwa ada kesalahan pemetaan, kita akan memperbaiki kesalahan tersebut selanjutnya.)
+1. Jika belum masuk, masuk ke [https://make.powerapps.com](https://make.powerapps.com/).
 
-9. Klik **Petakan kolom** (Catatan: Anda mungkin perlu menggulir ke kanan untuk melihat opsi kolom peta).
+2. Pilih lingkungan **Latihan [inisial saya]** Anda di kanan atas jika belum dipilih.
 
-10. Petakan Kolom seperti yang tercantum di bawah ini:
+3. Di menu navigasi sebelah kiri, perluas **Dataverse**, dan pilih **Tabel**.
 
-| Kolom kunjungan| Nilai sumber |
+4. Cari dan buka tabel **Kunjungan**, yang Anda buat di latihan sebelumnya.
+
+5. Di menu di bagian atas, pilih panah dropdown di samping **Impor**, kemudian pilih **Impor data**.
+
+6. Dalam dialog **Pilih sumber data**, pilih **buku kerja Excel**.
+
+7. Pilih opsi **Tautkan ke File**. Klik **Telusuri OneDrive**. Jika diminta, masuk dengan kredensial Microsoft 365 Anda.
+
+8. Pilih file **Visits.xlsx** yang telah diunggah di OneDrive dan klik **Pilih**.
+
+9. Klik **Berikutnya**.
+
+10. Pada bagian **Pilih Data** centang kotak di samping buku kerja Excel **Kunjungan**.
+
+11. Klik **Berikutnya**. Jangan keluar dari jendela browser ini.
+
+12. Klik **Berikutnya**.
+
+13. Pada bagian **Tabel peta**, pilih **Muat ke tabel yang sudah ada** di bagian **pengaturan Pemuatan**.
+
+14. Pada menu dropdown **Tabel tujuan**, Pilih nama tabel berawalan **crXXX_visit** (dengan XXX adalah sekumpulan huruf dan angka acak)
+
+15. Pada **Pemetaan Kolom**. Petakan Kolom ke kolom tujuan terkait.
+
+| Kolom tujuan| Nilai sumber |
 | - | - |
-| Akhir Aktual| waktu selesai sebenarnya |
-| Mulai Aktual| waktu mulai sebenarnya |
-| Kode| kode |
-| Nama| nama |
-| Waktu Selesai yang Dijadwalkan| jadwal selesai |
-| Waktu Mulai yang Dijadwalkan| jadwal mulai |
+| crxxx_ActualEnd| waktu selesai sebenarnya |
+| crxxx_ActualStart| waktu mulai sebenarnya |
+| crxxx_Code| kode |
+| crxxx_Name| nama |
+| crxxx_ScheduledEnd| jadwal selesai |
+| crxxx_ScheduledStart| jadwal mulai |
 
-11. Biarkan semua bidang lainnya diatur ke **Tidak Diatur**.
+16. Klik **Berikutnya**.
 
-12. Di pojok kanan atas layar, harap pilih **Simpan perubahan**.
+17. Pilih **Refresh secara manual**.
 
-13. Pada layar **Impor data**, verifikasi bahwa status pemetaan menyatakan “Pemetaan berhasil”.
-
-14. Pilih **Impor** pada sudut kanan atas untuk menyelesaikan impor data.
+18. Klik **Terbitkan**.
 
 **Catatan:** Diperlukan beberapa menit agar data Anda diimpor ke tabel Anda. Jangan khawatir jika Anda mendapatkan beberapa kesalahan, kesalahan tersebut normal, dan tidak akan memengaruhi kursus lainnya.
 
-15. Klik **X** untuk menutup panel data impor.
-
-### <a name="task-2-verify-data-import"></a>Tugas \#2: Memverifikasi Impor Data
+### <a name="task-3-verify-data-import"></a>Tugas \#3: Memverifikasi Impor Data
 
 1. Setelah data Anda diimpor, gunakan menu navigasi di sebelah kiri layar untuk memilih tabel **Kunjungan** lagi.
 

@@ -65,7 +65,7 @@ Jika Anda tidak melihat tabel Kunjungi, pastikan Anda berada di lingkungan yang 
 
 5. Di sisi kanan layar di panel Properti, pilih bidang **Nama Tampilan**, dan ubah ke **Informasi Utama**.
 
-6. Di menu bagian atas layar, pilih **+ Bidang formulir** dan tambahkan bidang berikut di bawah bidang **Pemilik** dengan menyeret kolom ke formulir atau cukup mengklik nama kolom:
+6. Pilih **Kolom Tabel** dari panel navigasi sebelah kiri dan tambahkan bidang berikut di bawah bidang **Pemilik** dengan menyeret kolom ke formulir atau cukup mengklik nama kolom:
 
     1. **Pengunjung**
 
