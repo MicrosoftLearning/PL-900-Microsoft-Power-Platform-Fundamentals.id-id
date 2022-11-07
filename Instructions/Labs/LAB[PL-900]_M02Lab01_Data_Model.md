@@ -164,7 +164,7 @@ Kami ingin memberikan setiap kunjungan nomor unik yang dapat dengan mudah dimasu
 
 ### <a name="task-11-load-excel-file-to-onedrive"></a>Tugas \#1.1: Memuat file Excel ke OneDrive
 
-1. Anda harus menyimpan file **Visits.xlsx** pada Desktop. Unduh [Visits.xlsx](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/Visits.xlsx) jika belum.
+1. Anda harus menyimpan file **Visits.xlsx** di komputer virtual Anda di **C:/LabFiles**. Unduh [Visits.xlsx](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/Visits.xlsx) jika belum.
 
 2. Jika belum masuk, masuk ke [https://make.powerapps.com](https://make.powerapps.com/).
 
