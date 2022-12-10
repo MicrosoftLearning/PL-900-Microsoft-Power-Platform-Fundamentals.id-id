@@ -34,7 +34,7 @@ Di lab Modul 0 ini, Anda akan memperoleh penyewa percobaan Power Platform serta 
 
 1. Jangan mengubah negaranya.
 
-1. Untuk **Nomor telepon**, harap masukkan 01234567890.
+1. Untuk **Nomor telepon**, masukkan 0123456789.
 
 1. Lengkapi info akun Anda dan pilih **Mulai** untuk mendaftar percobaan Microsoft Power Platform.
 
