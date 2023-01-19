@@ -14,7 +14,7 @@ Administrasi kampus ingin memodernisasi sistem pendaftaran pengunjung mereka den
 
 Sepanjang kursus ini, Anda akan membangun aplikasi dan melakukan otomatisasi untuk memungkinkan administrasi dan personel keamanan Bellows College mengelola dan mengontrol akses ke gedung-gedung di kampus.
 
-Di lab ini Anda akan mengakses lingkungan Anda, membuat database Microsoft Dataverse, dan membuat solusi untuk melacak perubahan Anda. Anda juga akan membuat model data untuk mendukung persyaratan berikut:
+Di lab ini Anda akan mengakses lingkungan Anda, membuat database Microsoft Dataverse. Anda juga akan membuat model data untuk mendukung persyaratan berikut:
 
 - R1 – Melacak informasi untuk kunjungan kampus terjadwal
 
@@ -23,6 +23,7 @@ Di lab ini Anda akan mengakses lingkungan Anda, membuat database Microsoft Datav
 - R3 – Menjadwalkan, mencatat, dan mengelola kunjungan
 
 Terakhir, Anda akan mengimpor data sampel ke Microsoft Dataverse.
+
 
 ## <a name="high-level-lab-steps"></a>Langkah-langkah lab tingkat tinggi
 
@@ -40,9 +41,11 @@ Untuk mempersiapkan lingkungan belajar Anda, Anda akan:
 
 - Konvensi penamaan - ketik nama dengan teliti.
 
+
 ## <a name="exercise-1-create-new-table"></a>Latihan 1: Buat Tabel Baru
 
 **Tujuan:** Dalam latihan ini, Anda akan membuat tabel kustom baru untuk Kunjungan.
+
 
 ### <a name="task-1-create-visit-table-and-columns"></a>Tugas \#1: Membuat Tabel dan Kolom Kunjungan
 
@@ -170,7 +173,7 @@ Kami ingin memberikan setiap kunjungan nomor unik yang dapat dengan mudah dimasu
 
 3. Pilih lingkungan **Latihan [inisial saya]** Anda di kanan atas jika belum dipilih.
 
-4. Klik tombol Waffle di sudut kiri atas untuk mengubah aplikasi dan pilih **OneDrive**. (Mungkin perlu beberapa saat hingga OneDrive Anda siap. Klik OneDrive Anda siap saat melihatnya di layar.)
+4. Klik tombol Waffle di sudut kiri atas untuk mengubah aplikasi dan pilih **OneDrive**. (Mungkin perlu beberapa saat hingga OneDrive Anda siap. Klik **OneDrive Anda siap** saat melihatnya di layar.)
 
 5. Klik **Unggah** dari menu bagian atas dan pilih **File**.
 
@@ -210,14 +213,14 @@ Kami ingin memberikan setiap kunjungan nomor unik yang dapat dengan mudah dimasu
 
 15. Pada **Pemetaan Kolom**. Petakan Kolom ke kolom tujuan terkait.
 
-| Kolom tujuan| Nilai sumber |
-| - | - |
-| crxxx_ActualEnd| waktu selesai sebenarnya |
-| crxxx_ActualStart| waktu mulai sebenarnya |
-| crxxx_Code| kode |
-| crxxx_Name| nama |
-| crxxx_ScheduledEnd| jadwal selesai |
-| crxxx_ScheduledStart| jadwal mulai |
+| Kolom tujuan  | Nilai sumber   |
+|:---------------------|:----------------|
+| crxxx_ActualEnd      | waktu selesai sebenarnya      |
+| crxxx_ActualStart    | waktu mulai sebenarnya    |
+| crxxx_Code           | kode            |
+| crxxx_Name           | nama            |
+| crxxx_ScheduledEnd   | jadwal selesai   |
+| crxxx_ScheduledStart | jadwal mulai |
 
 16. Klik **Berikutnya**.
 
