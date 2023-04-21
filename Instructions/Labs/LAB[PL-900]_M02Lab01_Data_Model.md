@@ -4,9 +4,9 @@ lab:
   module: 'Module 2: Introduction to Microsoft Dataverse'
 ---
 
-# <a name="lab-1-data-modeling"></a>Lab 1: Pemodelan Data
+# Lab 1: Pemodelan Data
 
-## <a name="scenario"></a>Skenario
+## Skenario
 
 Bellows College adalah organisasi pendidikan dengan beberapa gedung di kampus. Kunjungan kampus saat ini dicatat dalam jurnal kertas. Informasi tidak diambil secara konsisten, dan tidak ada sarana untuk mengumpulkan dan menganalisis data tentang kunjungan di seluruh kampus.
 
@@ -25,29 +25,29 @@ Di lab ini Anda akan mengakses lingkungan Anda, membuat database Microsoft Datav
 Terakhir, Anda akan mengimpor data sampel ke Microsoft Dataverse.
 
 
-## <a name="high-level-lab-steps"></a>Langkah-langkah lab tingkat tinggi
+## Langkah-langkah lab tingkat tinggi
 
 Untuk mempersiapkan lingkungan belajar Anda, Anda akan:
 
 - Lihat [dokumen model data](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/blob/master/Allfiles/Campus%20Management.png) untuk deskripsi metadata (tabel dan hubungan). Anda dapat menahan CTRL+klik atau klik kanan tautan untuk membuka dokumen model data di jendela baru.
 - Buat tabel Kunjungan
-- impor data Kunjungan menggunakan spreadsheet Excel
+- Mengimpor data Kunjungan menggunakan lembar bentang Excel
 
-## <a name="prerequisites"></a>Prasyarat
+## Prasyarat
 
 - Penyelesaian **Modul 0 Lab 0 - Memvalidasi lingkungan lab**
 
-## <a name="things-to-consider-before-you-begin"></a>Hal-hal yang perlu dipertimbangkan sebelum memulai
+## Hal-hal yang perlu dipertimbangkan sebelum memulai
 
 - Konvensi penamaan - ketik nama dengan teliti.
 
 
-## <a name="exercise-1-create-new-table"></a>Latihan 1: Buat Tabel Baru
+## Latihan 1: Buat Tabel Baru
 
 **Tujuan:** Dalam latihan ini, Anda akan membuat tabel kustom baru untuk Kunjungan.
 
 
-### <a name="task-1-create-visit-table-and-columns"></a>Tugas \#1: Membuat Tabel dan Kolom Kunjungan
+### Tugas \#1: Membuat Tabel dan Kolom Kunjungan
 
 Tabel **Kunjungan** akan berisi informasi tentang kunjungan kampus, seperti pengunjung, waktu terjadwal, dan waktu sebenarnya dari setiap kunjungan.
 
@@ -161,11 +161,11 @@ Kami ingin memberikan setiap kunjungan nomor unik yang dapat dengan mudah dimasu
 
     - Klik **Simpan**.
 
-## <a name="exercise-2-import-data"></a>Latihan 2: Mengimpor Data
+## Latihan 2: Mengimpor Data
 
 **Tujuan:** Dalam latihan ini Anda akan mengimpor data sampel ke dalam database Dataverse.
 
-### <a name="task-11-load-excel-file-to-onedrive"></a>Tugas \#1.1: Memuat file Excel ke OneDrive
+### Tugas \#1.1: Memuat file Excel ke OneDrive
 
 1. Anda harus menyimpan file **Visits.xlsx** di komputer virtual Anda di **C:/LabFiles**. Unduh [Visits.xlsx](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/Visits.xlsx) jika belum.
 
@@ -181,7 +181,7 @@ Kami ingin memberikan setiap kunjungan nomor unik yang dapat dengan mudah dimasu
 
  **Catatan:** File ini terletak di folder **Semua File** pada komputer Anda.
  
-### <a name="task-12-create-a-dataflow"></a>Tugas \#1.2: Membuat aliran data
+### Tugas \#1.2: Membuat aliran data
 
 1. Jika belum masuk, masuk ke [https://make.powerapps.com](https://make.powerapps.com/).
 
@@ -230,7 +230,7 @@ Kami ingin memberikan setiap kunjungan nomor unik yang dapat dengan mudah dimasu
 
 **Catatan:** Diperlukan beberapa menit agar data Anda diimpor ke tabel Anda. Jangan khawatir jika Anda mendapatkan beberapa kesalahan, kesalahan tersebut normal, dan tidak akan memengaruhi kursus lainnya.
 
-### <a name="task-3-verify-data-import"></a>Tugas \#3: Memverifikasi Impor Data
+### Tugas \#3: Memverifikasi Impor Data
 
 1. Setelah data Anda diimpor, gunakan menu navigasi di sebelah kiri layar untuk memilih tabel **Kunjungan** lagi.
 

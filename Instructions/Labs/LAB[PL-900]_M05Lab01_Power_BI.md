@@ -4,9 +4,9 @@ lab:
   module: 'Module 5: Get Started with Power BI'
 ---
 
-## <a name="lab-5-how-to-build-a-simple-dashboard"></a>Lab 5: Cara membuat dasbor sederhana
+## Lab 5: Cara membuat dasbor sederhana
 
-## <a name="scenario"></a>Skenario
+## Skenario
 
 Bellows College adalah organisasi pendidikan dengan beberapa gedung di kampus. Pengunjung kampus saat ini tercatat dalam jurnal kertas. Informasi tidak diambil secara konsisten, dan tidak ada sarana untuk mengumpulkan dan menganalisis data tentang kunjungan di seluruh kampus.
 
@@ -16,7 +16,7 @@ Sepanjang kursus ini, Anda akan membangun aplikasi dan melakukan otomatisasi unt
 
 Di lab ini, Anda akan membuat dasbor Power BI yang memvisualisasikan data mengenai kunjungan kampus.
 
-## <a name="high-level-lab-steps"></a>Langkah-langkah lab tingkat tinggi
+## Langkah-langkah lab tingkat tinggi
 
 Kami akan mengikuti langkah-langkah di bawah ini untuk merancang dan membuat dasbor Power BI:
 
@@ -24,43 +24,46 @@ Kami akan mengikuti langkah-langkah di bawah ini untuk merancang dan membuat das
 
 -   Manfaatkan kueri bahasa alami pengguna untuk membuat visualisasi tambahan
 
-## <a name="prerequisites"></a>Prasyarat
+## Prasyarat
 
 - Penyelesaian **Modul 0 Lab 0 - Memvalidasi lingkungan lab**
 - Menyelesaikan **Modul 2 Lab 1 - Membuat Model Data**
 
-## <a name="things-to-consider-before-you-begin"></a>Hal-hal yang perlu dipertimbangkan sebelum memulai
+## Hal-hal yang perlu dipertimbangkan sebelum memulai
 
 -   Siapa target audiens laporan?
 -   Bagaimana audiens akan menggunakan laporan? Perangkat khusus? Lokasi?
 -   Apakah Anda memiliki data yang cukup untuk divisualisasikan?
 -   Apa kemungkinan karakteristik yang dapat Anda gunakan untuk menganalisis data tentang kunjungan?
 
-## <a name="exercise-1-create-power-bi-report"></a>Latihan 1: Membuat Laporan Power BI
+## Latihan 1: Membuat Laporan Power BI
 
 **Tujuan:** Dalam latihan ini, Anda akan membuat laporan Power BI berdasarkan data spreadsheet Excel yang kami gunakan di latihan sebelumnya.
 
-### <a name="task-1-prepare-power-bi-service"></a>Tugas \#1: Mempersiapkan layanan Power BI
+### Tugas \#1: Mempersiapkan layanan Power BI
 
-1.  Unduh [visits.pbix](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/visits.pbix) dan simpan di komputer Anda.
+1.  Anda harus memiliki file visits.pbix yang disimpan di komputer virtual Anda di C:/LabFiles. Unduh [visits.pbix](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/visits.pbix) dan simpan di komputer Anda, jika belum ada.
 
-2.  Navigasikan ke <https://app.powerbi.com/> dan masuk jika perlu.
+2.  Buka tab baru dan navigasikan ke <https://app.powerbi.com/> dan masuk jika diperlukan.
 
-3.  Di pojok kiri bawah layar, pilih **Dapatkan Data**
+3.  Pilih **Ruang kerja saya** dari navigasi sisi kiri.
 
-4.  Pilih tombol **Dapatkan** di bagian **File**, **Buat konten baru**.
+5.  Pilih **Unggah** lalu **Telusuri**.
 
-5.  Pilih **File Lokal**.
+6.  Temukan dan pilih file **visits.pbix** yang telah Anda unduh sebelumnya. 
 
-6.  Cari dan pilih file **visits.pbix** yang telah Anda unduh sebelumnya.
+7.  Setelah pemuatan data selesai, pilih laporan **kunjungan** .
 
-7.  Setelah pemuatan data selesai, perluas **Ruang kerja saya** dan pilih laporan **kunjungan** (perhatikan bahwa Jenis diatur ke **Laporan**).
+    Perhatikan bahwa Jenis diatur ke **Laporan**, jangan pilih Himpunan Data.
 
-8.  Klik **Edit**. Jika item menu **Edit** tidak terlihat, klik **...** lalu pilih **Edit**.
+8.  Pilih **Edit**. 
+
+    Jika item menu **Edit** tidak terlihat, pilih elipsis **...** lalu pilih **Edit**.
 
 Anda sekarang telah menyiapkan layanan Power BI untuk digunakan di lab Anda.
 
-### <a name="task-2-create-chart-and-time-visualizations"></a>Tugas \#2: Membuat Grafik dan Memvisualisasi Waktu
+
+### Tugas \#2: Membuat Grafik dan Memvisualisasi Waktu
 
 1.  Tekan ikon **Bagan pai** di panel **Visualisasi** untuk menyisipkan bagan.
 
@@ -90,9 +93,9 @@ Anda sekarang telah menyiapkan layanan Power BI untuk digunakan di lab Anda.
 
 11. Simpan pekerjaan yang sedang berlangsung dengan menekan **Simpan**.
 
-## <a name="exercise-2-create-power-bi-dashboard"></a>Latihan 2: Membuat Dasbor Power BI
+## Latihan 2: Membuat Dasbor Power BI
 
-### <a name="task-1-create-power-bi-dashboard"></a>Tugas \#1: Membuat Dasbor Power BI
+### Tugas \#1: Membuat Dasbor Power BI
 
 1.  Anda harus membuka laporan dari tugas sebelumnya.
 
@@ -106,7 +109,7 @@ Anda sekarang telah menyiapkan layanan Power BI untuk digunakan di lab Anda.
 
 6.  Uji interaktivitas diagram lingkaran dan batang yang ditampilkan.
 
-### <a name="task-2-add-visualizations-using-natural-language"></a>Tugas \#2: Menambahkan Visualisasi Menggunakan Bahasa Alami
+### Tugas \#2: Menambahkan Visualisasi Menggunakan Bahasa Alami
 
 1.  Dalam dasbor **Manajemen Kampus**, pilih bilah **Ajukan pertanyaan tentang data Anda** di bagian atas.
 
