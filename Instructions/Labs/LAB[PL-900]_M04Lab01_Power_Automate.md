@@ -4,9 +4,11 @@ lab:
   module: 'Module 4: Get Started with Power Automate'
 ---
 
-# <a name="lab-4-how-to-build-an-automated-solution"></a>Lab 4: Cara membangun solusi otomatis
+# Lab 4: Cara membangun solusi otomatis
 
-## <a name="scenario"></a>Skenario
+**Penyewa WWL - Ketentuan Penggunaan** Jika Anda diberikan penyewa sebagai bagian dari pengiriman pelatihan yang dipimpin instruktur, harap dicatat bahwa penyewa tersedia untuk tujuan mendukung lab langsung dalam pelatihan yang dipimpin instruktur. Penyewa tidak boleh dibagikan atau digunakan untuk tujuan di luar lab langsung. Penyewa yang digunakan dalam kursus ini adalah penyewa uji coba dan tidak dapat digunakan atau diakses setelah kelas berakhir dan tidak memenuhi syarat untuk ekstensi. Penyewa tidak boleh dikonversi ke langganan berbayar. Penyewa yang diperoleh sebagai bagian dari kursus ini tetap menjadi milik Microsoft Corporation dan kami berhak untuk mendapatkan akses dan repositori kapan saja. 
+
+## Skenario
 
 Bellows College adalah organisasi pendidikan dengan beberapa gedung di kampus. Pengunjung kampus saat ini tercatat dalam jurnal kertas. Informasi tidak diambil secara konsisten, dan tidak ada sarana untuk mengumpulkan dan menganalisis data tentang kunjungan di seluruh kampus.
 
@@ -16,24 +18,24 @@ Sepanjang kursus ini, Anda akan membangun aplikasi dan melakukan otomatisasi unt
 
 Di lab ini, Anda akan membuat alur Power Automate untuk mengirim email kepada pengunjung saat kunjungan dijadwalkan.
 
-## <a name="high-level-lab-steps"></a>Langkah-langkah lab tingkat tinggi
+## Langkah-langkah lab tingkat tinggi
 
 Berikut ini telah diidentifikasi sebagai persyaratan yang harus Anda terapkan untuk menyelesaikan proyek:
 
 - Kontak perlu diberi tahu melalui email saat kunjungan dijadwalkan.
 
-## <a name="prerequisites"></a>Prasyarat
+## Prasyarat
 
 - Penyelesaian **Modul 0 Lab 0 - Memvalidasi lingkungan lab**
 - Menyelesaikan **Modul 2 Lab 1 - Membuat Model Data**
 - Penyelesaian **Modul 2 Lab 3 - Cara membuat aplikasi berbasis model**
-- Kontak John Doe dibuat dengan alamat email pribadi yang diisi
+- Kontak John Doe dibuat dengan alamat email pribadi yang diisi.
 
-## <a name="exercise-1-create-visit-notification-flow"></a>Latihan 1: Membuat alur Pemberitahuan Kunjungan
+## Latihan 1: Membuat alur Pemberitahuan Kunjungan
 
 **Tujuan:** Dalam latihan ini, Anda akan membuat alur Power Automate yang mengimplementasikan persyaratan. Pengunjung harus dikirimi email yang menyertakan kode unik yang ditetapkan ke kunjungan saat kunjungan dibuat.
 
-### <a name="task-1-create-a-flow"></a>Tugas \#1: Buat alur
+### Tugas \#1: Buat alur
 
 1.  Navigasikan ke <https://make.powerapps.com>. Anda mungkin perlu mengautentikasi ulang - klik **Masuk** dan ikuti petunjuk jika diperlukan.
 
@@ -61,7 +63,7 @@ Berikut ini telah diidentifikasi sebagai persyaratan yang harus Anda terapkan un
 
     4.  Pada langkah pemicu, klik elipsis ( **...** ) dan klik **Ganti nama**. Ganti nama pemicu ini **"Saat kunjungan ditambahkan"** . Ini adalah praktik yang baik, sehingga Anda dan editor alur lainnya dapat memahami tujuan dari langkah tersebut tanpa harus menyelami detailnya.
 
-### <a name="task-2-create-a-step-to-get-the-visitor-row"></a>Tugas \#2: Membuat langkah untuk mendapatkan baris pengunjung
+### Tugas \#2: Membuat langkah untuk mendapatkan baris pengunjung
 
 1.  Pilih **+ Langkah baru**. Langkah ini diperlukan untuk mengambil informasi pengunjung, termasuk alamat email.
 
@@ -78,7 +80,7 @@ Berikut ini telah diidentifikasi sebagai persyaratan yang harus Anda terapkan un
 7.  Pada tindakan ini, klik elipsis ( **...** ) dan klik **Ganti nama**.
         Ganti nama tindakan ini **"Dapatkan Pengunjung"** . Ini adalah praktik yang baik, sehingga Anda dan editor alur lainnya dapat memahami tujuan dari langkah tersebut tanpa harus menyelami detailnya.
 
-### <a name="task-3-create-a-step-to-send-an-email-to-the-visitor"></a>Tugas \#3: Membuat langkah untuk mengirim email ke pengunjung
+### Tugas \#3: Membuat langkah untuk mengirim email ke pengunjung
 
 1.  Klik **+ Langkah baru**. Ini adalah langkah yang akan mengirim email ke pengunjung.
 
@@ -122,7 +124,7 @@ Biarkan tab alur ini terbuka untuk tugas berikutnya. Alur Anda akan terlihat kir
 
 ![Contoh langkah alur.](media/4-Flow.png)
 
-### <a name="task-4-validate-and-test-the-flow"></a>Tugas \#4: Memvalidasi dan menguji alurnya
+### Tugas \#4: Memvalidasi dan menguji alurnya
 
 1.  Buka tab baru di browser Anda dan navigasikan ke <https://make.powerapps.com>.
 
@@ -150,12 +152,12 @@ Biarkan tab alur ini terbuka untuk tugas berikutnya. Alur Anda akan terlihat kir
 
     -   **Jadwal Selesai:** Besok pukul 09.00
 
-8. Pilih tombol **Simpan dan Tutup**.
+8. Pilih tombol **Simpan & Tutup** .
 
 9. Navigasikan ke tab browser dengan pengujian alur Anda berjalan. Setelah penundaan singkat, Anda akan melihat alur berjalan. Di sinilah Anda dapat menangkap masalah apa pun dalam alur atau mengonfirmasi bahwa alur berhasil dijalankan.
 
 Setelah beberapa saat, Anda akan melihat email di kotak masuk, karena Anda mengisi email John Doe sebagai email pribadi. Perhatikan bahwa email mungkin masuk ke folder Email Sampah Anda.
 
-## <a name="challenges"></a>Tantangan
+## Tantangan
 
-- Coba ubah pemformatan pada email. Bagaimana cara membuatnya terlihat lebih profesional?
+- Coba ubah pemformatan pada email. Bagaimana anda bisa membuatnya terlihat lebih profesional?
