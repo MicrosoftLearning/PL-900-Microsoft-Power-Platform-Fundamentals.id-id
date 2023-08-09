@@ -174,7 +174,7 @@ Latihan 2: Mengimpor Data
 
 3.  Pilih lingkungan **Latihan [inisial saya]** Anda di kanan atas jika belum dipilih.
 
-4.  Pilih tombol Wafel di sudut kiri atas untuk mengubah aplikasi dan pilih **OneDrive**. (Mungkin perlu beberapa saat hingga OneDrive Anda siap. Klik **OneDrive Anda siap** saat melihatnya di layar.)
+4.  Pilih tombol Wafel di sudut kiri atas untuk mengubah aplikasi dan pilih **OneDrive**. (Mungkin perlu beberapa saat hingga OneDrive Anda siap. Pilih **OneDrive Anda siap** saat Anda melihatnya di layar.)
 
 5.  Pilih **Unggah** dari menu atas dan pilih **File**.
 
@@ -193,7 +193,7 @@ Latihan 2: Mengimpor Data
 
 4.  Buka tabel **Kunjungi** yang dibuat di latihan sebelumnya. 
 
-5.  Menggunakan menu di bagian atas, pilih **Impor > Impor** data**.
+5.  Menggunakan menu di bagian atas, pilih **Impor** > **data**.
 
 6.  Dalam dialog **Pilih sumber data**, pilih **buku kerja Excel**.
 
@@ -203,17 +203,17 @@ Latihan 2: Mengimpor Data
 
 9.  Pilih **Selanjutnya**. 
 
-10. Pada bagian **Pilih Data** centang kotak di samping buku kerja Excel **Kunjungan**. 
+10. Pada layar**Pilih data** **Power query** > , periksa buku kerja **Excel Kunjungan**. 
 
 11. Pilih **Selanjutnya**. Jangan keluar dari jendela browser ini.
 
 12. Pilih **Selanjutnya**. 
 
-13. Pada bagian **Tabel peta** , di bawah **Muat pengaturan**, pilih **Muat ke tabel yang sudah ada**. 
+13. Pada bagian **Tabel peta** , di bawah **Pengaturan pemuatan**, pilih **Muat ke tabel yang sudah ada**. 
 
 14. Pada menu drop-down **Tabel tujuan** , pilih tabel **crXXX_Visit** (Di mana XXX adalah sekumpulan huruf dan angka acak)
 
-15. Pada **Pemetaan Kolom**. Petakan Kolom ke kolom tujuan terkait.
+15. Pada bagian **Pemetaan Kolom** , petakan Kolom ke kolom tujuan terkait:
 
     | Kolom tujuan  | Nilai sumber   |
     |:---------------------|:----------------|
@@ -240,3 +240,4 @@ Tugas #3: Memverifikasi Impor Data
 2.  Pastikan Anda melihat data yang diimpor pada bagian **Kolom dan data kunjungan**.
 
 Selamat, Anda telah berhasil membuat sebuah tabel baru dan mengimpor data.
+

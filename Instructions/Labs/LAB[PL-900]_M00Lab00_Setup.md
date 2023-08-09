@@ -25,28 +25,20 @@ Tugas #1 - Memperoleh penyewa uji coba Microsoft Power Platform Anda
 
 1.  Salin **kredensial Microsoft 365** Anda dari Host Lab yang Diotorisasi. 
 
-1.  Navigasikan ke <https://powerapps.microsoft.com> dan klik **Mulai gratis**.
+1.  Navigasi ke <https://powerapps.microsoft.com> dan pilih **Mulai gratis**.
 
 1.  Di bawah **Mari kita mulai**, masukkan alamat email yang disediakan oleh Authorized Lab Hoster dan pilih **Mulai uji coba gratis Anda**. 
 
 1.  Jika Anda melihat permintaan bahwa Anda memiliki akun yang sudah ada dengan Microsoft. Pilih **Masuk**. 
 
-1.  Masukkan kata sandi yang disediakan oleh Hoster Lab Resmi dan pilih **Masuk**.
+1.  Masukkan kata sandi yang disediakan oleh Hoster Lab Resmi dan pilih **Masuk**. 
 
 1.  Pilih **Ya** untuk tetap masuk. 
-
-1.  Jangan mengubah negaranya. 
-
-1.  Untuk **Nomor telepon**, masukkan `0123456789` dan pilih **Kirim**. 
-
-1.  Di layar konfirmasi, pilih **Mulai**. 
-
-1.  Jika Anda melihat permintaan untuk memasukkan detail kontak, klik **X** untuk menutup jendela pop-up. 
 
 
 Tugas #2 – Membuat lingkungan
 
-1.  Akses <https://admin.powerplatform.microsoft.com> dan masuk dengan kredensial Microsoft 365 Anda ketika diminta. 
+1.  Navigasi ke <https://admin.powerplatform.microsoft.com> dan masuk dengan kredensial Microsoft 365 Anda, jika diminta. 
 
 1.  Jika Anda melihat pop-up Selamat Datang, pilih **Mulai**. 
 
@@ -60,14 +52,13 @@ Tugas #2 – Membuat lingkungan
 
     1. Biarkan semua pilihan lainnya sebagai default dan pilih **Berikutnya**. 
 
-    1. Klik tombol **+ Pilih** di bawah judul **Grup keamanan** .
+    1. Di bawah judul **Grup keamanan** , gunakan tombol **+ Pilih** .
 
-    1. Pilih kotak centang untuk item **Tidak Ada** di bawah judul **Buka akses** lalu pilih **Selesai**.
+    1. Pilih kotak centang untuk item **Tidak Ada** , di bawah judul **Buka akses** lalu pilih **Selesai**.
 
-    1. Biarkan opsi yang tersisa pada defaultnya dan pilih **Simpan**.
+    1. Biarkan opsi yang tersisa pada defaultnya dan pilih **Simpan**. 
 
 1.  Lingkungan **Praktik** Anda sekarang akan muncul dalam daftar Lingkungan. 
 
     > Lingkungan Anda mungkin memerlukan beberapa menit untuk disiapkan. Refresh halaman jika diperlukan.
-
 

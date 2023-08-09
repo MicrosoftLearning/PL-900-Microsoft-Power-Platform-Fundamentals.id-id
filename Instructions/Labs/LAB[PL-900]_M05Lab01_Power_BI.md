@@ -44,9 +44,9 @@ Kami akan mengikuti langkah-langkah di bawah ini untuk merancang dan membuat das
 
 ### Tugas \#1: Mempersiapkan layanan Power BI
 
-1.  Anda harus memiliki file visits.pbix yang disimpan di komputer virtual Anda di C:/LabFiles. Unduh [visits.pbix](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/visits.pbix) dan simpan di komputer Anda, jika belum ada.
+1.  Anda harus memiliki file visits.pbix yang disimpan di komputer virtual Anda di folder AllFiles di Desktop. Unduh [visits.pbix](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/visits.pbix) dan simpan ke komputer Anda, jika belum ada.
 
-2.  Buka tab baru dan navigasikan ke <https://app.powerbi.com/> dan masuk jika diperlukan.
+2.  Buka tab baru dan navigasi ke <https://app.powerbi.com/> dan masuk, jika diperlukan.
 
 3.  Pilih **Ruang kerja saya** dari navigasi sisi kiri.
 
@@ -56,7 +56,7 @@ Kami akan mengikuti langkah-langkah di bawah ini untuk merancang dan membuat das
 
 7.  Setelah pemuatan data selesai, pilih laporan **kunjungan** .
 
-    Perhatikan bahwa Jenis diatur ke **Laporan**, jangan pilih Himpunan Data.
+    > **Catatan:** Jenis diatur ke **Laporan**, jangan pilih Himpunan Data.
 
 8.  Pilih **Edit**. 
 
@@ -67,33 +67,34 @@ Anda sekarang telah menyiapkan layanan Power BI untuk digunakan di lab Anda.
 
 ### Tugas \#2: Membuat Grafik dan Memvisualisasi Waktu
 
-1.  Tekan ikon **Bagan pai** di panel **Visualisasi** untuk menyisipkan bagan.
+1.  Pilih ikon **Bagan pai** di panel **Visualisasi** untuk menyisipkan bagan.
 
-2.  Tekan panah drop-down di samping **bc_Visit** di panel Bidang. Seret bidang **Gedung** dan letakkan di kotak **Legenda**.
+2.  Perluas **bc_Visit** di panel **Bidang** . Seret bidang **Bangunan** dan letakkan ke dalam kotak **Legenda** .
 
-3.  Seret bidang **Kunjungan** dan letakkan di kotak **Nilai**.
+3.  Seret bidang **Kunjungi** dan letakkan ke dalam kotak **Nilai** .
 
 4.  Ubah ukuran diagram lingkaran menggunakan handel sudut sehingga semua komponen diagram terlihat.
 
-5.  Klik laporan di luar bagan pai untuk membatalkan pilihan dan pilih bagan kolom bertumpuk di panel **Visualisasi**.
+5.  Klik laporan di luar bagan pai untuk membatalkan pilihannya dan pilih ikon **bagan kolom Tumpuk** di panel **Visualisasi** .
 
-6.  Tekan panah drop-down di samping **bc_Visit** di panel Bidang. Seret bidang **Kunjungan** dan lepas ke kotak target **Sumbu Y**.
+6.  Perluas **bc_Visit** di panel **Bidang** jika belum diperluas. Seret bidang **Kunjungi** dan letakkan ke dalam kotak **sumbu Y** .
 
-7.  Seret bidang **Mulai** dan lepas ke kotak target **Sumbu X**.
+7.  Seret bidang **Mulai** dan letakkan ke dalam kotak **sumbu X** .
 
-8.  Di panel Visualisasi, klik **x** di samping **Tahun** dan **Kuartal** untuk menyisakan hanya total **Bulan** dan **Hari** pada sumbu.
+8.  Di panel **Visualisasi** , pilih **x** di samping **Tahun** dan **Kuartal** untuk hanya menyisakan total **Bulan** dan **Hari** untuk sumbu X.
 
 9.  Ubah ukuran bagan sesuai keinginan menggunakan handel sudut.
 
 10. Uji interaktivitas laporan:
 
-    1.  Pilih berbagai potongan bangunan pada diagram pai dan amati perubahan pada laporan waktu.
+    1.  Pilih irisan bangunan yang berbeda pada bagan pai dan amati perubahan pada bagan kolom Tumpuk.
 
-    2.  Klik pada grafik kolom. Tekan panah bawah untuk mengaktifkan mode **Telusuri paling detail** (atau klik kanan pada bagan dan pilih **Telusuri paling detail**), lalu klik kolom untuk menelusuri paling detail ke tingkat berikutnya (hari).
+    2.  Pilih bagan kolom Bertumpuk. Pilih panah atas, untuk **Menelusuri paling detail**. Pilih panah bawah untuk mengaktifkan mode **Telusuri paling detail** , lalu pilih kolom untuk menelusuri paling detail ke tingkat berikutnya (hari).
 
-    3.  Telusuri ke atas dan ke bawah dan pilih berbagai batang pada bagan kolom waktu untuk mengamati perubahan pada laporan pai.
+    3.  Telusuri paling detail dan pilih berbagai batang pada bagan kolom Tumpuk untuk mengamati perubahan pada laporan pai.
 
-11. Simpan pekerjaan yang sedang berlangsung dengan menekan **Simpan**.
+11. Simpan pekerjaan yang sedang berlangsung dengan memilih **Simpan laporan ini**.
+
 
 ## Latihan 2: Membuat Dasbor Power BI
 
@@ -101,27 +102,28 @@ Anda sekarang telah menyiapkan layanan Power BI untuk digunakan di lab Anda.
 
 1.  Anda harus membuka laporan dari tugas sebelumnya.
 
-2.  Pilih **Sematkan ke dasbor** pada menu. Tergantung pada tata letak, Anda mungkin perlu menekan **...** untuk menampilkan item menu tambahan.
+2.  Pilih **Sematkan ke dasbor** pada menu. Bergantung pada tata letak, Anda mungkin perlu memilih **...** untuk menampilkan lebih banyak opsi.
 
 3.  Pilih **Dasbor baru** pada perintah **Sematkan ke dasbor**.
 
-4.  Masukkan **Manajemen Kampus** sebagai **Nama dasbor**, tekan **Sematkan langsung**.
+4.  Masukkan `Campus Management` sebagai **Nama dasbor** dan pilih **Sematkan langsung**.
 
 5.  Jendela pop-up akan muncul dengan pemberitahuan bahwa dasbor telah dibuat. Pilih **Buka dasbor**.
 
 6.  Uji interaktivitas diagram lingkaran dan batang yang ditampilkan.
 
+
 ### Tugas \#2: Menambahkan Visualisasi Menggunakan Bahasa Alami
 
 1.  Dalam dasbor **Manajemen Kampus**, pilih bilah **Ajukan pertanyaan tentang data Anda** di bagian atas.
 
-2.  Masukkan **bangunan menurut jumlah kunjungan** di area Tanya Jawab. Diagram batang akan ditampilkan.
+2.  Masukkan `buildings by number of visits` di area Q&A. Diagram batang akan ditampilkan.
 
 3.  Pilih **Sematkan visual**.
 
-4.  Pilih **Dasbor yang ada**, pilih dasbor **Manajemen Kampus**, tekan **Sematkan**.
+4.  Pilih **Dasbor yang sudah ada**, pilih dasbor **Manajemen Kampus** , pilih **Sematkan**.
 
-5.  Klik **Keluar dari Q&A**.
+5.  Pilih **Keluar dari Q&A**.
 
 Dasbor **Manajemen Kampus** Anda akan ditampilkan dengan tiga visual di atasnya. Anda mungkin harus menggulir ke bawah untuk melihat visual Q&A yang baru.
 

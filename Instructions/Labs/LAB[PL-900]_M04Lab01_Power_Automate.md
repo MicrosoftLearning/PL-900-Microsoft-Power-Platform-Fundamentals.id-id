@@ -37,7 +37,7 @@ Berikut ini telah diidentifikasi sebagai persyaratan yang harus Anda terapkan un
 
 ### Tugas \#1: Buat alur
 
-1.  Navigasikan ke <https://make.powerapps.com>. Anda mungkin perlu mengautentikasi ulang - klik **Masuk** dan ikuti petunjuk jika diperlukan.
+1.  Navigasikan ke <https://make.powerapps.com>. Anda mungkin perlu mengautentikasi ulang, pilih **Masuk** dan ikuti instruksi jika diperlukan.
 
 2.  Pilih lingkungan **Latihan [inisial saya]** Anda di kanan atas jika belum dipilih.
 
@@ -45,13 +45,13 @@ Berikut ini telah diidentifikasi sebagai persyaratan yang harus Anda terapkan un
 
 4.  Jika diminta, pilih **Mulai**.
 
-5.  Klik **Alur baru** dan pilih **Alur cloud otomatis**.
+5.  Pilih **+ Alur baru** dan pilih **Alur cloud otomatis**.
 
-6.  Masukkan "Kunjungi Pemberitahuan" untuk **nama Flow**.
+6.  Masukkan `Visit Notification` untuk **Nama alur**.
 
-7.  Di **Pilih pemicu alur Anda**, cari **Dataverse**.
+7.  Di **Pilih pemicu alur Anda**, cari `Dataverse`
 
-8.  Pilih pemicu **Bila baris ditambahkan, diubah, atau dihapus**, lalu klik **Buat**.
+8.  Pilih pemicu **Saat baris ditambahkan, dimodifikasi, atau dihapus**, lalu pilih **Buat**.
 
 9.  Isi kondisi pemicu untuk alur:
 
@@ -61,56 +61,60 @@ Berikut ini telah diidentifikasi sebagai persyaratan yang harus Anda terapkan un
 
     3.  Pilih **Organisasi** untuk **Cakupan**
 
-    4.  Pada langkah pemicu, klik elipsis ( **...** ) dan klik **Ganti nama**. Ganti nama pemicu ini **"Saat kunjungan ditambahkan"** . Ini adalah praktik yang baik, sehingga Anda dan editor alur lainnya dapat memahami tujuan dari langkah tersebut tanpa harus menyelami detailnya.
+    4.  Pada langkah pemicu, pilih elipsis (**...**) dan pilih **Ganti Nama**. Mengganti nama langkah pemicu `When a Visit is added` 
+
+        Ini adalah praktik yang baik, sehingga Anda dan editor alur lainnya dapat memahami tujuan dari langkah tersebut tanpa harus menyelami detailnya.
+
 
 ### Tugas \#2: Membuat langkah untuk mendapatkan baris pengunjung
 
-1.  Pilih **+ Langkah baru**. Langkah ini diperlukan untuk mengambil informasi pengunjung, termasuk alamat email.
+1.  Pilih **+ Langkah baru**. Langkah ini akan mengambil informasi Pengunjung, termasuk alamat email.
 
-2.  Cari **Dataverse**.
+2.  Cari `Dataverse`
 
 3.  Pilih tindakan **Dapatkan baris berdasarkan ID**.
 
 4.  Pilih **Kontak** sebagai **Nama tabel**
 
-5.  Pilih bidang **ID Baris**. Perhatikan bahwa jendela muncul untuk memilih Konten atau Ekspresi dinamis.
+5.  Pilih bidang **ID Baris**. Perhatikan bahwa jendela muncul untuk memilih Konten atau **Ekspresi** **dinamis**.
 
-6.  Di bidang **ID Baris**, pilih **Pengunjung (Nilai)** dari daftar konten Dinamis. Dalam langkah ini, Anda mencari Kontak untuk baris Kunjungan yang dibuat untuk memicu alur ini. Karena alamat email adalah bagian dari tabel Kontak, Anda akan memerlukan informasi ini untuk mengirim email ke pengunjung.
+6.  Di bidang **ID Baris** , pilih **Pengunjung (Nilai)** dari daftar **Konten dinamis** . Dalam langkah ini, Anda mencari Kontak untuk baris Kunjungan yang dibuat untuk memicu alur ini. Karena alamat email adalah bagian dari tabel Kontak, Anda akan memerlukan informasi ini untuk mengirim email ke pengunjung.
 
-7.  Pada tindakan ini, klik elipsis ( **...** ) dan klik **Ganti nama**.
-        Ganti nama tindakan ini **"Dapatkan Pengunjung"** . Ini adalah praktik yang baik, sehingga Anda dan editor alur lainnya dapat memahami tujuan dari langkah tersebut tanpa harus menyelami detailnya.
+7.  Pada tindakan **Dapatkan baris menurut ID** , pilih elipsis (**...**) dan pilih **Ganti Nama**. Ganti nama tindakan ini `Get the Visitor`
+ 
+    Ini adalah praktik yang baik, sehingga Anda dan editor alur lainnya dapat memahami tujuan dari langkah tersebut tanpa harus menyelami detailnya.
+
 
 ### Tugas \#3: Membuat langkah untuk mengirim email ke pengunjung
 
-1.  Klik **+ Langkah baru**. Ini adalah langkah yang akan mengirim email ke pengunjung.
+1.  Pilih **+ Langkah baru**. Ini adalah langkah yang akan mengirim email ke pengunjung.
 
-2.  Cari *email*, pilih konektor **Office 365 Outlook** dan tindakan **Kirim email (V2)** .
+2.  Cari `mail`, pilih tindakan **Kirim email (V2)** dari konektor **Office 365 Outlook**.
 
-3.  Jika diminta untuk Menerima persyaratan dan ketentuan untuk menggunakan tindakan ini, klik **Terima**.
+3.  Jika diminta untuk menerima syarat dan ketentuan untuk menggunakan tindakan ini, pilih **Terima**.
 
 4.  Pilih **Tambahkan konten dinamis** di bagian bidang **Kepada**. 
     
 5.  Pilih **Email** dari daftar konten Dinamis.
-        > Notice that it is beneath the **Get the visitor** header. This means you
-        are selecting the Email that is related to the Visitor that you looked
-        up in the previous step.
 
-6.  Masukkan **Kunjungan terjadwal Anda ke Bellows College** di bidang **Subjek**.
+    > Perhatikan bahwa ini berada di bawah header **Dapatkan Pengunjung**. Ini berarti Anda memilih Email yang terkait dengan Pengunjung yang Anda cari di langkah sebelumnya.
 
-7.  Masukkan teks berikut di **Isi Email**:
+7.  Di bidang **Subjek** , masukkan `Your scheduled visit to Bellows College`
 
->   Konten dinamis perlu ditempatkan di tempat bidang diberi nama dalam tanda kurung. Disarankan untuk menyalin & menempel semua teks terlebih dahulu dan kemudian menambahkan konten dinamis di tempat yang benar.
+8.  Masukkan teks berikut di **Isi Email**:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-   Dear {First Name},
+    > Konten dinamis perlu ditempatkan di tempat bidang diberi nama dalam tanda kurung. Disarankan untuk menyalin & menempel semua teks terlebih dahulu dan kemudian menambahkan konten dinamis di tempat yang benar.
 
-   You are currently scheduled to visit Bellows Campus from {Scheduled Start} until {Scheduled End}.
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Dear {First Name},
 
-   Best regards,
+    You are currently scheduled to visit Bellows Campus from {Scheduled Start} until {Scheduled End}.
 
-   Campus Administration
-   Bellows College
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Best regards,
+
+    Campus Administration
+    Bellows College
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 8.  Sorot teks **{First Name}** . Ganti dengan bidang **Nama Depan** dari langkah **Dapatkan Pengunjung**.
 
@@ -118,11 +122,12 @@ Berikut ini telah diidentifikasi sebagai persyaratan yang harus Anda terapkan un
 
 10.  Sorot teks **{Scheduled End}** . Ganti dengan bidang **Jadwal Akhir** dari langkah **Saat kunjungan ditambahkan**.
 
-11.  Klik **Simpan**.
+11.  Pilih **Simpan**.
 
 Biarkan tab alur ini terbuka untuk tugas berikutnya. Alur Anda akan terlihat kira-kira seperti berikut:
 
 ![Contoh langkah alur.](media/4-Flow.png)
+
 
 ### Tugas \#4: Memvalidasi dan menguji alurnya
 
@@ -130,21 +135,21 @@ Biarkan tab alur ini terbuka untuk tugas berikutnya. Alur Anda akan terlihat kir
 
 2.  Pilih lingkungan **Latihan [inisial saya]** Anda di kanan atas jika belum dipilih.
 
-3.  Klik **Aplikasi** dan pilih aplikasi berbasis model, **Bellows Campus Management**, yang Anda buat sebelumnya.
+3.  Pilih **Aplikasi** dan buka aplikasi berbasis model **Bellows Campus Management** yang Anda buat sebelumnya.
 
 3.  Dengan membiarkan tab browser ini terbuka, navigasikan kembali ke tab sebelumnya dengan alur Anda.
 
-4.  Pada bilah perintah, klik **Uji**. Pilih **Secara Manual** lalu klik **Uji**.
+4.  Pada bilah perintah, pilih **Uji**. Pilih **Secara Manual** lalu pilih **Uji**.
 
 5.  Navigasikan ke tab browser dengan aplikasi berbasis model Anda terbuka. 
 
-6.  Di menu navigasi sebelah kiri, pilih **Kunjungan**
+6.  Menggunakan navigasi peta situs di sebelah kiri, pilih **Kunjungan**.
 
-6. Tekan tombol **+ Baru** untuk menambahkan data **Kunjungan** baru.
+6.  Pilih tombol **+ Baru** untuk menambahkan rekaman **Kunjungi** baru.
 
-7. Lengkapi catatan Kunjungan sebagai berikut:
+7.  Lengkapi catatan Kunjungan sebagai berikut:
 
-    -   **Nama:** Kunjungan Pengujian
+    -   **Nama:** `Test Visit`
 
     -   **Pengunjung:** John Doe
 
@@ -152,12 +157,15 @@ Biarkan tab alur ini terbuka untuk tugas berikutnya. Alur Anda akan terlihat kir
 
     -   **Jadwal Selesai:** Besok pukul 09.00
 
-8. Pilih tombol **Simpan & Tutup** .
+8.  Pilih tombol **Simpan & Tutup** .
 
-9. Navigasikan ke tab browser dengan pengujian alur Anda berjalan. Setelah penundaan singkat, Anda akan melihat alur berjalan. Di sinilah Anda dapat menangkap masalah apa pun dalam alur atau mengonfirmasi bahwa alur berhasil dijalankan.
+9.  Navigasikan ke tab browser tempat pengujian Alur Anda berjalan. Setelah penundaan singkat, Anda akan melihat alur berjalan. Di sinilah Anda dapat menangkap masalah apa pun dalam alur atau mengonfirmasi bahwa alur berhasil dijalankan.
 
-Setelah beberapa saat, Anda akan melihat email di kotak masuk, karena Anda mengisi email John Doe sebagai email pribadi. Perhatikan bahwa email mungkin masuk ke folder Email Sampah Anda.
+    Setelah beberapa saat, Anda akan melihat email di kotak masuk, karena Anda mengisi email John Doe sebagai email pribadi. Perhatikan bahwa email mungkin masuk ke folder Email Sampah Anda.
 
-## Tantangan
 
-- Coba ubah pemformatan pada email. Bagaimana anda bisa membuatnya terlihat lebih profesional?
+## Latihan
+
+- Bereksperimenlah dengan pemformatan pada email. Bagaimana anda bisa membuatnya terlihat lebih profesional?
+
+

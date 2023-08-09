@@ -46,7 +46,7 @@ Kami akan mengikuti garis besar di bawah ini untuk mendesain aplikasi kanvas:
 
 2.  Pilih lingkungan **Latihan [inisial saya]** Anda di kanan atas jika belum dipilih.
 
-3.  Jika perlu, pilih ikon **Beranda** di sisi kiri layar. Di bagian **Mulai dari**, pilih **Dataverse**.
+3.  Pilih **+ Buat** dari navigasi kiri layar. Di bagian **Mulai dari**, pilih **Dataverse**.
 
 4.  Pilih koneksi Dataverse Anda.
 
@@ -54,22 +54,23 @@ Kami akan mengikuti garis besar di bawah ini untuk mendesain aplikasi kanvas:
     > - Pilih **+Koneksi baru**
     > - Cari **Microsoft Dataverse**
     > - Pilih **Buat**
+    > - **Masuk** dan pilih **Izinkan akses**
 
 5.  Cari dan pilih tabel **Kunjungan** yang Anda buat di lab sebelumnya.
 
 6.  Pilih tombol **Koneksi** di sudut kanan bawah.
 
-7.  Setelah aplikasi Anda dibuat, Pada layar Selamat Datang di Power Apps Studio, pilih kotak **Jangan tampilkan saya lagi ini** , lalu pilih **Lewati**.
+7.  Setelah aplikasi Anda dibuat, pada layar Selamat Datang di Power Apps Studio, pilih **Jangan tampilkan lagi,** lalu pilih **Lewati**.
 
-8.  Setelah pembuatan selesai, akan melihat tampilan seperti gambar di bawah ini.
+8.  Setelah pembuatan selesai, aplikasi Canvas akan terlihat seperti gambar di bawah ini:
 
     ![Aplikasi kanvas dibuat dari data Kunjungan.](media/2-canvas-app-from-data.png)
 
-9. Di perancang aplikasi, harap pilih tombol **pratinjau aplikasi** (ikon Putar) pada bilah perintah. *(Anda juga dapat melihat pratinjau aplikasi dengan menekan F5 pada keyboard.)* Silakan melihat-lihat dan lihat tampilan aplikasi Anda yang unik.
+9.  Di perancang aplikasi, pilih tombol **Pratinjau aplikasi** (ikon Putar) pada bilah perintah. *(Anda juga dapat mempratinjau aplikasi dengan menekan F5.)* Lihat sekeliling dan lihat bagaimana aplikasi Anda terlihat out-of-the-box.
 
 10. Tutup pratinjau aplikasi dengan memilih **X** di kanan atas layar.
 
-Selamat, Anda telah berhasil membuat Power App dari tabel Dataverse. Langkah selanjutnya dalam proses ini adalah menyesuaikan aplikasi agar sesuai dengan branding perguruan tinggi Anda. Serangkaian langkah selanjutnya akan memandu Anda menyediakan beberapa penyesuaian tambahan untuk aplikasi.
+Selamat, Anda telah berhasil membuat Power App dari tabel Dataverse. Langkah selanjutnya dalam proses ini adalah menyesuaikan aplikasi agar sesuai dengan branding Bellows College Anda. Serangkaian langkah selanjutnya akan memandu Anda menyediakan beberapa penyesuaian tambahan untuk aplikasi.
 
 
 ### Tugas \#2: Mengubah dan membuat tema aplikasi yang baru dibuat
@@ -78,31 +79,31 @@ Dalam tugas ini, Anda akan menyesuaikan teks header di masing-masing dari tiga l
 
 1.  Anda berada di layar Telusuri. Pilih label **Kunjungan** di layar.
 
-1.  Di sisi kanan layar, di bawah tab Properti, perbarui **properti Kontrol teks** menjadi `Bellows College Visits`
+1.  Di sisi kanan layar, di bawah tab Properti, perbarui properti Kontrol **teks** menjadi `Bellows College Visits`
 
-1.  Di properti, ubah **Ukuran font** menjadi **24**. 
+1.  Di tab **Properti** , ubah **ukuran Font** menjadi **24**. 
 
-1.  Klik di latar belakang yang kosong untuk melihat teks yang diperbarui di layar Telusuri. 
+1.  Pilih latar belakang kosong layar untuk melihat teks yang diperbarui di layar Telusuri Anda. 
 
-1.  Dengan menggunakan tampilan Pohon di navigasi sebelah kiri, harap pilih **DetailScreen1**. 
+1.  Menggunakan **tampilan Pohon** di navigasi kiri, pilih **DetailScreen1**. 
 
 1.  Pilih label **Kunjungan** di layar.
 
-1.  Di sisi kanan layar, di bawah tab properti, perbarui **properti Kontrol teks** menjadi `Visit Details`
+1.  Di sisi kanan layar, di bawah tab **Properti** , perbarui properti Kontrol **teks** menjadi `Visit Details`
 
 1.  Klik latar belakang yang kosong untuk melihat teks yang diperbarui di layar Detail Anda.
 
-1.  Dengan menggunakan navigasi di sebelah kiri, harap pilih **EditScreen1** (Anda mungkin perlu menggulir ke bawah untuk melihat ini pada tampilan Pohon).
+1.  Menggunakan **tampilan Pohon** di navigasi kiri, pilih **Edit Layar1** (Anda mungkin perlu menggulir ke bawah untuk melihat ini pada tampilan Pohon).
 
 1.  Pilih label **Kunjungan** di layar.
 
-1.  Di sisi kanan layar, di bawah tab properti, ganti teks di **properti Kontrol teks** dengan `Edit Details`
+1.  Di sisi kanan layar, pada tab **Properti** , ganti teks di **properti Kontrol teks** dengan `Edit Details`
 
 1.  Klik di latar belakang yang kosong untuk melihat teks yang diperbarui di layar Edit Anda.
 
-1. Dengan menggunakan tampilan Pohon di navigasi sebelah kiri, harap pilih **BrowseScreen1**.
+1.  Menggunakan **tampilan Pohon**, di navigasi kiri, pilih **Telusuri Layar1**.
 
-1. Pada bilah bar toolbar, pilih tombol **Tema** dan dari daftar yang muncul, pilih warna tema **Merah**.
+1.  Pada toolbar perintah, pilih tombol **Tema** dan dari daftar yang muncul, pilih warna tema **Merah** .
 
 
 ### Tugas \#3: Menguji aplikasi Kunjungan Anda
@@ -111,14 +112,12 @@ Dalam tugas ini, Anda akan menguji aplikasi baru Anda.
 
 1.  Dengan aplikasi Anda terbuka di App Designer, pilih **Pengaturan**, di bagian **Umum** perbarui nama aplikasi Anda untuk `Visits App` memilih **X** untuk menutup layar pengaturan lalu pilih **Simpan**.
 
-2.  Pilih panah **kembali** untuk kembali ke aplikasi Anda.
+2.  Di menu navigasi sebelah kiri, pilih **BrowseScreen1**.
 
-3.  Di menu navigasi sebelah kiri, pilih **BrowseScreen1**.
-
-4.  Di perancang aplikasi, harap pilih tombol **pratinjau aplikasi** (ikon Putar) pada bilah perintah. *(Anda juga dapat melihat pratinjau aplikasi dengan menekan F5 pada keyboard.)*
+3.  Di perancang aplikasi, pilih tombol **Pratinjau aplikasi** (ikon Putar) pada bilah perintah. *(Anda juga dapat mempratinjau aplikasi dengan menekan F5.)*
 
 4.  Setelah aplikasi terbuka, di bidang **Cari item** , masukkan teks `Maria`
-     *(Perhatikan bagaimana item di filter galeri berdasarkan apa yang diketik di bidang pencarian).*
+     *(Perhatikan bagaimana item di filter galeri berdasarkan apa yang di ketik di bidang pencarian).*
 
 5.  Setelah rekaman **Contoso Suites** untuk **Maria Campbell** ditampilkan, pilih baris untuk menavigasi dan membuka layar Detail untuk kunjungan tersebut. (**Catatan**: *Jika lebih dari satu rekaman Contoso Suites Maria Campbell ditampilkan, pilih salah satunya.*)
 
@@ -129,5 +128,4 @@ Dalam tugas ini, Anda akan menguji aplikasi baru Anda.
 8.  Di kanan atas layar, pilih ikon **X** untuk menutup mode pratinjau dan kembali ke editor aplikasi kanvas.
 
 Selamat! Anda telah membuat dan mengonfigurasi aplikasi kanvas pertama Anda.
-
 
