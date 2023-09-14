@@ -25,9 +25,9 @@ Tugas #1 - Memperoleh penyewa uji coba Microsoft Power Platform Anda
 
 1.  Salin **kredensial Microsoft 365** Anda dari Host Lab yang Diotorisasi. 
 
-1.  Navigasi ke <https://powerapps.microsoft.com> dan pilih **Mulai gratis**.
+1.  Navigasikan ke <https://powerapps.microsoft.com> dan pilih **Mulai gratis**.
 
-1.  Di bawah **Mari kita mulai**, masukkan alamat email yang disediakan oleh Authorized Lab Hoster dan pilih **Mulai uji coba gratis Anda**. 
+1.  Di bawah **Mari kita mulai**, masukkan alamat email yang disediakan oleh Hoster Lab Resmi dan pilih **Mulai uji coba gratis Anda**. 
 
 1.  Jika Anda melihat permintaan bahwa Anda memiliki akun yang sudah ada dengan Microsoft. Pilih **Masuk**. 
 
@@ -38,7 +38,7 @@ Tugas #1 - Memperoleh penyewa uji coba Microsoft Power Platform Anda
 
 Tugas #2 – Membuat lingkungan
 
-1.  Navigasi ke <https://admin.powerplatform.microsoft.com> dan masuk dengan kredensial Microsoft 365 Anda, jika diminta. 
+1.  Navigasikan ke <https://admin.powerplatform.microsoft.com> dan masuk dengan kredensial Microsoft 365 Anda, jika diminta. 
 
 1.  Jika Anda melihat pop-up Selamat Datang, pilih **Mulai**. 
 
@@ -48,15 +48,15 @@ Tugas #2 – Membuat lingkungan
 
     1. Untuk **Jenis**, pilih **Uji Coba** (Jangan pilih opsi *Uji Coba (berbasis langganan)* ).
 
-    1. Ubah tombol untuk **Tambahkan penyimpanan data Dataverse?** ke **Ya**. 
+    1. Ubah pengalih untuk **Menambahkan penyimpanan data Dataverse?** ke **Ya**. 
 
-    1. Biarkan semua pilihan lainnya sebagai default dan pilih **Berikutnya**. 
+    1. Biarkan semua pilihan lain sebagai default dan pilih **Berikutnya**. 
 
     1. Di bawah judul **Grup keamanan** , gunakan tombol **+ Pilih** .
 
     1. Pilih kotak centang untuk item **Tidak Ada** , di bawah judul **Buka akses** lalu pilih **Selesai**.
 
-    1. Biarkan opsi yang tersisa pada defaultnya dan pilih **Simpan**. 
+    1. Biarkan opsi yang tersisa di defaultnya dan pilih **Simpan**. 
 
 1.  Lingkungan **Praktik** Anda sekarang akan muncul dalam daftar Lingkungan. 
 

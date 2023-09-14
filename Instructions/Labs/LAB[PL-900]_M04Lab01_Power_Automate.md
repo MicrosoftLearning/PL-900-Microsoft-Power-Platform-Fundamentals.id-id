@@ -51,7 +51,7 @@ Berikut ini telah diidentifikasi sebagai persyaratan yang harus Anda terapkan un
 
 7.  Di **Pilih pemicu alur Anda**, cari `Dataverse`
 
-8.  Pilih pemicu **Saat baris ditambahkan, dimodifikasi, atau dihapus**, lalu pilih **Buat**.
+8.  Pilih pemicu **Saat baris ditambahkan, dimodifikasi atau dihapus**, lalu pilih **Buat**.
 
 9.  Isi kondisi pemicu untuk alur:
 
@@ -89,7 +89,7 @@ Berikut ini telah diidentifikasi sebagai persyaratan yang harus Anda terapkan un
 
 1.  Pilih **+ Langkah baru**. Ini adalah langkah yang akan mengirim email ke pengunjung.
 
-2.  Cari `mail`, pilih tindakan **Kirim email (V2)** dari konektor **Office 365 Outlook**.
+2.  Cari `mail`, pilih tindakan **Kirim email (V2)** dari konektor **Outlook Office 365**.
 
 3.  Jika diminta untuk menerima syarat dan ketentuan untuk menggunakan tindakan ini, pilih **Terima**.
 
@@ -143,9 +143,9 @@ Biarkan tab alur ini terbuka untuk tugas berikutnya. Alur Anda akan terlihat kir
 
 5.  Navigasikan ke tab browser dengan aplikasi berbasis model Anda terbuka. 
 
-6.  Menggunakan navigasi peta situs di sebelah kiri, pilih **Kunjungan**.
+6.  Dengan menggunakan navigasi peta situs di sebelah kiri, pilih **Kunjungan**.
 
-6.  Pilih tombol **+ Baru** untuk menambahkan rekaman **Kunjungi** baru.
+6.  Pilih tombol **+ Baru** untuk menambahkan catatan **Kunjungi** baru.
 
 7.  Lengkapi catatan Kunjungan sebagai berikut:
 
@@ -159,7 +159,7 @@ Biarkan tab alur ini terbuka untuk tugas berikutnya. Alur Anda akan terlihat kir
 
 8.  Pilih tombol **Simpan & Tutup** .
 
-9.  Navigasikan ke tab browser tempat pengujian Alur Anda berjalan. Setelah penundaan singkat, Anda akan melihat alur berjalan. Di sinilah Anda dapat menangkap masalah apa pun dalam alur atau mengonfirmasi bahwa alur berhasil dijalankan.
+9.  Navigasi ke tab browser tempat pengujian Alur Anda berjalan. Setelah penundaan singkat, Anda akan melihat alur berjalan. Di sinilah Anda dapat menangkap masalah apa pun dalam alur atau mengonfirmasi bahwa alur berhasil dijalankan.
 
     Setelah beberapa saat, Anda akan melihat email di kotak masuk, karena Anda mengisi email John Doe sebagai email pribadi. Perhatikan bahwa email mungkin masuk ke folder Email Sampah Anda.
 

@@ -175,7 +175,7 @@ Tugas #1: Membuat aplikasi
 
 5.  Setelah aplikasi berbasis model baru Anda dimuat, pilih tombol **+ Tambahkan Halaman**.
 
-6.  Pada layar **Tambahkan Halaman** , pilih **tabel Dataverse**, lalu pilih tombol **Berikutnya** .
+6.  Pada layar **Tambahkan Halaman** , pilih **Tabel dataverse**, lalu pilih tombol **Berikutnya** .
 
 7.  Pilih tabel berikut:
 
@@ -187,7 +187,7 @@ Tugas #1: Membuat aplikasi
 
 9.  Menggunakan ikon navigasi di sisi kiri layar, pilih **Navigasi**.
 
-10. Pada Panel Navigasi, pilih **Grup Baru** di bawah ini tempatnya mengatakan Navigasi. Anda mungkin perlu memperluas menu di sebelah kiri.
+10. Pada Panel Navigasi, pilih **Grup Baru** di bawah ini di mana tertulis Navigasi. Anda mungkin perlu memperluas menu di sebelah kiri.
 
 11. Di sisi kanan layar, di bagian **Opsi tampilan** , ubah properti **Judul** menjadi `Security`
 
@@ -210,7 +210,7 @@ Buat Kontak baru
 
 4.  Masukkan **Nama Depan** sebagai `John` dan **Nama Belakang** sebagai `Doe`
 
-5.  Berikan email pribadi Anda sebagai **Email**. Ini akan digunakan di lab mendatang, tempat Anda akan menerima email.
+5.  Berikan email pribadi Anda sebagai **Email**. Ini akan digunakan di lab mendatang, di mana Anda akan menerima email.
 
 6.  Pilih **Simpan &amp; Tutup**.
 
@@ -232,7 +232,7 @@ Buat Kunjungan baru
 
     4. **Akhir Terjadwal**: Pilih tanggal besok dan 15.30 sebagai waktu akhir
 
-11. Pilih **Simpan &amp; Tutup**. Ini akan membuat Kunjungan dan Anda harus dapat melihatnya pada tampilan **Kunjungan Aktif** .
+11. Pilih **Simpan &amp; Tutup**. Ini akan membuat Kunjungan dan Anda akan dapat melihatnya pada tampilan **Kunjungan Aktif** .
 
 12. Ubah tampilan ke **Kunjungan Hari Ini** dengan menggunakan menu drop-down di samping **Kunjungan Aktif**. Anda sekarang tidak akan melihat kunjungan baru lagi dalam tampilan, karena dijadwalkan untuk besok.
 

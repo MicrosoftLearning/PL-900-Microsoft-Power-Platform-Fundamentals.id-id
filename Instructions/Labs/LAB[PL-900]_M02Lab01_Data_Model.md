@@ -193,7 +193,7 @@ Latihan 2: Mengimpor Data
 
 4.  Buka tabel **Kunjungi** yang dibuat di latihan sebelumnya. 
 
-5.  Menggunakan menu di bagian atas, pilih **Impor** > **data**.
+5.  Menggunakan menu di bagian atas, pilih**Impor data Impor****** > .
 
 6.  Dalam dialog **Pilih sumber data**, pilih **buku kerja Excel**.
 
@@ -209,7 +209,7 @@ Latihan 2: Mengimpor Data
 
 12. Pilih **Selanjutnya**. 
 
-13. Pada bagian **Tabel peta** , di bawah **Pengaturan pemuatan**, pilih **Muat ke tabel yang sudah ada**. 
+13. Pada bagian **Tabel peta** , di bawah **Muat pengaturan**, pilih **Muat ke tabel yang sudah ada**. 
 
 14. Pada menu drop-down **Tabel tujuan** , pilih tabel **crXXX_Visit** (Di mana XXX adalah sekumpulan huruf dan angka acak)
 
