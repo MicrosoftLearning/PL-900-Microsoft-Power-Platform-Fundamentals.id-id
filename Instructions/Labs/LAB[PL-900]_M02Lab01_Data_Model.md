@@ -32,7 +32,7 @@ Untuk mempersiapkan lingkungan belajar Anda, Anda akan:
 
 - Lihat [dokumen model data](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/blob/master/Allfiles/Campus%20Management.png) untuk deskripsi metadata (tabel dan hubungan). Anda bisa menahan ctrl + klik kiri atau klik kanan tautan untuk membuka dokumen model data di jendela baru.
 - Buat tabel Kunjungan
-- Mengimpor data Kunjungan menggunakan lembar bentang Excel
+- Mengimpor data Kunjungi menggunakan lembar bentang Excel
 
 
 ## Prasyarat
@@ -43,11 +43,12 @@ Hal-hal yang perlu dipertimbangkan sebelum memulai
 
 - Konvensi penamaan - ketik nama dengan teliti.
 
-Latihan 1: Buat Tabel Baru
+
+# Latihan 1: Buat Tabel Baru
 
 **Tujuan:** Dalam latihan ini, Anda akan membuat tabel kustom baru untuk Kunjungan.
 
-Tugas #1: Buat Kunjungi Tabel dan Kolom
+## Tugas #1: Buat Kunjungi Tabel dan Kolom
 
 Tabel **Kunjungan** akan berisi informasi tentang kunjungan kampus, seperti pengunjung, waktu terjadwal, dan waktu sebenarnya dari setiap kunjungan.
 
@@ -59,7 +60,7 @@ Kami ingin memberikan setiap kunjungan nomor unik yang dapat dengan mudah dimasu
 
 1.  Menggunakan navigasi di sebelah kiri, pilih **Tabel**.
 
-1.  Pilih **+ Tabel baru** dan pilih **+ Tabel baru**. 
+1.  Pilih **+ Tabel baru** dan pilih **Atur properti tingkat lanjut**. 
 
 1.  Untuk **Nama tampilan**, masukkan `Visit`
 
@@ -67,7 +68,8 @@ Kami ingin memberikan setiap kunjungan nomor unik yang dapat dengan mudah dimasu
 
 1.  Di bawah bagian **Skema**, harap pilih **Kolom**. 
 
-# Membuat kolom Mulai Terjadwal
+
+## Membuat kolom Mulai Terjadwal
 
 1.  Pilih **+ Kolom baru**. 
 
@@ -75,7 +77,7 @@ Kami ingin memberikan setiap kunjungan nomor unik yang dapat dengan mudah dimasu
 
 1.  Pilih **Tanggal dan waktu** untuk **Jenis data**. 
 
-1.  Perubahan **Diperlukan**, ke **Bisnis diperlukan**. 
+1.  Ubah **Diperlukan**, menjadi **Bisnis diperlukan**. 
 
 1.  Luaskan **Opsi Tingkat Lanjut**. 
 
@@ -85,7 +87,8 @@ Kami ingin memberikan setiap kunjungan nomor unik yang dapat dengan mudah dimasu
 
 1.  Pilih **Simpan**. 
 
-# Membuat kolom Waktu Selesai yang Dijadwalkan
+
+## Membuat kolom Waktu Selesai yang Dijadwalkan
 
 1.  Pilih **+ Kolom baru**. 
 
@@ -101,13 +104,14 @@ Kami ingin memberikan setiap kunjungan nomor unik yang dapat dengan mudah dimasu
 
 1.  Pilih **Simpan**. 
 
-# Membuat kolom Waktu Mulai Aktual
+
+## Membuat kolom Waktu Mulai Aktual
 
 1.  Pilih **+ Kolom baru**. 
 
 1.  Masukkan `Actual Start` untuk **Nama tampilan**.
 
-1.  Pilih **Tanggal dan Waktu** untuk **Jenis data**.
+1.  Pilih **Tanggal dan waktu** untuk **Jenis data**.
 
 1.  Di **Diperlukan**, biarkan ini sebagai **Opsional**.
 
@@ -117,13 +121,14 @@ Kami ingin memberikan setiap kunjungan nomor unik yang dapat dengan mudah dimasu
 
 1.  Pilih **Simpan**. 
 
-# Buat kolom Akhir Aktual
+
+## Buat kolom Akhir Aktual
 
 1.  Pilih **+ Kolom baru**.
 
-1.  Masukkan **Waktu Selesai Sebenarnya** untuk **Nama tampilan**.
+1.  Masukkan `Actual End` untuk **Nama tampilan**.
 
-1.  Pilih **Tanggal dan Waktu** untuk **Jenis data**.
+1.  Pilih **Tanggal dan waktu** untuk **Jenis data**.
 
 1.  Di **Diperlukan**, biarkan ini sebagai **Opsional**.
 
@@ -133,7 +138,8 @@ Kami ingin memberikan setiap kunjungan nomor unik yang dapat dengan mudah dimasu
 
 1.  Pilih **Simpan**.
 
-# Buat kolom Kode
+
+## Buat kolom Kode
 
 1.  Pilih **+ Kolom baru**.
 
@@ -145,15 +151,16 @@ Kami ingin memberikan setiap kunjungan nomor unik yang dapat dengan mudah dimasu
 
 1.  Pilih **Simpan**. 
 
-# Buat kolom pencarian Pengunjung
+
+## Buat kolom pencarian Pengunjung
 
 1.  Pilih **+ Kolom baru**.
 
 1.  Masukkan `Visitor` untuk **Nama tampilan**.
 
-1.  Pilih **Pencarian** untuk **Jenis data**. 
+1.  Pilih **Pencarian Pencarian** >  untuk **Jenis data**.**** 
 
-1.  Pilih **Kontak** untuk **Tabel Terkait**. 
+1.  Pilih **Kontak** untuk **tabel Terkait**. 
 
 1.  Luaskan **Opsi Tingkat Lanjut**. 
 
@@ -162,11 +169,11 @@ Kami ingin memberikan setiap kunjungan nomor unik yang dapat dengan mudah dimasu
 1.  Pilih **Simpan**.
 
 
-Latihan 2: Mengimpor Data
+# Latihan 2: Mengimpor Data
 
 **Tujuan:** Dalam latihan ini Anda akan mengimpor data sampel ke dalam database Dataverse.
 
-### Tugas \#1: Muat file Excel ke OneDrive
+## Tugas \#1: Muat file Excel ke OneDrive
 
 1.  Anda harus menyimpan file **Visits.xlsx** di komputer virtual Anda di **C:/LabFiles**. Unduh [Visits.xlsx](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/Visits.xlsx) jika belum.
 
@@ -176,14 +183,14 @@ Latihan 2: Mengimpor Data
 
 4.  Pilih tombol Wafel di sudut kiri atas untuk mengubah aplikasi dan pilih **OneDrive**. (Mungkin perlu beberapa saat hingga OneDrive Anda siap. Pilih **OneDrive Anda siap** saat Anda melihatnya di layar.)
 
-5.  Pilih **Unggah** dari menu atas dan pilih **File**.
+5.  Pilih **+Tambahkan baru** dari menu dan pilih **Unggah file**.
 
 6.  Temukan dan pilih file **Visits.xlsx** dan pilih **Buka**.
 
-    > **Catatan:** File ini terletak di folder **Semua File** pada komputer Anda.
+    > **Catatan:** File harus terletak di folder **Desktop** > **Semua File** pada komputer virtual Anda.
 
 
-### Tugas \#2: Membuat aliran data
+## Tugas \#2: Membuat aliran data
 
 1.  Jika Anda belum masuk, masuk <https://make.powerapps.com> 
 
@@ -193,7 +200,7 @@ Latihan 2: Mengimpor Data
 
 4.  Buka tabel **Kunjungi** yang dibuat di latihan sebelumnya. 
 
-5.  Menggunakan menu di bagian atas, pilih**Impor data Impor****** > .
+5.  Menggunakan menu di bagian atas, pilih **Impor** > **data**.
 
 6.  Dalam dialog **Pilih sumber data**, pilih **buku kerja Excel**.
 
@@ -209,7 +216,7 @@ Latihan 2: Mengimpor Data
 
 12. Pilih **Selanjutnya**. 
 
-13. Pada bagian **Tabel peta** , di bawah **Muat pengaturan**, pilih **Muat ke tabel yang sudah ada**. 
+13. Pada bagian **Tabel peta** , di bawah **Pengaturan pemuatan**, pilih **Muat ke tabel yang sudah ada**. 
 
 14. Pada menu drop-down **Tabel tujuan** , pilih tabel **crXXX_Visit** (Di mana XXX adalah sekumpulan huruf dan angka acak)
 
@@ -233,7 +240,7 @@ Latihan 2: Mengimpor Data
     > **Catatan:** Diperlukan beberapa menit agar data Anda diimpor ke tabel Anda. Jangan khawatir jika Anda mendapatkan beberapa kesalahan, kesalahan tersebut normal, dan tidak akan memengaruhi kursus lainnya.
 
 
-Tugas #3: Memverifikasi Impor Data
+## Tugas \#3: Memverifikasi Impor Data
 
 1.  Setelah data Anda diimpor, gunakan navigasi di sebelah kiri layar untuk memilih **Tabel** dan buka tabel **Kunjungi** .
 
