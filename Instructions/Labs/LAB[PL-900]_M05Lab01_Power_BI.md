@@ -1,12 +1,12 @@
 ---
 lab:
-  title: 'Lab 5: Cara membuat dasbor sederhana'
+  title: 'Lab 5: Cara membangun dasbor sederhana'
   module: 'Module 5: Get Started with Power BI'
 ---
 
-## Lab 5: Cara membuat dasbor sederhana
+## Lab 5: Cara membangun dasbor sederhana
 
-**Penyewa WWL - Ketentuan Penggunaan** Jika Anda diberikan penyewa sebagai bagian dari pengiriman pelatihan yang dipimpin instruktur, harap dicatat bahwa penyewa tersedia untuk tujuan mendukung lab langsung dalam pelatihan yang dipimpin instruktur. Penyewa tidak boleh dibagikan atau digunakan untuk tujuan di luar lab langsung. Penyewa yang digunakan dalam kursus ini adalah penyewa uji coba dan tidak dapat digunakan atau diakses setelah kelas berakhir dan tidak memenuhi syarat untuk ekstensi. Penyewa tidak boleh dikonversi ke langganan berbayar. Penyewa yang diperoleh sebagai bagian dari kursus ini tetap menjadi milik Microsoft Corporation dan kami berhak untuk mendapatkan akses dan repositori kapan saja. 
+**Penyewa WWL - Ketentuan Penggunaan** Jika Anda diberikan penyewa sebagai bagian dari pengiriman pelatihan yang dipimpin instruktur, harap dicatat bahwa penyewa tersedia untuk tujuan mendukung lab langsung dalam pelatihan yang dipimpin instruktur. Penyewa tidak boleh dibagikan atau digunakan untuk tujuan di luar lab praktik. Penyewa yang digunakan dalam kursus ini adalah penyewa uji coba dan tidak dapat digunakan atau diakses setelah kelas berakhir dan tidak memenuhi syarat perpanjangan. Penyewa tidak boleh dikonversi ke langganan berbayar. Penyewa yang diperoleh sebagai bagian dari kursus ini tetap menjadi milik Microsoft Corporation dan kami berhak mendapatkan akses dan repositorinya kapan saja. 
 
 ## Skenario
 
@@ -40,60 +40,60 @@ Kami akan mengikuti langkah-langkah di bawah ini untuk merancang dan membuat das
 
 ## Latihan 1: Membuat Laporan Power BI
 
-**Tujuan:** Dalam latihan ini, Anda akan membuat laporan Power BI berdasarkan data spreadsheet Excel yang kami gunakan di latihan sebelumnya.
+**Tujuan:** Dalam latihan ini, Anda akan membuat laporan Power BI berdasarkan data lembar bentang Excel yang kami manfaatkan dalam latihan sebelumnya.
 
-### Tugas \#1: Mempersiapkan layanan Power BI
+### Tugas \#1: Menyiapkan layanan Power BI
 
 1.  Anda harus memiliki file visits.pbix yang disimpan di komputer virtual Anda di folder AllFiles di Desktop. Unduh [visits.pbix](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/visits.pbix) dan simpan ke komputer Anda, jika belum ada.
 
-2.  Buka tab baru dan navigasi ke <https://app.powerbi.com/> dan masuk, jika diperlukan.
+2.  Buka tab baru dan navigasikan ke `https://app.powerbi.com` dan masuk, jika diperlukan.
 
-3.  Pilih **Ruang kerja saya** dari navigasi sisi kiri.
+3.  Pilih **Ruang** kerja saya dari navigasi sisi kiri.
 
 5.  Pilih **Unggah** lalu **Telusuri**.
 
-6.  Temukan dan pilih file **visits.pbix** yang telah Anda unduh sebelumnya. 
+6.  Temukan dan pilih **file visits.pbix** yang telah Anda unduh sebelumnya. 
 
-7.  Setelah pemuatan data selesai, pilih laporan **kunjungan** .
+7.  Setelah pemuatan data selesai, pilih **laporan kunjungan** .
 
     > **Catatan:** Jenis diatur ke **Laporan**, jangan pilih Himpunan Data.
 
 8.  Pilih **Edit**. 
 
-    Jika item menu **Edit** tidak terlihat, pilih elipsis **...** lalu pilih **Edit**.
+    **Jika item menu Edit** tidak terlihat, pilih elipsis **...** lalu pilih **Edit**.
 
 Anda sekarang telah menyiapkan layanan Power BI untuk digunakan di lab Anda.
 
 
-### Tugas \#2: Membuat Grafik dan Memvisualisasi Waktu
+### Tugas \#2: Membuat Visualisasi Bagan dan Waktu
 
-1.  Pilih ikon **Bagan pai** di panel **Visualisasi** untuk menyisipkan bagan.
+1.  **Pilih ikon Bagan** pai di panel **Visualisasi** untuk menyisipkan bagan.
 
-2.  Perluas **bc_Visit** di panel **Bidang** . Seret bidang **Bangunan** dan letakkan ke dalam kotak **Legenda** .
+2.  Perluas **bc_Visit** di panel **Bidang** . **Seret bidang Bangunan** dan letakkan ke dalam kotak **Legenda**.
 
-3.  Seret bidang **Kunjungi** dan letakkan ke dalam kotak **Nilai** .
+3.  **Seret bidang Kunjungi** dan letakkan ke dalam kotak **Nilai**.
 
 4.  Ubah ukuran diagram lingkaran menggunakan handel sudut sehingga semua komponen diagram terlihat.
 
-5.  Klik laporan di luar bagan pai untuk membatalkan pilihannya dan pilih ikon **bagan kolom Tumpuk** di panel **Visualisasi** .
+5.  Klik laporan di luar bagan pai untuk membatalkan pilihannya dan pilih **ikon Bagan** kolom bertumpuk di panel **Visualisasi** .
 
-6.  Perluas **bc_Visit** di panel **Bidang** jika belum diperluas. Seret bidang **Kunjungi** dan letakkan ke dalam kotak **sumbu Y** .
+6.  Perluas **bc_Visit** di panel **Bidang** jika belum diperluas. **Seret bidang Kunjungi** dan letakkan ke dalam **kotak sumbu** Y.
 
-7.  Seret bidang **Mulai** dan letakkan ke dalam kotak **sumbu X** .
+7.  Seret **bidang Mulai** dan letakkan ke dalam **kotak sumbu** X.
 
-8.  Di panel **Visualisasi** , pilih **x** di samping **Tahun** dan **Kuartal** untuk hanya menyisakan total **Bulan** dan **Hari** untuk sumbu X.
+8.  Di panel **Visualisasi**, pilih x** di **samping **Tahun** dan **Kuartal** untuk hanya **menyisakan total Bulan** dan **Hari** untuk sumbu X.
 
 9.  Ubah ukuran bagan sesuai keinginan menggunakan handel sudut.
 
 10. Uji interaktivitas laporan:
 
-    1.  Pilih irisan bangunan yang berbeda pada bagan pai dan amati perubahan pada bagan kolom Tumpuk.
+    1.  Pilih irisan bangunan yang berbeda pada bagan pai dan amati perubahan pada bagan kolom Bertumpuk.
 
-    2.  Pilih bagan kolom Bertumpuk. Pilih panah atas, untuk **Menelusuri paling detail**. Pilih panah bawah untuk mengaktifkan mode **Telusuri paling detail** , lalu pilih kolom untuk menelusuri paling detail ke tingkat berikutnya (hari).
+    2.  Pilih bagan kolom Bertumpuk. Pilih panah atas, untuk **Menelusuri paling detail**. Pilih panah bawah untuk mengaktifkan **mode Telusuri paling detail** , lalu pilih kolom untuk menelusuri paling detail ke tingkat berikutnya (hari).
 
-    3.  Telusuri paling detail dan pilih berbagai batang pada bagan kolom Tumpuk untuk mengamati perubahan pada laporan pai.
+    3.  Telusuri paling detail dan pilih berbagai bilah pada bagan kolom Bertumpuk untuk mengamati perubahan pada laporan pai.
 
-11. Simpan pekerjaan yang sedang berlangsung dengan memilih **Simpan laporan ini**.
+11. Simpan pekerjaan yang sedang berlangsung dengan memilih **Simpan laporan** ini.
 
 
 ## Latihan 2: Membuat Dasbor Power BI
@@ -102,11 +102,11 @@ Anda sekarang telah menyiapkan layanan Power BI untuk digunakan di lab Anda.
 
 1.  Anda harus membuka laporan dari tugas sebelumnya.
 
-2.  Pilih **Sematkan ke dasbor** pada menu. Bergantung pada tata letak, Anda mungkin perlu memilih **...** untuk menampilkan lebih banyak opsi.
+2.  Pilih **Sematkan ke dasbor** pada menu. Bergantung pada tata letak, Anda mungkin perlu memilih menu **elipsis ...** untuk menampilkan lebih banyak opsi.
 
 3.  Pilih **Dasbor baru** pada perintah **Sematkan ke dasbor**.
 
-4.  Masukkan `Campus Management` sebagai **Nama dasbor** dan pilih **Sematkan langsung**.
+4.  Masukkan `Campus Management` sebagai **Nama** dasbor dan pilih **Sematkan langsung**.
 
 5.  Jendela pop-up akan muncul dengan pemberitahuan bahwa dasbor telah dibuat. Pilih **Buka dasbor**.
 
@@ -117,16 +117,17 @@ Anda sekarang telah menyiapkan layanan Power BI untuk digunakan di lab Anda.
 
 1.  Dalam dasbor **Manajemen Kampus**, pilih bilah **Ajukan pertanyaan tentang data Anda** di bagian atas.
 
-2.  Masukkan `buildings by number of visits` di area Q&A. Diagram batang akan ditampilkan.
+2.  Masukkan `buildings by number of visits` di area Tanya Jawab. Diagram batang akan ditampilkan.
 
 3.  Pilih **Sematkan visual**.
 
-4.  Pilih **Dasbor yang sudah ada**, pilih dasbor **Manajemen Kampus** , pilih **Sematkan**.
+4.  Pilih **Dasbor** yang sudah ada, pilih **dasbor Manajemen** Kampus, pilih **Sematkan**.
 
-5.  Pilih **Keluar dari Q&A**.
+5.  Pilih **Keluar dari Tanya Jawab**.
 
 Dasbor **Manajemen Kampus** Anda akan ditampilkan dengan tiga visual di atasnya. Anda mungkin harus menggulir ke bawah untuk melihat visual Q&A yang baru.
 
 Dasbor Anda akan terlihat seperti berikut:
 
 ![](media/5-powerbi-result.png)
+

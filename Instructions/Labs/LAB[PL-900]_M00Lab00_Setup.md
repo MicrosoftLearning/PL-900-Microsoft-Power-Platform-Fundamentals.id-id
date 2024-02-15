@@ -6,7 +6,7 @@ lab:
 
 # Lab 0: Memvalidasi lingkungan laboratorium
 
-**Penyewa WWL - Ketentuan Penggunaan** Jika Anda diberikan penyewa sebagai bagian dari pengiriman pelatihan yang dipimpin instruktur, harap dicatat bahwa penyewa tersedia untuk tujuan mendukung lab langsung dalam pelatihan yang dipimpin instruktur. Penyewa tidak boleh dibagikan atau digunakan untuk tujuan di luar lab langsung. Penyewa yang digunakan dalam kursus ini adalah penyewa uji coba dan tidak dapat digunakan atau diakses setelah kelas berakhir dan tidak memenuhi syarat untuk ekstensi. Penyewa tidak boleh dikonversi ke langganan berbayar. Penyewa yang diperoleh sebagai bagian dari kursus ini tetap menjadi milik Microsoft Corporation dan kami berhak untuk mendapatkan akses dan repositori kapan saja. 
+**Penyewa WWL - Ketentuan Penggunaan** Jika Anda diberikan penyewa sebagai bagian dari pengiriman pelatihan yang dipimpin instruktur, harap dicatat bahwa penyewa tersedia untuk tujuan mendukung lab langsung dalam pelatihan yang dipimpin instruktur. Penyewa tidak boleh dibagikan atau digunakan untuk tujuan di luar lab praktik. Penyewa yang digunakan dalam kursus ini adalah penyewa uji coba dan tidak dapat digunakan atau diakses setelah kelas berakhir dan tidak memenuhi syarat perpanjangan. Penyewa tidak boleh dikonversi ke langganan berbayar. Penyewa yang diperoleh sebagai bagian dari kursus ini tetap menjadi milik Microsoft Corporation dan kami berhak mendapatkan akses dan repositorinya kapan saja. 
 
 ## Skenario
 
@@ -21,44 +21,21 @@ Di lab Modul 0 ini, Anda akan memperoleh penyewa percobaan Power Platform serta 
 
 ## Latihan 1 – Menyiapkan
 
-Tugas #1 - Memperoleh penyewa uji coba Microsoft Power Platform Anda
+Tugas #1 - Memverifikasi penyewa uji coba Microsoft Power Platform Anda
 
-1.  Salin **kredensial Microsoft 365** Anda dari Host Lab yang Diotorisasi. 
+1.  Verifikasi bahwa Anda memiliki **kredensial** Microsoft 365 dari Host Lab Resmi yang tersedia. 
 
-1.  Navigasikan ke <https://powerapps.microsoft.com> dan pilih **Mulai gratis**.
+2.  Di tab browser baru, navigasi ke `https://make.powerapps.com`
 
-1.  Di bawah **Mari kita mulai**, masukkan alamat email yang disediakan oleh Hoster Lab Resmi dan pilih **Mulai uji coba gratis Anda**. 
+3.  Masukkan yang `email address` disediakan oleh Host Lab Resmi. 
 
-1.  Jika Anda melihat permintaan bahwa Anda memiliki akun yang sudah ada dengan Microsoft. Pilih **Masuk**. 
+4.  Pilih **Masuk**. 
 
-1.  Masukkan kata sandi yang disediakan oleh Hoster Lab Resmi dan pilih **Masuk**. 
+5.  Masukkan yang `password` disediakan oleh Host Lab Resmi. 
 
-1.  Pilih **Ya** untuk tetap masuk. 
+6.  Secara opsional, pilih **Ya** untuk tetap masuk.
 
+7.  Jika diminta, masukkan `0123456789` untuk **nomor** Telepon dan pilih **Kirim**.
 
-Tugas #2 – Membuat lingkungan
-
-1.  Navigasikan ke <https://admin.powerplatform.microsoft.com> dan masuk dengan kredensial Microsoft 365 Anda, jika diminta. 
-
-1.  Jika Anda melihat pop-up Selamat Datang, pilih **Mulai**. 
-
-1.  Pilih **Lingkungan** dan pilih **+ Baru**.
-
-    1. Untuk **Nama**, harap masukkan **Praktik [Inisial Saya]** (Contoh: Praktik AJ).
-
-    1. Untuk **Jenis**, pilih **Uji Coba** (Jangan pilih opsi *Uji Coba (berbasis langganan)* ).
-
-    1. Ubah pengalih untuk **Menambahkan penyimpanan data Dataverse?** ke **Ya**. 
-
-    1. Biarkan semua pilihan lain sebagai default dan pilih **Berikutnya**. 
-
-    1. Di bawah judul **Grup keamanan** , gunakan tombol **+ Pilih** .
-
-    1. Pilih kotak centang untuk item **Tidak Ada** , di bawah judul **Buka akses** lalu pilih **Selesai**.
-
-    1. Biarkan opsi yang tersisa di defaultnya dan pilih **Simpan**. 
-
-1.  Lingkungan **Praktik** Anda sekarang akan muncul dalam daftar Lingkungan. 
-
-    > Lingkungan Anda mungkin memerlukan beberapa menit untuk disiapkan. Refresh halaman jika diperlukan.
+8.  **Refresh** tab dan verifikasi **lingkungan Dev One** dipilih di bawah **Lingkungan** di kanan atas. 
 
