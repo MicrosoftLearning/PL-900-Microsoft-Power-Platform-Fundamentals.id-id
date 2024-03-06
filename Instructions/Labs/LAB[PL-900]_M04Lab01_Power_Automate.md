@@ -26,7 +26,7 @@ Berikut ini telah diidentifikasi sebagai persyaratan yang harus Anda terapkan un
 
 ## Prasyarat
 
-- Penyelesaian **Modul 0 Lab 0 - Memvalidasi lingkungan lab**
+- Penyelesaian **Modul 1 Lab 0 - Memvalidasi lingkungan lab**
 - Menyelesaikan **Modul 2 Lab 1 - Membuat Model Data**
 - Penyelesaian **Modul 2 Lab 3 - Cara membuat aplikasi berbasis model**
 - Kontak John Doe dibuat dengan alamat email pribadi yang diisi.

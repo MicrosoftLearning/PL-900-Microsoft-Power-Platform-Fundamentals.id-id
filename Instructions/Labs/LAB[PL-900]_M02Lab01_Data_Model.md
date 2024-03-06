@@ -37,7 +37,7 @@ Untuk mempersiapkan lingkungan belajar Anda, Anda akan:
 
 ## Prasyarat
 
-- Penyelesaian **Modul 0 Lab 0 - Memvalidasi lingkungan lab**
+- Penyelesaian **Modul 1 Lab 0 - Memvalidasi lingkungan lab**
 
 Hal-hal yang perlu dipertimbangkan sebelum memulai
 
@@ -226,7 +226,7 @@ Kami ingin memberikan setiap kunjungan nomor unik yang dapat dengan mudah dimasu
     |:---------------------|:----------------|
     | crxxx_ActualEnd      | waktu selesai sebenarnya      |
     | crxxx_ActualStart    | waktu mulai sebenarnya    |
-    | crxxx_Code           | code            |
+    | crxxx_Code           | kode            |
     | crxxx_Name           | nama            |
     | crxxx_ScheduledEnd   | jadwal selesai   |
     | crxxx_ScheduledStart | jadwal mulai |

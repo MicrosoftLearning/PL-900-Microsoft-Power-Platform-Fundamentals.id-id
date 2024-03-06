@@ -31,7 +31,7 @@ Kami akan mengikuti garis besar di bawah ini untuk mendesain aplikasi kanvas:
 
 ## Prasyarat
 
-- Penyelesaian **Modul 0 Lab 0 - Memvalidasi lingkungan lab**
+- Penyelesaian **Modul 1 Lab 0 - Memvalidasi lingkungan lab**
 - Menyelesaikan **Modul 2 Lab 1 - Membuat Model Data**
 
 
