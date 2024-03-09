@@ -6,15 +6,15 @@ lab:
 
 # Lab 1: Pemodelan Data
 
-**Penyewa WWL - Ketentuan Penggunaan** Jika Anda diberikan penyewa sebagai bagian dari pengiriman pelatihan yang dipimpin instruktur, harap dicatat bahwa penyewa tersedia untuk tujuan mendukung lab langsung dalam pelatihan yang dipimpin instruktur. Penyewa tidak boleh dibagikan atau digunakan untuk tujuan di luar lab praktik. Penyewa yang digunakan dalam kursus ini adalah penyewa uji coba dan tidak dapat digunakan atau diakses setelah kelas berakhir dan tidak memenuhi syarat perpanjangan. Penyewa tidak boleh dikonversi ke langganan berbayar. Penyewa yang diperoleh sebagai bagian dari kursus ini tetap menjadi milik Microsoft Corporation dan kami berhak mendapatkan akses dan repositorinya kapan saja. 
+**Penyewa WWL - Ketentuan Penggunaan** Jika Anda diberikan penyewa sebagai bagian dari pengiriman pelatihan yang dipimpin instruktur, harap dicatat bahwa penyewa tersedia untuk tujuan mendukung lab langsung dalam pelatihan yang dipimpin instruktur. Penyewa tidak boleh dibagikan atau digunakan untuk tujuan di luar lab praktik. Penyewa yang digunakan dalam kursus ini adalah penyewa uji coba dan tidak dapat digunakan atau diakses setelah kelas berakhir dan tidak memenuhi syarat untuk ekstensi. Penyewa tidak boleh dikonversi ke langganan berbayar. Penyewa yang diperoleh sebagai bagian dari kursus ini tetap menjadi milik Microsoft Corporation dan kami berhak mendapatkan akses dan repositorinya kapan saja. 
 
 ## Skenario
 
-Bellows College adalah organisasi pendidikan dengan beberapa gedung di kampus. Kunjungan kampus saat ini dicatat dalam jurnal kertas. Informasi tidak diambil secara konsisten, dan tidak ada sarana untuk mengumpulkan dan menganalisis data tentang kunjungan di seluruh kampus.
+Bellows College adalah organisasi pendidikan dengan beberapa kampus dan program. Banyak instruktur dan administrator Bellow Colleges perlu menghadiri acara, dan membeli item. Secara historis melacak pengeluaran ini telah menjadi tantangan. 
 
-Administrasi kampus ingin memodernisasi sistem pendaftaran pengunjung mereka dengan akses ke gedung dikendalikan oleh personel keamanan dan semua kunjungan harus didaftarkan sebelumnya dan dicatat oleh pemandu mereka.
+Administrasi kampus ingin memodernisasi sistem pelaporan pengeluaran mereka dengan menyediakan cara digital kepada karyawan untuk melaporkan pengeluaran. 
 
-Sepanjang kursus ini, Anda akan membangun aplikasi dan melakukan otomatisasi untuk memungkinkan administrasi dan personel keamanan Bellows College mengelola dan mengontrol akses ke gedung-gedung di kampus.
+Sepanjang kursus ini, Anda akan membangun aplikasi dan melakukan otomatisasi untuk memungkinkan karyawan Bellows College mengelola pengeluaran.
 
 Di lab ini Anda akan membuat model data untuk mendukung persyaratan berikut:
 
@@ -26,16 +26,17 @@ Di lab ini Anda akan membuat model data untuk mendukung persyaratan berikut:
 
 Terakhir, Anda akan mengimpor data sampel ke Microsoft Dataverse.
 
-Langkah-langkah lab tingkat tinggi
+## Langkah-langkah lab tingkat tinggi
 
 Untuk mempersiapkan lingkungan belajar Anda, Anda akan:
 
-- Lihat [dokumen model data](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/blob/master/Allfiles/Campus%20Management.png) untuk deskripsi metadata (tabel dan hubungan). Anda bisa menahan ctrl + klik kiri atau klik kanan tautan untuk membuka dokumen model data di jendela baru.
-- Buat tabel Kunjungan
-- Mengimpor data Kunjungi menggunakan lembar bentang Excel
+- Lihat [dokumen model data](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/blob/master/Allfiles/Campus Management.png) untuk deskripsi metadata (tabel dan hubungan). Anda bisa menahan ctrl + klik kiri atau klik kanan tautan untuk membuka dokumen model data di jendela baru.
 
+- Buat tabel Pengeluaran
 
-## Prasyarat
+- Tambahkan beberapa data sampel. 
+
+### Prasyarat
 
 - Penyelesaian **Modul 1 Lab 0 - Memvalidasi lingkungan lab**
 
@@ -43,209 +44,151 @@ Hal-hal yang perlu dipertimbangkan sebelum memulai
 
 - Konvensi penamaan - masukkan nama dengan hati-hati.
 
+## Latihan 1: Buat Tabel Baru
 
-# Latihan 1: Buat Tabel Baru
+**Tujuan:** Dalam latihan ini, Anda akan membuat tabel kustom baru untuk Pengeluaran.
 
-**Tujuan:** Dalam latihan ini, Anda akan membuat tabel kustom baru untuk Kunjungan.
+### Tugas #1: Buat Tabel dan Kolom Pengeluaran
 
-## Tugas #1: Buat Kunjungi Tabel dan Kolom
+Tabel **Pengeluaran** akan berisi informasi tentang pengeluaran individu yang dapat dikirimkan karyawan termasuk alasan, jenis, tanggal, dan jumlah.
 
-Tabel **Kunjungan** akan berisi informasi tentang kunjungan kampus, seperti pengunjung, waktu terjadwal, dan waktu sebenarnya dari setiap kunjungan.
+1. Jika Anda belum masuk, masuk https://make.powerapps.com
 
-Kami ingin memberikan setiap kunjungan nomor unik yang dapat dengan mudah dimasukkan dan ditafsirkan oleh pengunjung ketika ditanya selama proses check-in kunjungan.
+1. Dari **menu Lingkungan** di kanan atas, pastikan **lingkungan Dev One** dipilih.
 
-1.  Jika Anda belum masuk, masuk `https://make.powerapps.com`
+1. Menggunakan navigasi di sebelah kiri, pilih **Tabel**.
 
-1.  Dari **menu Lingkungan** di kanan atas, pastikan **lingkungan Dev One** dipilih. 
+1. Pilih **+ Tabel** baru dan pilih **Atur properti** tingkat lanjut.
 
-1.  Menggunakan navigasi di sebelah kiri, pilih **Tabel**.
+1. Untuk **Nama tampilan**, masukkan Pengeluaran
 
-1.  Pilih **+ Tabel** baru dan pilih **Atur properti** tingkat lanjut. 
+1. Pilih **Simpan**.
 
-1.  Untuk **Nama tampilan**, masukkan `Visit`
+1. Di bawah bagian **Skema**, harap pilih **Kolom**.
 
-1.  Pilih **Simpan**. 
+### Buat kolom Tanggal Pengeluaran
 
-1.  Di bawah bagian **Skema**, harap pilih **Kolom**. 
+1. Pilih **+ Kolom baru**.
 
+1. Masukkan Tanggal Pengeluaran untuk **Nama tampilan**.
 
-## Membuat kolom Jadwal Mulai
+1. Pilih **Tanggal saja** untuk **Jenis** data.
 
-1.  Pilih **+ Kolom baru**. 
+1. Ubah **Diperlukan**, ke **Bisnis diperlukan**.
 
-1.  Masukkan `Scheduled Start` untuk **Nama tampilan**. 
+1. Luaskan **Opsi Tingkat Lanjut**.
 
-1.  Pilih **Tanggal dan waktu** untuk **Jenis** data. 
+1. Di **Penyesuaian** zona waktu, pilih **Hanya** Tanggal.
 
-1.  Ubah **Diperlukan**, ke **Bisnis diperlukan**. 
+    >**Catatan:** Kami menggunakan **perilaku Tanggal saja** untuk merekam informasi tanggal, karena tanggal kunjungan tidak boleh berubah saat dilihat dari zona waktu yang berbeda.
 
-1.  Luaskan **Opsi Tingkat Lanjut**. 
+1. Pilih **Simpan**.
 
-1.  Di **Penyesuaian zona waktu**, pilih **Tidak tergantung zona waktu**. 
+### Buat Kolom Tipe Pengeluaran
 
-    > **Catatan:** Kami menggunakan **perilaku zona waktu independen** untuk merekam informasi tanggal dan waktu, karena waktu kunjungan selalu lokal ke lokasi bangunan dan tidak boleh berubah saat dilihat dari zona waktu yang berbeda. 
+1. Pilih **+ Kolom baru**.
 
-1.  Pilih **Simpan**. 
+1. Masukkan Jenis Pengeluaran untuk **Nama tampilan**.
 
+1. Pilih **Pilihan** untuk **Jenis** data.
 
-## Membuat kolom Waktu Selesai yang Dijadwalkan
+1. Di **Diperlukan**, pilih **Opsional**.
 
-1.  Pilih **+ Kolom baru**. 
+1. Atur **Sinkronkan dengan Pilihan** global ke **Ya (disarankan)**
 
-1.  Masukkan `Scheduled End` untuk **Nama tampilan**.
+1. Di **Sinkronkan pilihan ini dengan** bidang, pilih **Jenis** Pengeluaran.
 
-1.  Pilih **Tanggal dan waktu** untuk **Jenis** data.
+1. Atur **bidang Pilihan** default ke **Tidak Ada**.
 
-1.  Di **Diperlukan**, pilih **Bisnis diperlukan**.
+1. Pilih **Simpan**.
 
-1.  Luaskan **Opsi Tingkat Lanjut**.
+### Buat Kolom Tujuan Pengeluaran
 
-1.  Di **Penyesuaian zona waktu**, pilih **Tidak tergantung zona waktu**.
+1. Pilih **+ Kolom baru**.
 
-1.  Pilih **Simpan**. 
+1. Masukkan Tujuan Pengeluaran untuk **Nama tampilan**.
 
+1. Pilih **Pilihan** untuk **Jenis** data.
 
-## Membuat kolom Waktu Mulai Aktual
+1. Di **Diperlukan**, pilih **Opsional**.
 
-1.  Pilih **+ Kolom baru**. 
+1. Atur **Sinkronkan dengan Pilihan** global ke **Ya (disarankan)**
 
-1.  Masukkan `Actual Start` untuk **Nama tampilan**.
+1. Di **Sinkronkan pilihan ini dengan** bidang, pilih **Tujuan** Pengeluaran.
 
-1.  Pilih **Tanggal dan waktu** untuk **Jenis** data.
+1. Atur **bidang Default** ke **Tidak Ada**.
 
-1.  Di **Diperlukan**, biarkan bagian ini sebagai **Opsional.**
+1. Pilih **Simpan**.
 
-1.  Luaskan **Opsi Tingkat Lanjut**.
+### Buat kolom Deskripsi Item
 
-1.  Di **Penyesuaian zona waktu**, pilih **Tidak tergantung zona waktu**. 
+1. Pilih **+ Kolom baru**.
 
-1.  Pilih **Simpan**. 
+1. Masukkan Deskripsi Item untuk **Nama tampilan**.
 
+1. Pilih **Beberapa Baris teks &gt; Teks** Biasa untuk **Jenis** data.
 
-## Buat kolom Akhir Aktual
+1. Pilih **Simpan**.
 
-1.  Pilih **+ Kolom baru**.
+### Buat kolom Jumlah Pengeluaran
 
-1.  Masukkan `Actual End` untuk **Nama tampilan**.
+1. Pilih **+ Kolom baru**.
 
-1.  Pilih **Tanggal dan waktu** untuk **Jenis** data.
+1. Masukkan Jumlah Pengeluaran untuk **Nama tampilan**.
 
-1.  Di **Diperlukan**, biarkan bagian ini sebagai **Opsional.**
+1. Pilih **Mata** Uang untuk **Jenis** data.
 
-1.  Luaskan **Opsi Tingkat Lanjut**.
+1. Pilih **Simpan**.
 
-1.  Di **Penyesuaian zona waktu**, pilih **Tidak tergantung zona waktu**.
+ 
+## Latihan 2: Masukkan data
 
-1.  Pilih **Simpan**.
+**Tujuan:** Dalam latihan ini, Anda memasukkan beberapa data sampel secara manual ke dalam tabel baru Anda. 
 
+### Tugas #1: Ubah kolom yang ditampilkan
 
-## Buat kolom Kode
+1. Jika belum masuk, masuk ke https://make.powerapps.com
 
-1.  Pilih **+ Kolom baru**.
+1. **Pilih lingkungan Dev One** di kanan atas jika belum dipilih.
 
-1.  Masukkan `Code` untuk **Nama tampilan**.
+1. Menggunakan navigasi di sebelah kiri, pilih **Tabel**.
 
-1.  Pilih **Nomor Otomatis** untuk **Jenis data**.
+1. **Buka tabel Pengeluaran** yang dibuat di latihan sebelumnya.
 
-1.  Pilih **Nomor awalan tanggal** untuk **Jenis nomor otomatis**.
+1. Di samping **kolom Nama** , pilih **+26 lainnya**.
 
-1.  Pilih **Simpan**. 
+1. Dari menu yang muncul, pilih kolom berikut.
 
+    1. Tanggal Pengeluaran
 
-## Buat kolom pencarian Pengunjung
+    2. Tujuan Pengeluaran 
 
-1.  Pilih **+ Kolom baru**.
+    3. Jenis Pengeluaran
 
-1.  Masukkan `Visitor` untuk **Nama tampilan**.
+    4. Jumlah Pengeluaran
 
-1.  Pilih **Pencarian** Pencarian** > **untuk **Jenis** data. 
+    5. Deskripsi Item
 
-1.  Pilih **Kontak** untuk **tabel** Terkait. 
+1. Pilih tombol **Simpan**.
 
-1.  Luaskan **Opsi Tingkat Lanjut**. 
+## Tugas #2: Tambahkan rekaman sampel.
 
-1.  Masukkan `visitor_id` untuk **Nama hubungan**. 
+1. Pilih Panah** di **samping **Edit**. Dari menu yang muncul, pilih **Edit di tab** baru.
 
-1.  Pilih **Simpan**.
+1. **Di kolom Nama**, masukkan **John Doe**.
 
+1. **Di kolom Tanggal** Pengeluaran, masukkan **xxx**.
 
-# Latihan 2: Mengimpor Data
+1. **Di Tujuan** Pengeluaran, pilih **Konferensi**.
 
-**Tujuan:** Dalam latihan ini Anda akan mengimpor data sampel ke database Dataverse.
+1. **Di kolom Jenis** Pengeluaran, pilih **Perjalanan**.
 
-## Tugas \#1: Muat file Excel ke OneDrive
+1. **Di kolom Jumlah** Pengeluaran, masukkan **750.00**.
 
-1.  Anda harus menyimpan file **Visits.xlsx** di komputer virtual Anda di **C:/LabFiles**. Unduh [Visits.xlsx](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/Visits.xlsx) jika belum.
+1. **Di Deskripsi** Item, masukkan deskripsi singkat.
 
-2.  Jika belum masuk, masuk ke `https://make.powerapps.com`
+1. Tekan tombol Tab untuk melanjutkan ke baris berikutnya dan **simpan** rekaman.
 
-3.  **Pilih lingkungan Dev One** di kanan atas, jika belum dipilih.
-
-4.  Pilih peluncur Aplikasi (tombol Wafel) di sudut kiri atas untuk mengubah aplikasi dan pilih **OneDrive**. (Mungkin perlu beberapa saat hingga OneDrive Anda siap. Pilih **OneDrive Anda siap** saat Anda melihatnya di layar.)
-
-5.  Pilih **+Tambahkan baru** dari menu dan pilih **Unggahan** file.
-
-6.  Temukan dan pilih **file Visits.xlsx** dan pilih **Buka**.
-
-    > **Catatan:** File harus terletak di **folder Desktop**** > Semua File** di komputer virtual Anda.
-
-
-## Tugas \#2: Membuat aliran data
-
-1.  Jika Anda belum masuk, masuk `https://make.powerapps.com`
-
-2.  Dari **menu Lingkungan** di kanan atas, pastikan **lingkungan Dev One** dipilih. 
-
-3.  Menggunakan navigasi di sebelah kiri, pilih **Tabel**. 
-
-4.  Buka tabel Kunjungi** yang **dibuat di latihan sebelumnya. 
-
-5.  Menggunakan menu di bagian atas, pilih **Impor** > **data**.
-
-6.  Dalam dialog **Pilih sumber data**, pilih **buku kerja Excel**.
-
-7.  Pilih opsi **Tautkan ke File**. Pilih **Telusuri OneDrive**. Jika diminta, masuk dengan kredensial Microsoft 365 Anda. Konfigurasikan browser untuk selalu mengizinkan pop-up. 
-
-8.  **Pilih file Visits.xlsx** yang diunggah ke OneDrive di tugas sebelumnya. 
-
-9.  Pilih **Selanjutnya**. 
-
-10. **Pada layar Pilih data** Power query**** > , periksa **buku kerja Excel Kunjungan.** 
-
-11. Pilih **Selanjutnya**. Jangan keluar dari jendela browser ini.
-
-12. Pilih **Selanjutnya**. 
-
-13. Pada bagian **Tabel peta** , di bawah **Muat pengaturan**, pilih **Muat ke tabel** yang sudah ada. 
-
-14. **Pada menu drop-down Tabel** tujuan, pilih tabel **crXXX_Visit** (Di mana XXX adalah sekumpulan huruf dan angka acak)
-
-15. Pada bagian **Pemetaan** Kolom, petakan Kolom ke kolom tujuan terkait:
-
-    | Kolom tujuan  | Nilai sumber   |
-    |:---------------------|:----------------|
-    | crxxx_ActualEnd      | waktu selesai sebenarnya      |
-    | crxxx_ActualStart    | waktu mulai sebenarnya    |
-    | crxxx_Code           | kode            |
-    | crxxx_Name           | nama            |
-    | crxxx_ScheduledEnd   | jadwal selesai   |
-    | crxxx_ScheduledStart | jadwal mulai |
-
-16. Pilih **Selanjutnya**. 
-
-17. Pilih **Refresh secara manual**. 
-
-18. Pilih **Terbitkan**. 
-
-    > **Catatan:** Diperlukan waktu beberapa menit agar data Anda dapat diimpor ke tabel Anda. Jangan khawatir jika Anda mendapatkan beberapa kesalahan, kesalahan tersebut normal, dan tidak akan memengaruhi kursus lainnya.
-
-
-## Tugas \#3: Memverifikasi Impor Data
-
-1.  Setelah data Anda diimpor, gunakan navigasi di sebelah kiri layar untuk memilih **Tabel dan buka **tabel Kunjungi****.
-
-2.  Pastikan Anda melihat data yang diimpor pada bagian **Kolom dan data kunjungan**.
-
-Selamat, Anda telah berhasil membuat sebuah tabel baru dan mengimpor data.
+Selamat, Anda telah berhasil membuat tabel baru dan menambahkan data.
 
 
