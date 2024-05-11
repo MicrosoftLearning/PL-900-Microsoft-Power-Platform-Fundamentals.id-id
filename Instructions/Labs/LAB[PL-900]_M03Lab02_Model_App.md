@@ -10,13 +10,11 @@ lab:
 
 ## Skenario
 
-Bellows College adalah organisasi pendidikan dengan beberapa gedung di kampus. Pengunjung kampus saat ini tercatat dalam jurnal kertas. Informasi tidak diambil secara konsisten, dan tidak ada sarana untuk mengumpulkan dan menganalisis data tentang kunjungan di seluruh kampus.
+Bellows College adalah organisasi pendidikan dengan beberapa kampus dan program. Banyak instruktur dan administrator Bellow Colleges perlu menghadiri acara, dan membeli item. Secara historis melacak pengeluaran ini telah menjadi tantangan.
 
-Administrasi kampus ingin memodernisasi sistem pendaftaran pengunjung mereka dengan akses ke gedung dikendalikan oleh personel keamanan dan semua kunjungan harus didaftarkan sebelumnya dan dicatat oleh pemandu mereka.
+Administrasi kampus ingin memodernisasi sistem pelaporan pengeluaran mereka dengan menyediakan cara digital kepada karyawan untuk melaporkan pengeluaran.
 
-Sepanjang kursus ini, Anda akan membangun aplikasi dan melakukan otomatisasi untuk memungkinkan administrasi dan personel keamanan Bellows College mengelola dan mengontrol akses ke gedung-gedung di kampus.
-
-Di lab ini, Anda akan membuat aplikasi berbasis model Power Apps untuk memungkinkan staf kampus backoffice mengelola catatan kunjungan di seluruh kampus.
+Sepanjang kursus ini, Anda akan membangun aplikasi dan melakukan otomatisasi untuk memungkinkan karyawan Bellows College mengelola pengeluaran.
 
 ## Langkah-langkah lab tingkat tinggi
 
@@ -88,11 +86,11 @@ Header adalah area kanan atas formulir. Anda mungkin perlu menciutkan panel Prop
 
 1. Jika tampilan Edit dibuka di tab atau jendela browser baru, tutup tampilan tersebut. Jika tidak, pilih **🡠 Kembali** di kiri atas layar. Anda sekarang harus kembali ke **formulir tabel Laporan** Pengeluaran.
 
-1. Menggunakan remah roti di kiri atas (**Formulir** Laporan > ****Pengeluaran Tabel).** > ** Pilih **Laporan** Pengeluaran untuk kembali ke **layar properti Kunjungi** Tabel.
+1. Menggunakan remah roti di kiri atas (**Formulir** Laporan > ****Pengeluaran Tabel).** > ** Pilih **Laporan** Pengeluaran untuk kembali ke **layar properti Tabel Laporan** Pengeluaran.
 
-## Tugas #2: Edit tampilan Kunjungan Aktif
+## Tugas #2: Edit tampilan Laporan Pengeluaran Aktif
 
-Dalam tugas ini, kami akan memodifikasi tampilan Laporan Pengeluaran Aktif default dan membuat tampilan baru untuk kunjungan hari ini.
+Dalam tugas ini, kami akan memodifikasi tampilan Laporan Pengeluaran Aktif default dan membuat tampilan baru untuk laporan pengeluaran yang jatuh tempo hari ini.
 
 1. Di bawah bagian **Pengalaman data**, pilih **Tampilan** dan buka tampilan Laporan** Pengeluaran Aktif Anda**.
 
@@ -210,15 +208,15 @@ Demi kesederhanaan dan waktu, kami tidak akan membahas semua kolom Laporan Penge
 
 1. Masukkan bidang sebagai berikut:
 
-    - **Nama** Laporan: Laporan pengujian baru
+    - **Nama** Laporan: Laporan Pengujian baru
 
     - **Tujuan** Laporan: pilih **Konferensi**
 
     - **Tanggal jatuh tempo laporan**: Pilih Tanggal hari ini
 
-1. Pilih **Simpan &amp; Tutup**. Ini akan membuat Kunjungan dan Anda harus dapat melihatnya pada **tampilan Kunjungan** Aktif.
+1. Pilih **Simpan &amp; Tutup**. Ini akan membuat Laporan Pengujian baru dan Anda akan dapat melihatnya pada **tampilan Laporan** Pengeluaran Aktif.
 
-1. Ubah tampilan ke **Laporan Pengeluaran Jatuh Tempo Hari Ini** dengan menggunakan menu drop-down di samping **Kunjungan** Aktif. 
+1. Ubah tampilan ke **Laporan Pengeluaran Jatuh Tempo Hari Ini** dengan menggunakan menu drop-down di samping **Laporan** Pengeluaran Aktif. 
 
 1. Anda dapat menambahkan beberapa catatan pengujian lainnya.
 

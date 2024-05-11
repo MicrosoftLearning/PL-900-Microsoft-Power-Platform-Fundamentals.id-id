@@ -16,14 +16,6 @@ Administrasi kampus ingin memodernisasi sistem pelaporan pengeluaran mereka deng
 
 Sepanjang kursus ini, Anda akan membangun aplikasi dan melakukan otomatisasi untuk memungkinkan karyawan Bellows College mengelola pengeluaran.
 
-Di lab ini Anda akan membuat model data untuk mendukung persyaratan berikut:
-
-- R1 – Lacak informasi untuk kunjungan kampus terjadwal.
-
-- R2 – Rekam informasi dasar untuk mengidentifikasi dan melacak pengunjung.
-
-- R3 – Menjadwalkan, merekam, dan mengelola kunjungan.
-
 Terakhir, Anda akan mengimpor data sampel ke Microsoft Dataverse.
 
 ## Langkah-langkah lab tingkat tinggi
@@ -80,7 +72,7 @@ Tabel **Pengeluaran** akan berisi informasi tentang pengeluaran individu yang da
 
 1. Di **Penyesuaian** zona waktu, pilih **Hanya** Tanggal.
 
-    >**Catatan:** Kami menggunakan **perilaku Tanggal saja** untuk merekam informasi tanggal, karena tanggal kunjungan tidak boleh berubah saat dilihat dari zona waktu yang berbeda.
+    >**Catatan:** Kami menggunakan **perilaku Tanggal saja** untuk merekam informasi tanggal, karena tanggal pengeluaran tidak boleh berubah saat dilihat dari zona waktu yang berbeda.
 
 1. Pilih **Simpan**.
 

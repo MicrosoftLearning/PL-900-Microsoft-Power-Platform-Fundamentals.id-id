@@ -21,9 +21,9 @@ Sepanjang kursus ini, Anda akan membangun aplikasi dan melakukan otomatisasi unt
 
 Kami akan mengikuti garis besar di bawah ini untuk mendesain aplikasi kanvas:
 
-- Membuat aplikasi kanvas dari data di tabel Kunjungan
+- Membuat aplikasi kanvas laporan pengeluaran 
 
-- Mengonfigurasi cara kunjungan ditampilkan di layar penelusuran
+- Mengonfigurasi bagaimana laporan pengeluaran ditampilkan di layar telusur
 
 - Membuat beberapa perubahan mendasar pada aplikasi
 
@@ -107,7 +107,7 @@ Dalam tugas ini, Anda akan menyesuaikan teks header di masing-masing dari tiga l
 
 Dalam tugas ini, Anda akan menguji aplikasi baru Anda.
 
-1. Dengan aplikasi Anda terbuka di Perancang Aplikasi, pilih **Pengaturan** (Anda mungkin perlu memilih ... untuk Ikon Pengaturan untuk ditampilkan), di bagian **Umum** perbarui nama aplikasi Anda ke Aplikasi Kunjungan pilih **X** untuk menutup layar pengaturan lalu pilih **Simpan**.
+1. Dengan aplikasi Anda terbuka di Perancang Aplikasi, pilih **Pengaturan** (Anda mungkin perlu memilih ... untuk Ikon Pengaturan untuk ditampilkan), di bagian **Umum** perbarui nama aplikasi Anda ke Aplikasi Laporan Pengeluaran pilih **X** untuk menutup layar pengaturan lalu pilih **Simpan**.
 
 1. Di menu navigasi sebelah kiri, pilih **BrowseScreen1**.
 

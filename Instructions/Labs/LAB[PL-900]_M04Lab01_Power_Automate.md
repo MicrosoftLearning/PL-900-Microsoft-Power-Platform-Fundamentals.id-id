@@ -66,7 +66,7 @@ Ini adalah praktik yang baik, sehingga Anda dan editor alur lainnya dapat memaha
 
 ### Tugas #2: Buat langkah untuk mendapatkan baris Laporan Pengeluaran
 
-1. Pilih **+ Langkah baru**. Langkah ini akan mengambil informasi Pengunjung, termasuk alamat email.
+1. Pilih **+ Langkah baru**. Langkah ini akan mengambil informasi Laporan Pengeluaran, termasuk alamat email.
 
 1. Mencari Dataverse
 
@@ -82,9 +82,9 @@ Ini adalah praktik yang baik, sehingga Anda dan editor alur lainnya dapat memaha
 
 Ini adalah praktik yang baik, sehingga Anda dan editor alur lainnya dapat memahami tujuan langkah tanpa harus menyelami detailnya.
 
-### Tugas #3: Buat langkah untuk mengirim email ke pengunjung
+### Tugas #3: Buat langkah untuk mengirim email untuk mengonfirmasi pengiriman laporan pengeluaran
 
-1. Pilih **+ Langkah baru**. Ini adalah langkah yang akan mengirim email ke pengunjung.
+1. Pilih **+ Langkah baru**. Ini adalah langkah yang akan mengirim email ke individu yang mengirimkan laporan pengeluaran.
 
 1. Cari email, pilih **tindakan Kirim email (V2)** dari **konektor Office 365 Outlook** .
 
@@ -109,9 +109,9 @@ Konten dinamis perlu ditempatkan di tempat bidang diberi nama dalam tanda kurung
 
 1. Sorot teks **{First Name}**. Ganti dengan **bidang Nama** Depan dari **langkah Dapatkan pemilik** .
 
-1. **Sorot teks {Laporkan Jumlah Total}**. Ganti dengan **bidang **Laporkan Jumlah** Total Saat kunjungan ditambahkan**.
+1. **Sorot teks {Laporkan Jumlah Total}**. Ganti dengan **bidang **Laporkan Jumlah** Total Saat laporan pengeluaran dikirimkan**.
 
-1. **Sorot teks {Laporkan Tanggal Jatuh Tempo}**. Ganti dengan **bidang Tanggal Jatuh Tempo** Laporan dari **langkah Saat kunjungan ditambahkan** .
+1. **Sorot teks {Laporkan Tanggal Jatuh Tempo}**. Ganti dengan **bidang Tanggal Jatuh Tempo** Laporan dari **langkah Saat laporan pengeluaran dikirimkan** .
 
 1. Pilih **Simpan**.
 

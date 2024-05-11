@@ -30,7 +30,7 @@ Kami akan mengikuti garis besar di bawah ini untuk mendesain aplikasi kanvas:
 
 ## Latihan 1: Gunakan Copilot untuk membangun aplikasi kunjungan perguruan tinggi.
 
-**Tujuan:** Dalam latihan ini, Anda akan membuat aplikasi kanvas dengan menyambungkan ke tabel Laporan Pengeluaran.
+**Tujuan:** Dalam latihan ini, Anda akan membuat aplikasi kanvas dengan menyambungkan ke tabel kunjungan Kampus.
 
 ### Tugas \#1: Membuat aplikasi awal
 
