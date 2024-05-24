@@ -141,8 +141,6 @@ Biarkan tab alur ini terbuka untuk tugas berikutnya. Alur Anda akan terlihat sep
 
     - **Nama Laporan:** Laporan Pengujian
 
-    - **Jumlah Total Laporan:** $750,00
-
     - **Tanggal Jatuh Tempo Laporan:** Besok 
 
 1. Pilih tombol **Simpan &amp; Tutup** .
