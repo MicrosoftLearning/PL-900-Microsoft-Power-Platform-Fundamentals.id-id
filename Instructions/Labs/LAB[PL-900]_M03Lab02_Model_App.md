@@ -1,7 +1,7 @@
 ---
 lab:
   title: 'Lab 3: Cara membuat aplikasi berbasis model'
-  module: 'Module 3: Get started with Power Apps'
+  module: 'Module 3: Describe how to build applications with Microsoft Power Apps'
 ---
 
 # Lab 3: Cara membuat aplikasi berbasis model
