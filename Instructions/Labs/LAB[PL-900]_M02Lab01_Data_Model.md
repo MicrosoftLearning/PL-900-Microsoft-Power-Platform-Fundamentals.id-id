@@ -6,15 +6,15 @@ lab:
 
 # Lab 1: Pemodelan Data
 
-**Penyewa WWL - Ketentuan Penggunaan** Jika Anda diberikan penyewa sebagai bagian dari pengiriman pelatihan yang dipimpin instruktur, harap dicatat bahwa penyewa tersedia untuk tujuan mendukung lab langsung dalam pelatihan yang dipimpin instruktur. Penyewa tidak boleh dibagikan atau digunakan untuk tujuan di luar lab praktik. Penyewa yang digunakan dalam kursus ini adalah penyewa uji coba dan tidak dapat digunakan atau diakses setelah kelas berakhir dan tidak memenuhi syarat untuk ekstensi. Penyewa tidak boleh dikonversi ke langganan berbayar. Penyewa yang diperoleh sebagai bagian dari kursus ini tetap menjadi milik Microsoft Corporation dan kami berhak mendapatkan akses dan repositorinya kapan saja. 
+**Penyewa WWL - Ketentuan Penggunaan** Jika Anda diberi penyewa sebagai bagian dari penyediaan pelatihan yang dipimpin instruktur, harap dicatat bahwa penyewa disediakan untuk tujuan mendukung lab praktik langsung dalam pelatihan yang dipimpin instruktur. Penyewa tidak boleh dibagikan atau digunakan untuk tujuan di luar lab praktik. Penyewa yang digunakan dalam kursus ini adalah penyewa uji coba dan tidak dapat digunakan atau diakses setelah kelas berakhir dan tidak memenuhi syarat untuk ekstensi. Penyewa tidak boleh dikonversi ke langganan berbayar. Penyewa yang diperoleh sebagai bagian dari kursus ini tetap menjadi milik Microsoft Corporation dan kami berhak mendapatkan akses dan repositorinya kapan saja. 
 
 ## Skenario
 
-Bellows College adalah organisasi pendidikan dengan beberapa kampus dan program. Banyak instruktur dan administrator Bellow Colleges perlu menghadiri acara, dan membeli item. Secara historis melacak pengeluaran ini telah menjadi tantangan. 
+Bellows College adalah organisasi pendidikan yang memiliki beberapa kampus dan program. Banyak instruktur dan administrator Bellow Colleges perlu menghadiri acara, dan membeli item. Secara historis, melacak pengeluaran ini merupakan sebuah tantangan. 
 
-Administrasi kampus ingin memodernisasi sistem pelaporan pengeluaran mereka dengan menyediakan cara digital kepada karyawan untuk melaporkan pengeluaran. 
+Administrasi kampus ingin memodernisasi sistem pelaporan pengeluaran mereka dengan menyediakan sistem digital bagi karyawan untuk melaporkan pengeluaran. 
 
-Sepanjang kursus ini, Anda akan membangun aplikasi dan melakukan otomatisasi untuk memungkinkan karyawan Bellows College mengelola pengeluaran.
+Selama kursus ini, Anda akan membangun aplikasi dan melakukan otomatisasi agar karyawan Bellows College dapat mengelola pengeluaran.
 
 Terakhir, Anda akan mengimpor data sampel ke Microsoft Dataverse.
 
@@ -40,17 +40,17 @@ Hal-hal yang perlu dipertimbangkan sebelum memulai
 
 **Tujuan:** Dalam latihan ini, Anda akan membuat tabel kustom baru untuk Pengeluaran.
 
-### Tugas #1: Buat Tabel dan Kolom Pengeluaran
+### Tugas 1: Membuat Tabel dan Kolom Pengeluaran
 
 Tabel **Pengeluaran** akan berisi informasi tentang pengeluaran individu yang dapat dikirimkan karyawan termasuk alasan, jenis, tanggal, dan jumlah.
 
-1. Jika Anda belum masuk, masuk https://make.powerapps.com
+1. Jika Anda belum masuk, masuk ke https://make.powerapps.com
 
-1. Dari **menu Lingkungan** di kanan atas, pastikan **lingkungan Dev One** dipilih.
+1. Dari menu **Lingkungan** di kanan atas, pastikan lingkungan **Dev One** dipilih.
 
 1. Menggunakan navigasi di sebelah kiri, pilih **Tabel**.
 
-1. Pilih **+ Tabel** baru dan pilih **Atur properti** tingkat lanjut.
+1. Pilih **+ Tabel baru** dan pilih **Atur properti tingkat lanjut**.
 
 1. Untuk **Nama tampilan**, masukkan Pengeluaran
 
@@ -64,15 +64,15 @@ Tabel **Pengeluaran** akan berisi informasi tentang pengeluaran individu yang da
 
 1. Masukkan Tanggal Pengeluaran untuk **Nama tampilan**.
 
-1. Pilih **Tanggal saja** untuk **Jenis** data.
+1. Pilih tanggal **hanya** untuk **Jenis data**.
 
-1. Ubah **Diperlukan**, ke **Bisnis diperlukan**.
+1. Ubah **Diperlukan**, ke **Business diperlukan**.
 
 1. Luaskan **Opsi Tingkat Lanjut**.
 
-1. Di **Penyesuaian** zona waktu, pilih **Hanya** Tanggal.
+1. Di **Penyesuaian zona waktu**, pilih **Hanya Tanggal**.
 
-    >**Catatan:** Kami menggunakan **perilaku Tanggal saja** untuk merekam informasi tanggal, karena tanggal pengeluaran tidak boleh berubah saat dilihat dari zona waktu yang berbeda.
+    >**Catatan:** Kami menggunakan **Tanggal hanya** perilaku untuk merekam informasi tanggal, karena tanggal pengeluaran tidak boleh berubah saat dilihat dari zona waktu yang berbeda.
 
 1. Pilih **Simpan**.
 
@@ -82,15 +82,15 @@ Tabel **Pengeluaran** akan berisi informasi tentang pengeluaran individu yang da
 
 1. Masukkan Jenis Pengeluaran untuk **Nama tampilan**.
 
-1. Pilih **Pilihan** untuk **Jenis** data.
+1. Pilih **Pilihan** untuk **Jenis data**.
 
 1. Di **Diperlukan**, pilih **Opsional**.
 
-1. Atur **Sinkronkan dengan Pilihan** global ke **Ya (disarankan)**
+1. Atur **sinkronisasi dengan** Pilihan global ke **Ya (disarankan)**
 
-1. Di **Sinkronkan pilihan ini dengan** bidang, pilih **Jenis** Pengeluaran.
+1. Di **Sinkronkan pilihan ini dengan** bidang, pilih **Jenis Pengeluaran**.
 
-1. Atur **bidang Pilihan** default ke **Tidak Ada**.
+1. Atur bidang **pilihan Default** ke **Tidak Ada**.
 
 1. Pilih **Simpan**.
 
@@ -100,15 +100,15 @@ Tabel **Pengeluaran** akan berisi informasi tentang pengeluaran individu yang da
 
 1. Masukkan Tujuan Pengeluaran untuk **Nama tampilan**.
 
-1. Pilih **Pilihan** untuk **Jenis** data.
+1. Pilih **Pilihan** untuk **Jenis data**.
 
 1. Di **Diperlukan**, pilih **Opsional**.
 
-1. Atur **Sinkronkan dengan Pilihan** global ke **Ya (disarankan)**
+1. Atur **sinkronisasi dengan** Pilihan global ke **Ya (disarankan)**
 
-1. Di **Sinkronkan pilihan ini dengan** bidang, pilih **Tujuan** Pengeluaran.
+1. Di **Sinkronkan pilihan ini dengan**bidang, pilih **Tujuan Pengeluaran**.
 
-1. Atur **bidang Default** ke **Tidak Ada**.
+1. Atur bidang **Default** ke **Tidak Ada**.
 
 1. Pilih **Simpan**.
 
@@ -118,7 +118,7 @@ Tabel **Pengeluaran** akan berisi informasi tentang pengeluaran individu yang da
 
 1. Masukkan Deskripsi Item untuk **Nama tampilan**.
 
-1. Pilih **Beberapa Baris teks &gt; Teks** Biasa untuk **Jenis** data.
+1. Pilih **Beberapa Baris teks &gt; Teks Biasa** untuk **Tipe data**.
 
 1. Pilih **Simpan**.
 
@@ -128,7 +128,7 @@ Tabel **Pengeluaran** akan berisi informasi tentang pengeluaran individu yang da
 
 1. Masukkan Jumlah Pengeluaran untuk **Nama tampilan**.
 
-1. Pilih **Mata** Uang untuk **Jenis** data.
+1. Pilih **Mata Uang** untuk **Jenis data**.
 
 1. Pilih **Simpan**.
 
@@ -137,17 +137,17 @@ Tabel **Pengeluaran** akan berisi informasi tentang pengeluaran individu yang da
 
 **Tujuan:** Dalam latihan ini, Anda memasukkan beberapa data sampel secara manual ke dalam tabel baru Anda. 
 
-### Tugas #1: Ubah kolom yang ditampilkan
+### Tugas 1: Mengubah kolom yang ditampilkan
 
 1. Jika belum masuk, masuk ke https://make.powerapps.com
 
-1. **Pilih lingkungan Dev One** di kanan atas jika belum dipilih.
+1. Pilih lingkungan **Dev One** di kanan atas jika belum dipilih.
 
 1. Menggunakan navigasi di sebelah kiri, pilih **Tabel**.
 
-1. **Buka tabel Pengeluaran** yang dibuat di latihan sebelumnya.
+1. Buka tabel **Pengeluaran** yang dibuat di latihan sebelumnya.
 
-1. Di samping **kolom Nama** , pilih **+26 lainnya**.
+1. Di samping kolom **Nama**, pilih **+26 lainnya**.
 
 1. Dari menu yang muncul, pilih kolom berikut.
 
@@ -165,21 +165,21 @@ Tabel **Pengeluaran** akan berisi informasi tentang pengeluaran individu yang da
 
 ## Tugas #2: Tambahkan rekaman sampel.
 
-1. Pilih Panah** di **samping **Edit**. Dari menu yang muncul, pilih **Edit di tab** baru.
+1. Pilih **Panah** di samping **Edit**. Dari menu yang muncul, pilih **Edit di tab baru**.
 
-1. **Di kolom Nama**, masukkan **John Doe**.
+1. Di kolom **Nama**, masukkan **John Doe**.
 
-1. **Di kolom Tanggal** Pengeluaran, masukkan **xxx**.
+1. Di kolom **Tanggal Pengeluaran**, masukkan **xxx**.
 
-1. **Di Tujuan** Pengeluaran, pilih **Konferensi**.
+1. Di **Tujuan Pengeluaran**, pilih **konferensi**.
 
-1. **Di kolom Jenis** Pengeluaran, pilih **Perjalanan**.
+1. Di kolom **Jenis Pengeluaran**, pilih **Travel**.
 
-1. **Di kolom Jumlah** Pengeluaran, masukkan **750.00**.
+1. Di kolom **Jumlah Pengeluaran**, masukkan **750,00**.
 
-1. **Di Deskripsi** Item, masukkan deskripsi singkat.
+1. Di **Deskripsi Item**, masukkan deskripsi singkat.
 
-1. Tekan tombol Tab untuk melanjutkan ke baris berikutnya dan **simpan** rekaman.
+1. Tekan tombol Tab untuk melanjutkan ke baris berikutnya dan **menyimpan** rekaman.
 
 Selamat, Anda telah berhasil membuat tabel baru dan menambahkan data.
 
