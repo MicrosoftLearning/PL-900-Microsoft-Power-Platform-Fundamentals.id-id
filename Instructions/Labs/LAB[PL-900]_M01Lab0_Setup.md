@@ -10,7 +10,7 @@ lab:
 
 ## Skenario
 
-Bellows College adalah organisasi pendidikan dengan beberapa kampus dan program. Banyak instruktur dan administrator Bellow Colleges perlu menghadiri acara, dan membeli item. Secara historis melacak pengeluaran ini telah menjadi tantangan.
+Bellows College adalah organisasi pendidikan dengan beberapa kampus dan program. Banyak instruktur dan administrator Bellow Colleges perlu menghadiri acara, dan membeli item. Secara historis, melacak pengeluaran ini merupakan sebuah tantangan.
 
 Administrasi kampus ingin memodernisasi sistem pelaporan pengeluaran mereka di mana karyawan mengirimkan pengeluaran. 
 
@@ -23,19 +23,19 @@ Di lab Modul 1 ini, Anda akan memperoleh uji coba Power Platform dan mengakses p
 
 ### Tugas #1 - Memverifikasi penyewa uji coba Microsoft Power Platform Anda
 
-1.  Verifikasi bahwa Anda memiliki **kredensial** Microsoft 365 dari Host Lab Resmi yang tersedia. 
+1.  Verifikasi bahwa Anda memiliki **kredensial Microsoft 365** dari Host Lab Resmi yang tersedia. 
 
-2.  Di tab browser baru, navigasi ke `https://make.powerapps.com`
+2.  Di tab browser baru, navigasikan ke `https://make.powerapps.com`
 
-3.  Masukkan yang `email address` disediakan oleh Host Lab Resmi. 
+3.  Masukkan `email address` yang disediakan oleh Host Lab Resmi. 
 
 4.  Pilih **Masuk**. 
 
-5.  Masukkan yang `password` disediakan oleh Host Lab Resmi. 
+5.  Masukkan `password` yang disediakan oleh Host Lab Resmi. 
 
 6.  Secara opsional, pilih **Ya** untuk tetap masuk.
 
-7.  Jika diminta, masukkan `0123456789` untuk **nomor** Telepon dan pilih **Kirim**.
+7.  Jika diminta, masukkan `0123456789` untuk **Nomor telepon** dan pilih **Kirim**.
 
-8.  **Refresh** tab dan verifikasi **lingkungan Dev One** dipilih di bawah **Lingkungan** di kanan atas. 
+8.  **Refresh** tab dan verifikasi lingkungan **Dev One** dipilih pada**Lingkungan** di kanan atas. 
 
