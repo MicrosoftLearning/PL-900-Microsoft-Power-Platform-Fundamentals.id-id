@@ -10,7 +10,7 @@ lab:
 
 ## Skenario
 
-Bellows College adalah organisasi pendidikan dengan beberapa kampus dan program. Banyak instruktur dan administrator Bellow Colleges perlu menghadiri acara, dan membeli item. Secara historis melacak pengeluaran ini telah menjadi tantangan.
+Bellows College adalah organisasi pendidikan dengan beberapa kampus dan program. Banyak instruktur dan administrator Bellow Colleges perlu menghadiri acara, dan membeli item. Secara historis, melacak pengeluaran ini merupakan sebuah tantangan.
 
 Administrasi kampus ingin memodernisasi sistem pelaporan pengeluaran mereka dengan menyediakan cara digital kepada karyawan untuk melaporkan pengeluaran.
 
@@ -20,7 +20,7 @@ Sepanjang kursus ini, Anda akan membangun aplikasi dan melakukan otomatisasi unt
 
 Sebagai bagian dari pembuatan aplikasi berbasis model, Anda akan menyelesaikan hal berikut:
 
-- Membuat aplikasi berbasis model baru bernama Bellows Expense Management
+- Buat aplikasi berdasarkan model baru bernama Bellows Expense Management
 
 - Mengedit navigasi aplikasi untuk merujuk tabel yang diperlukan
 
@@ -30,7 +30,7 @@ Kami akan bekerja dengan komponen berikut:
 
 - **Tampilan**: Tampilan memungkinkan pengguna menampilkan data yang ada dalam tabel formulir.
 
-- **** Formulir: Di sinilah pengguna membuat/memperbarui baris baru dalam tabel.
+- **Formulir**: Di sinilah pengguna membuat/memperbarui baris baru dalam tabel.
 
 Keduanya akan diintegrasikan ke aplikasi berbasis model untuk pengalaman pengguna yang lebih baik.
 
@@ -48,93 +48,93 @@ Keduanya akan diintegrasikan ke aplikasi berbasis model untuk pengalaman penggun
 
 ## Latihan 1: Menyesuaikan Tampilan serta Formulir
 
-**Tujuan:** Dalam latihan ini, Anda akan menyesuaikan tampilan dan formulir tabel kustom yang dibuat yang akan digunakan di aplikasi berbasis model.
+**Tujuan:** Dalam latihan ini, Anda akan menyesuaikan tampilan dan bentuk tabel yang dibuat khusus yang akan digunakan dalam aplikasi berbasis model.
 
-### Tugas #1: Edit Formulir Laporan Pengeluaran
+### Tugas 1: Edit Formulir Laporan Pengeluaran
 
 1. Jika Anda belum melakukannya, masuk ke https://make.powerapps.com
 
-1. **Pilih lingkungan Dev One** di kanan atas jika belum dipilih.
+1. Pilih lingkungan **Dev One** di kanan atas jika belum dipilih.
 
-1. Menggunakan navigasi di sebelah kiri, pilih **Tabel**, dan buka **tabel Laporan** Pengeluaran.
+1. Menggunakan navigasi di sebelah kiri, pilih **Tabel**, dan buka tabel **Laporan Pengeluaran**.
 
 Jika Anda tidak melihat tabel Laporan pengeluaran, pastikan Anda berada di lingkungan yang benar (Langkah 2).
 
-1. Di bawah bagian **Pengalaman data** , pilih **Formulir** dan buka **formulir Informasi** dengan **jenis Formulir Utama** . (**Penting:** Pastikan Anda memilih formulir dengan jenis **formulir Utama**.)
+1. Pada bagian **Pengalaman data**, pilih **Formulir** dan buka formulir **Informasi** dengan tipe Formulir**Utama**. (**Penting:** Pastikan Anda memilih formulir dengan jenis formulir **Utama**.)
 
-    >**PENTING:** Karena secara default semua formulir diberi nama Informasi, pastikan untuk memverifikasi bahwa formulir yang Anda pilih memiliki Jenis **Utama** Formulir dan bukan yang lain. Secara default, formulir memiliki dua bidang: Nama dan Pemilik.
+    >**PENTING:** Karena secara default semua formulir diberi nama Informasi, pastikan untuk memverifikasi bahwa formulir yang Anda pilih memiliki Jenis Formulir **Utama** dan bukan yang lain. Secara default, formulir memiliki dua bidang: Nama dan Pemilik.
 
-1. Di sisi kanan layar pada panel **Properti** , pilih **bidang Nama** Tampilan, dan ubah ke Informasi Laporan
+1. Di sisi kanan layar pada panel **Properti**, pilih bidang **Nama Tampilan**, dan ubah menjadi Informasi Laporan
 
-1. Pilih **Kolom tabel** dari panel navigasi kiri dan tambahkan bidang berikut ini di bawah **bidang Pemilik** dengan menyeret kolom ke formulir atau cukup mengklik nama kolom:
+1. Pilih **kolom Tabel** dari panel navigasi kiri dan tambahkan bidang berikut di bawah bidang **Pemilik** dengan menyeret kolom ke formulir atau cukup mengeklik nama kolom:
 
     - **Keterangan**
 
     - **Tujuan Laporan**
 
-    - **Tanggal Jatuh Tempo Laporan**
+    - **Laporkan Tanggal Jatuh Tempo**
 
     - **Laporkan Jumlah Total**
 
-1. **Seret kolom Alasan** Status dan letakkan di header formulir.
+1. Seret kolom **Alasan Status** dan letakkan di header formulir.
 
 Header adalah area kanan atas formulir. Anda mungkin perlu menciutkan panel Properti di sisi kanan layar untuk melihat bidang pada formulir.
 
-1. Pilih bidang **Pemilik**. Di panel Properti, ubah Label** menjadi Pemohon **
+1. Pilih bidang **Pemilik**. Di panel Properti, ubah **Label** menjadi Pemohon
 
 1. Pilih tombol **Simpan dan terbitkan** di kanan atas dan tunggu hingga penyimpanan dan penerbitan selesai.
 
-1. Jika tampilan Edit dibuka di tab atau jendela browser baru, tutup tampilan tersebut. Jika tidak, pilih **🡠 Kembali** di kiri atas layar. Anda sekarang harus kembali ke **formulir tabel Laporan** Pengeluaran.
+1. Jika tampilan Edit dibuka di tab atau jendela browser baru, tutup tampilan tersebut. Jika tidak, pilih **🡠 Kembali** di kiri atas layar. Anda sekarang harus kembali ke **Laporan Pengeluaran** tabel Formulir.
 
-1. Menggunakan remah roti di kiri atas (**Formulir** Laporan > ****Pengeluaran Tabel).** > ** Pilih **Laporan** Pengeluaran untuk kembali ke **layar properti Tabel Laporan** Pengeluaran.
+1. Menggunakan breadcrumb di kiri atas (**Tabel** > **Laporan Pengeluaran** > **Formulir**). Pilih **Pengeluaran Laporan** untuk kembali ke layar properti Tabel **Pengeluaran Laporan**.
 
-## Tugas #2: Edit tampilan Laporan Pengeluaran Aktif
+## Tugas #2: Tampilan Edit Laporan Pengeluaran Aktif
 
 Dalam tugas ini, kami akan memodifikasi tampilan Laporan Pengeluaran Aktif default dan membuat tampilan baru untuk laporan pengeluaran yang jatuh tempo hari ini.
 
-1. Di bawah bagian **Pengalaman data**, pilih **Tampilan** dan buka tampilan Laporan** Pengeluaran Aktif Anda**.
+1. Di bagian **Pengalaman data**, pilih **Tampilan** dan buka tampilan**Laporan Pengeluaran Aktif**Anda.
 
 1. Tambahkan bidang berikut ke tampilan dengan mengklik atau menyeret dan menjatuhkan bidang:
 
     - **Tujuan Laporan**
 
-    - **Tanggal Jatuh Tempo Laporan**
+    - **Laporkan Tanggal Jatuh Tempo**
 
-    - **Total Laporan**
+    - **Jumlah Laporan**
 
-1. Pilih menu drop-down pada **kolom Dibuat Pada** dan pilih **Hapus**. Bidang **Dibuat Pada** sekarang akan dihapus dari tampilan.
+1. Pilih menu drop-down pada kolom **Dibuat Pada** dan pilih **Hapus**. Bidang **Dibuat Pada** sekarang akan dihapus dari tampilan.
 
-1. Mengubah ukuran lebar kolom individual sesuai dengan data.
+1. Ubah ukuran lebar kolom individual agar sesuai dengan data.
 
-1. Di bawah **Urutkan menurut ...** pilih X untuk menghapus **Nama** dan sebagai gantinya, pilih **Laporkan Jumlah** Total.
+1. Di bawah **Urutkan berdasarkan …** pilih X untuk menghapus **Nama** dan sebagai gantinya, pilih **Laporkan Jumlah Total**.
 
-1. Pilih **Laporkan Jumlah** Total untuk mengubah urutan pengurutan menjadi **Lebih Besar menjadi Lebih** Kecil.
+1. Pilih **Laporkan Jumlah Total** untuk mengubah urutan dari **Yang Lebih Besar ke yang Lebih Kecil**.
 
-1. Pilih tombol **Simpan dan terbitkan** di kanan atas dan tunggu penerbitan selesai.
+1. Pilih tombol **Simpan dan terbitkan** di kanan atas dan tunggu hingga penerbitan selesai.
 
 ### Tugas #3: Buat tampilan baru untuk Laporan yang jatuh tempo hari ini
 
 Sekarang, kita akan mengkloning tampilan untuk membuat tampilan baru untuk laporan yang jatuh tempo hari ini.
 
->    **PENTING:** Pastikan Anda tidak menutup tampilan Laporan Pengeluaran Aktif, karena kami akan memanfaatkannya untuk membuat tampilan Laporan yang jatuh tempo hari ini.
+>    **PENTING:** Pastikan Anda tidak menutup tampilan Laporan Pengeluaran Aktif, karena kami akan memanfaatkannya untuk membuat tampilan Laporan jatuh tempo hari ini.
 
 1. Pilih **Simpan Sebagai**.
 
-1. **Ubah Nama** menjadi Laporan Pengeluaran Jatuh Tempo Hari Ini dan pilih **Simpan**.
+1. Ubah **Nama** menjadi Laporan Pengeluaran Jatuh Tempo Hari Ini dan pilih **Simpan**.
 
 1. Pilih **Edit filter**, di panel Properti.
 
 1. Pilih **+ Tambahkan**, pilih **Tambahkan baris**.
 
-1. Pilih **Laporkan tanggal** jatuh tempo sebagai bidang, lalu ubah **Sama dengan** **Hari Ini** sebagai kondisi di menu drop-down.
+1. Pilih **Laporkan Tanggal Jatuh Tempo** sebagai bidang, lalu ubah **Sama dengan** menjadi **Hari Ini** sebagai kondisi di menu drop-down.
 
-1. **Pilih ...** **** Perintah lainnya pada baris Status** dan pilih **Hapus** untuk menghapus kondisi filter tersebut**.
+1. Pilih **…** **Perintah lainnya** pada baris **Status** dan pilih **Hapus** untuk menghapus kondisi filter tersebut.
 
-1. Pilih **Ok** untuk menyimpan kondisi. Tampilan sekarang difilter untuk memperlihatkan hanya rekaman di mana **tanggal** jatuh tempo Laporan adalah hari ini.
+1. Pilih **Oke** untuk menyimpan kondisi. Tampilan sekarang difilter untuk memperlihatkan hanya rekaman di mana **Laporkan Tanggal Jatuh Tempo** hari ini.
 
-1. **Tambahkan bidang Jumlah** Penggantian ke tampilan.
+1. Tambahkan bidang **Jumlah Penggantian** ke tampilan.
 
-1. Pilih tombol **Simpan dan terbitkan** di kanan atas dan tunggu penerbitan selesai.
+1. Pilih tombol **Simpan dan terbitkan** di kanan atas dan tunggu hingga penerbitan selesai.
 
 ## Latihan 2: Membuat Aplikasi Berbasis Model
 
@@ -142,17 +142,17 @@ Sekarang, kita akan mengkloning tampilan untuk membuat tampilan baru untuk lapor
 
 Demi kesederhanaan dan waktu, kami tidak akan membahas semua kolom Laporan Pengeluaran di lab ini.
 
-### Tugas #1: Membuat aplikasi
+### Tugas 1: Buat aplikasi
 
 1. Jika Anda belum melakukannya, masuk ke https://make.powerapps.com
 
-1. **Pilih lingkungan Dev One** di kanan atas, jika belum dipilih.
+1. Pilih lingkungan **Dev One** di kanan atas, jika belum dipilih.
 
 1. Pilih **+ Buat** di navigasi kiri.
 
 1. Buat Aplikasi Berbasis Model:
 
-    - Pilih **Aplikasi** kosong di bagian ****Mulai dari** layar Buat aplikasi** Anda.
+    - Pilih **Aplikasi kosong** di bagian **Mulai dari** layar **Buat aplikasi Anda**.
 
     - Di bagian **Aplikasi kosong berdasarkan Dataverse**, pilih **Buat**.
 
@@ -160,7 +160,7 @@ Demi kesederhanaan dan waktu, kami tidak akan membahas semua kolom Laporan Penge
 
 1. Setelah aplikasi berbasis model baru Anda dimuat, pilih tombol **+ Tambahkan Halaman**.
 
-1. **Pada layar Tambahkan Halaman**, pilih **Tabel** dataverse, lalu pilih tombol **Berikutnya**.
+1. Pada layar **Tambahkan Halaman**, pilih **tabel Dataverse**, lalu pilih tombol **Berikutnya**.
 
 1. Pilih tabel berikut:
 
@@ -172,9 +172,9 @@ Demi kesederhanaan dan waktu, kami tidak akan membahas semua kolom Laporan Penge
 
 1. Menggunakan ikon navigasi di sisi kiri layar, pilih **Navigasi**.
 
-1. Pada Panel Navigasi, pilih **Grup** Baru di bawah ini di mana tertulis Navigasi. Anda mungkin perlu memperluas menu di sebelah kiri.
+1. Pada Panel Navigasi, pilih **Grup Baru** di bawah tempatnya berbuah Navigasi. Anda mungkin perlu memperluas menu di sebelah kiri.
 
-1. Di sisi kanan layar, di bagian **Opsi** tampilan, ubah **properti Judul** menjadi Laporan
+1. Di sisi kanan layar, di bagian **Opsi tampilan**, ubah properti **Judul** menjadi Laporan
 
 1. Klik **Simpan** dan tunggu hingga perubahan disimpan.
 
@@ -182,17 +182,17 @@ Demi kesederhanaan dan waktu, kami tidak akan membahas semua kolom Laporan Penge
 
 ## Tugas #2: Uji aplikasi
 
-**Memulai aplikasi**
+**Mulai aplikasi**
 
-1. Pilih tombol **Putar** , aplikasi berbasis model akan dimuat di tab baru.
+1. Pilih tombol **Putar**, aplikasi berbasis model akan dimuat di tab baru.
 
 **Buat Kontak baru**
 
 1. Aplikasi akan terbuka pada tampilan **Kontak Aktif Saya**. Jika tidak, pilih **Kontak** di navigasi kiri.
 
-1. Pilih **+ Baru** dari bilah perintah.
+1. Pilih **+Baru** dari bilah perintah.
 
-1. Masukkan **Nama** Depan sebagai John dan **Nama** Belakang sebagai Doe
+1. Masukkan **Nama Depan** sebagai John dan **Nama Belakang** sebagai Doe
 
 1. Berikan email pribadi Anda sebagai **Email**. Ini akan digunakan di lab mendatang, di mana Anda akan menerima email.
 
@@ -200,23 +200,23 @@ Demi kesederhanaan dan waktu, kami tidak akan membahas semua kolom Laporan Penge
 
 1. Anda kini akan melihat kontak yang dibuat pada tampilan **Kontak Aktif Saya**.
 
-**Membuat Laporan Pengeluaran baru**
+**Buat laporan pengeluaran baru**
 
-1. Pilih **Laporan** Pengeluaran dari navigasi sebelah kiri (Juga dikenal sebagai peta situs.)
+1. Pilih **Laporan Pengeluaran** dari navigasi sebelah kiri (Juga dikenal sebagai peta situs.)
 
 1. Pilih **+ Baru**.
 
 1. Masukkan bidang sebagai berikut:
 
-    - **Nama** Laporan: Laporan Pengujian baru
+    - **Nama Laporan**: Laporan Pengujian baru
 
-    - **Tujuan** Laporan: pilih **Konferensi**
+    - **Tujuan Laporan**: pilih **Konferensi**
 
-    - **Tanggal jatuh tempo laporan**: Pilih Tanggal hari ini
+    - **Laporkan tanggal jatuh tempo**: Pilih Tanggal hari ini
 
-1. Pilih **Simpan &amp; Tutup**. Ini akan membuat Laporan Pengujian baru dan Anda akan dapat melihatnya pada **tampilan Laporan** Pengeluaran Aktif.
+1. Pilih **Simpan &amp; Tutup**. Ini akan membuat Laporan Pengujian baru dan Anda akan dapat melihatnya di tampilan **Laporan Pengeluaran Aktif**.
 
-1. Ubah tampilan ke **Laporan Pengeluaran Jatuh Tempo Hari Ini** dengan menggunakan menu drop-down di samping **Laporan** Pengeluaran Aktif. 
+1. Ubah tampilan ke **Laporan Pengeluaran Jatuh Tempo Hari Ini** dengan menggunakan menu drop-down di samping **Laporan Pengeluaran Aktif**. 
 
 1. Anda dapat menambahkan beberapa catatan pengujian lainnya.
 
