@@ -6,7 +6,7 @@ lab:
 
 # Lab 0: Memvalidasi lingkungan laboratorium
 
-**Penyewa WWL - Ketentuan Penggunaan** Jika Anda diberikan penyewa sebagai bagian dari pengiriman pelatihan yang dipimpin instruktur, harap dicatat bahwa penyewa tersedia untuk tujuan mendukung lab langsung dalam pelatihan yang dipimpin instruktur. Penyewa tidak boleh dibagikan atau digunakan untuk tujuan di luar lab praktik. Penyewa yang digunakan dalam kursus ini adalah penyewa uji coba dan tidak dapat digunakan atau diakses setelah kelas berakhir dan tidak memenuhi syarat untuk ekstensi. Penyewa tidak boleh dikonversi ke langganan berbayar. Penyewa yang diperoleh sebagai bagian dari kursus ini tetap menjadi milik Microsoft Corporation dan kami berhak mendapatkan akses dan repositorinya kapan saja. 
+**Penyewa WWL - Ketentuan Penggunaan** Jika Anda diberi penyewa sebagai bagian dari penyediaan pelatihan yang dipimpin instruktur, harap dicatat bahwa penyewa disediakan untuk tujuan mendukung lab praktik langsung dalam pelatihan yang dipimpin instruktur. Penyewa tidak boleh dibagikan atau digunakan untuk tujuan di luar lab praktik. Penyewa yang digunakan dalam kursus ini adalah penyewa uji coba dan tidak dapat digunakan atau diakses setelah kelas berakhir dan tidak memenuhi syarat untuk ekstensi. Penyewa tidak boleh dikonversi ke langganan berbayar. Penyewa yang diperoleh sebagai bagian dari kursus ini tetap menjadi milik Microsoft Corporation dan kami berhak mendapatkan akses dan repositorinya kapan saja. 
 
 ## Skenario
 
@@ -21,11 +21,11 @@ Di lab Modul 1 ini, Anda akan memperoleh uji coba Power Platform dan mengakses p
 
 ## Latihan 1 – Menyiapkan
 
-### Tugas #1 - Memverifikasi penyewa uji coba Microsoft Power Platform Anda
+### Tugas #1 - Verifikasi penyewa percobaan Microsoft Power Platform Anda
 
 1.  Verifikasi bahwa Anda memiliki **kredensial Microsoft 365** dari Host Lab Resmi yang tersedia. 
 
-2.  Di tab browser baru, navigasikan ke `https://make.powerapps.com`
+2.  Di tab browser baru, navigasi ke `https://make.powerapps.com`
 
 3.  Masukkan `email address` yang disediakan oleh Host Lab Resmi. 
 
@@ -33,9 +33,9 @@ Di lab Modul 1 ini, Anda akan memperoleh uji coba Power Platform dan mengakses p
 
 5.  Masukkan `password` yang disediakan oleh Host Lab Resmi. 
 
-6.  Secara opsional, pilih **Ya** untuk tetap masuk.
+6.  Anda juga dapat memilih **Ya** untuk tetap masuk.
 
 7.  Jika diminta, masukkan `0123456789` untuk **Nomor telepon** dan pilih **Kirim**.
 
-8.  **Refresh** tab dan verifikasi lingkungan **Dev One** dipilih pada**Lingkungan** di kanan atas. 
+8.  **Refresh** tab dan pastikan lingkungan **Dev One** dipilih di bawah **Lingkungan** di kanan atas. 
 
