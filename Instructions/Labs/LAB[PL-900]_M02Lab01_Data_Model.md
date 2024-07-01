@@ -10,9 +10,9 @@ lab:
 
 ## Skenario
 
-Bellows College adalah organisasi pendidikan yang memiliki beberapa kampus dan program. Banyak instruktur dan administrator Bellow Colleges perlu menghadiri acara, dan membeli item. Secara historis, melacak pengeluaran ini merupakan sebuah tantangan. 
+Bellows College adalah organisasi pendidikan dengan beberapa kampus dan program. Banyak instruktur dan administrator Bellow Colleges perlu menghadiri acara, dan membeli item. Secara historis, melacak pengeluaran ini merupakan sebuah tantangan. 
 
-Administrasi kampus ingin memodernisasi sistem pelaporan pengeluaran mereka dengan menyediakan sistem digital bagi karyawan untuk melaporkan pengeluaran. 
+Administrasi kampus ingin memodernisasi sistem pelaporan pengeluaran mereka dengan menyediakan cara digital kepada karyawan untuk melaporkan pengeluaran. 
 
 Selama kursus ini, Anda akan membangun aplikasi dan melakukan otomatisasi agar karyawan Bellows College dapat mengelola pengeluaran.
 

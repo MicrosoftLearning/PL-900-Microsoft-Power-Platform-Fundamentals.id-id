@@ -6,15 +6,15 @@ lab:
 
 # Lab 2: Cara membuat aplikasi kanvas
 
-**Penyewa WWL - Ketentuan Penggunaan** Jika Anda diberikan penyewa sebagai bagian dari penyelenggaraan pelatihan yang dipimpin instruktur, harap diperhatikan bahwa penyewa disediakan untuk mendukung praktikum dalam pelatihan yang dipimpin instruktur. Penyewa tidak boleh dibagikan atau digunakan untuk tujuan di luar lab praktik. Penyewa yang digunakan dalam kursus ini adalah penyewa uji coba dan tidak dapat digunakan atau diakses setelah kelas berakhir dan tidak memenuhi syarat untuk diperpanjang. Penyewa tidak boleh dikonversi ke langganan berbayar. Penyewa yang diperoleh sebagai bagian dari kursus ini tetap menjadi milik Microsoft Corporation dan kami berhak mendapatkan akses dan repositorinya kapan saja. 
+**Penyewa WWL - Ketentuan Penggunaan** Jika Anda diberikan penyewa sebagai bagian dari penyelenggaraan pelatihan yang dipimpin instruktur, harap diperhatikan bahwa penyewa disediakan untuk mendukung praktikum dalam pelatihan yang dipimpin instruktur. Penyewa tidak boleh dibagikan atau digunakan untuk tujuan di luar lab praktik. Penyewa yang digunakan dalam kursus ini adalah penyewa uji coba dan tidak dapat digunakan atau diakses setelah kelas berakhir dan tidak memenuhi syarat untuk ekstensi. Penyewa tidak boleh dikonversi ke langganan berbayar. Penyewa yang diperoleh sebagai bagian dari kursus ini tetap menjadi milik Microsoft Corporation dan kami berhak mendapatkan akses dan repositorinya kapan saja. 
 
 ## Skenario
 
-Bellows College adalah organisasi pendidikan yang memiliki beberapa kampus dan program. Banyak instruktur dan administrator Bellow Colleges yang perlu menghadiri acara, dan membeli item. Secara historis, melacak pengeluaran ini merupakan sebuah tantangan. 
+Bellows College adalah organisasi pendidikan dengan beberapa kampus dan program. Banyak instruktur dan administrator Bellow Colleges perlu menghadiri acara, dan membeli item. Secara historis, melacak pengeluaran ini merupakan sebuah tantangan. 
 
-Administrasi kampus ingin memodernisasi sistem pelaporan pengeluaran mereka dengan menyediakan sistem digital bagi karyawan untuk melaporkan pengeluaran. 
+Administrasi kampus ingin memodernisasi sistem pelaporan pengeluaran mereka dengan menyediakan cara digital kepada karyawan untuk melaporkan pengeluaran. 
 
-Selama kursus ini, Anda akan membangun aplikasi dan melakukan otomatisasi agar karyawan Bellows College dapat mengelola pengeluaran. 
+Sepanjang kursus ini, Anda akan membangun aplikasi dan melakukan otomatisasi untuk memungkinkan karyawan Bellows College mengelola pengeluaran. 
 
 
 ## Langkah-langkah lab tingkat tinggi
