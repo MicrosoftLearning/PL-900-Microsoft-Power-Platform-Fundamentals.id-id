@@ -46,7 +46,7 @@ Kami akan mengikuti langkah-langkah di bawah ini untuk merancang dan membuat das
 
 1. Anda harus memiliki file visits.pbix yang disimpan di mesin virtual di folder AllFiles di Desktop. Unduh [visits.pbix](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/visits.pbix) dan simpan ke komputer Anda, jika belum ada.
 
-1. Buka tab baru dan navigasikan ke https://app.powerbi.com dan masuk jika perlu.
+1. Buka tab baru dan navigasikan ke `https://app.powerbi.com` dan masuk jika perlu.
 
 1. Pilih **Ruang kerja saya** dari navigasi sisi kiri.
 
@@ -56,7 +56,7 @@ Kami akan mengikuti langkah-langkah di bawah ini untuk merancang dan membuat das
 
 1. Setelah selesai memuat data, pilih laporan **kunjungan**.
 
-    >**Catatan:** Tipe diatur ke **Laporan**, jangan pilih Himpunan Data.
+    >**Catatan:** Jenis diatur ke **Laporan**, jangan pilih Model Semantik.
 
 1. Pilih **Edit**.
 
@@ -68,7 +68,7 @@ Anda sekarang telah menyiapkan layanan Power BI untuk digunakan di lab Anda.
 
 1. Pilih ikon **Bagan pai** di panel **Visualisasi** untuk menyisipkan bagan.
 
-1. Luaskan **bc_Visit** di panel **Bidang**. Seret bidang **Gedung** dan letakkan di kotak **Legenda**.
+1. Perluas **bc_Visit** di panel **Data** . Seret bidang **Gedung** dan letakkan di kotak **Legenda**.
 
 1. Seret bidang **Kunjungan** dan letakkan di kotak **Nilai**.
 
@@ -76,7 +76,7 @@ Anda sekarang telah menyiapkan layanan Power BI untuk digunakan di lab Anda.
 
 1. Klik laporan di luar bagan pai untuk membatalkan pilihan dan pilih ikon **Bagan kolom bertumpuk** di panel **Visualisasi**.
 
-1. Perluas **bc_Visit** di panel **Bidang** jika belum diperluas. Seret bidang **Kunjungan** dan letakkan di kotak **Sumbu Y**.
+1. Perluas **bc_Visit** di panel **Data** jika belum diperluas. Seret bidang **Kunjungan** dan letakkan di kotak **Sumbu Y**.
 
 1. Seret bidang **Mulai** dan letakkan di kotak **Sumbu X**.
 
@@ -104,7 +104,7 @@ Anda sekarang telah menyiapkan layanan Power BI untuk digunakan di lab Anda.
 
 1. Pilih **Dasbor baru** pada perintah **Sematkan ke dasbor**.
 
-1. Masukkan Manajemen Kampus sebagai **Nama dasbor** dan pilih **Sematkan langsung**.
+1. Masukkan `Campus Management` sebagai **Nama** dasbor dan pilih **Sematkan langsung**.
 
 1. Jendela pop-up akan muncul dengan pemberitahuan bahwa dasbor telah dibuat. Pilih **Buka dasbor**.
 
@@ -114,7 +114,7 @@ Anda sekarang telah menyiapkan layanan Power BI untuk digunakan di lab Anda.
 
 1. Dalam dasbor **Manajemen Kampus**, pilih bilah **Ajukan pertanyaan tentang data Anda** di bagian atas.
 
-1. Masukkan bangunan menurut jumlah kunjungan di area Tanya Jawab. Diagram batang akan ditampilkan.
+1. Masukkan `buildings by number of visits` di area Tanya Jawab. Diagram batang akan ditampilkan.
 
 1. Pilih **Sematkan visual**.
 

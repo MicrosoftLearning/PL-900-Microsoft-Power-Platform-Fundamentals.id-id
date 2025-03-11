@@ -22,8 +22,6 @@ Terakhir, Anda akan mengimpor data sampel ke Microsoft Dataverse.
 
 Untuk mempersiapkan lingkungan belajar Anda, Anda akan:
 
-- Lihat [dokumen model data](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/blob/master/Allfiles/Campus Management.png) untuk deskripsi metadata (tabel dan hubungan). Anda bisa menahan ctrl + klik kiri atau klik kanan tautan untuk membuka dokumen model data di jendela baru.
-
 - Buat tabel Pengeluaran
 
 - Tambahkan beberapa data sampel. 
@@ -50,9 +48,9 @@ Tabel **Pengeluaran** akan berisi informasi tentang pengeluaran individu yang da
 
 1. Menggunakan navigasi di sebelah kiri, pilih **Tabel**.
 
-1. Pilih **+ Tabel baru** dan pilih **Atur properti tingkat lanjut**.
+1. Pilih **+ Tabel** baru dan pilih **Tabel (properti tingkat lanjut)** dari menu drop-down.
 
-1. Untuk **Nama tampilan**, masukkan Pengeluaran
+1. Untuk **Nama tampilan**, masukkan `Expense`
 
 1. Pilih **Simpan**.
 
@@ -62,7 +60,7 @@ Tabel **Pengeluaran** akan berisi informasi tentang pengeluaran individu yang da
 
 1. Pilih **+ Kolom baru**.
 
-1. Masukkan Tanggal Pengeluaran untuk **Nama tampilan**.
+1. Masukkan `Expense Date` untuk **Nama tampilan**.
 
 1. Pilih tanggal **hanya** untuk **Jenis data**.
 
@@ -70,7 +68,7 @@ Tabel **Pengeluaran** akan berisi informasi tentang pengeluaran individu yang da
 
 1. Luaskan **Opsi Tingkat Lanjut**.
 
-1. Di **Penyesuaian zona waktu**, pilih **Hanya Tanggal**.
+1. Di **Penyesuaian** zona waktu, pilih **Tanggal saja**.
 
     >**Catatan:** Kami menggunakan **Tanggal hanya** perilaku untuk merekam informasi tanggal, karena tanggal pengeluaran tidak boleh berubah saat dilihat dari zona waktu yang berbeda.
 
@@ -80,13 +78,13 @@ Tabel **Pengeluaran** akan berisi informasi tentang pengeluaran individu yang da
 
 1. Pilih **+ Kolom baru**.
 
-1. Masukkan Jenis Pengeluaran untuk **Nama tampilan**.
+1. Masukkan `Expense Type` untuk **Nama tampilan**.
 
 1. Pilih **Pilihan** untuk **Jenis data**.
 
 1. Di **Diperlukan**, pilih **Opsional**.
 
-1. Atur **sinkronisasi dengan** Pilihan global ke **Ya (disarankan)**
+1. Atur **Sinkronkan dengan pilihan** global ke **Ya (disarankan)**
 
 1. Di **Sinkronkan pilihan ini dengan** bidang, pilih **Jenis Pengeluaran**.
 
@@ -98,17 +96,17 @@ Tabel **Pengeluaran** akan berisi informasi tentang pengeluaran individu yang da
 
 1. Pilih **+ Kolom baru**.
 
-1. Masukkan Tujuan Pengeluaran untuk **Nama tampilan**.
+1. Masukkan `Expense Purpose` untuk **Nama tampilan**.
 
 1. Pilih **Pilihan** untuk **Jenis data**.
 
 1. Di **Diperlukan**, pilih **Opsional**.
 
-1. Atur **sinkronisasi dengan** Pilihan global ke **Ya (disarankan)**
+1. Atur **Sinkronkan dengan pilihan** global ke **Ya (disarankan)**
 
 1. Di **Sinkronkan pilihan ini dengan**bidang, pilih **Tujuan Pengeluaran**.
 
-1. Atur bidang **Default** ke **Tidak Ada**.
+1. Atur bidang **pilihan Default** ke **Tidak Ada**.
 
 1. Pilih **Simpan**.
 
@@ -116,7 +114,7 @@ Tabel **Pengeluaran** akan berisi informasi tentang pengeluaran individu yang da
 
 1. Pilih **+ Kolom baru**.
 
-1. Masukkan Deskripsi Item untuk **Nama tampilan**.
+1. Masukkan `Item Description` untuk **Nama tampilan**.
 
 1. Pilih **Beberapa Baris teks &gt; Teks Biasa** untuk **Tipe data**.
 
@@ -126,7 +124,7 @@ Tabel **Pengeluaran** akan berisi informasi tentang pengeluaran individu yang da
 
 1. Pilih **+ Kolom baru**.
 
-1. Masukkan Jumlah Pengeluaran untuk **Nama tampilan**.
+1. Masukkan `Expense Amount` untuk **Nama tampilan**.
 
 1. Pilih **Mata Uang** untuk **Jenis data**.
 
@@ -167,7 +165,7 @@ Tabel **Pengeluaran** akan berisi informasi tentang pengeluaran individu yang da
 
 1. Pilih **Panah** di samping **Edit**. Dari menu yang muncul, pilih **Edit di tab baru**.
 
-1. Di kolom **Nama**, masukkan **John Doe**.
+1. **Di kolom Nama**, masukkan `John Doe`.
 
 1. Di kolom **Tanggal Pengeluaran**, masukkan **xxx**.
 
@@ -175,7 +173,7 @@ Tabel **Pengeluaran** akan berisi informasi tentang pengeluaran individu yang da
 
 1. Di kolom **Jenis Pengeluaran**, pilih **Travel**.
 
-1. Di kolom **Jumlah Pengeluaran**, masukkan **750,00**.
+1. **Di kolom Jumlah** Pengeluaran, masukkan `750.00`.
 
 1. Di **Deskripsi Item**, masukkan deskripsi singkat.
 

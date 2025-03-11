@@ -40,7 +40,7 @@ Kami akan mengikuti garis besar di bawah ini untuk mendesain aplikasi kanvas:
 
 3. Pilih lingkungan **Dev One** pada bagian kanan atas, jika belum dipilih.
 
-4. Dalam kotak **Jelaskan aplikasi yang ingin Anda buat**, masukkan teks berikut. Buat aplikasi yang mencatat kunjungan ke kampus perguruan tinggi. 
+4. Di Gunakan **kata sehari-hari untuk menjelaskan apa yang harus dikumpulkan, dilacak, dicantumkan, atau dikelola aplikasi Anda.** , masukkan teks berikut. `Create an application that logs visits to a college campus`. 
 
 5. Pilih tombol **Buka**.
 
@@ -48,34 +48,45 @@ Copilot akan mulai membuat struktur tabel untuk mendukung aplikasi Anda.
 
 > **PENTING:** Saat menggunakan AI generatif, Anda tidak akan selalu mendapatkan hasil yang sama persis. Ada kemungkinan tabel Anda tidak akan sama persis dengan tabel yang dibuat untuk siswa lain. 
 
-6. Di kotak **Jelaskan yang harus diubah**, masukkan teks: Tambahkan dua kolom, Waktu masuk dan Waktu keluar. Keduanya harus berupa bidang tanggal dan waktu.  
+6. Di sisi kanan, pilih struktur tabel di jendela Salinan lalu pilih **Opsi tabel**.
 
-7. Pilih tombol **Buka** atau tekan **Enter**. 
+7. Pilih **opsi Satu tabel** lalu pilih **Terapkan**.
+ 
+    ![Cuplikan layar struktur Tabel yang baru saja dibuat](media/bonus-lab-tablestr.png)
 
-8. Gulir ke sisi tabel dan verifikasi bahwa kolom **Waktu masuk** dan **Waktu keluar** telah dibuat. 
+
+> Untuk melihat struktur tabel, pilih tabel dan klik **tombol Tampilkan data** 
+
+8. Dalam kotak **Apa yang ingin Anda lakukan berikutnya?** , masukkan teks: Tambahkan dua kolom, Waktu masuk dan Waktu habis dalam tabel. Keduanya harus berupa bidang tanggal dan waktu. 
+
+9. Pilih tombol **Buka** atau tekan **Enter**. 
+
+10. Gulir ke sisi tabel dan verifikasi bahwa **kolom Waktu masuk** dan **Waktu Habis** dibuat. 
 
 Karena kita mencatat waktu pengunjung masuk dan keluar, kita tidak lagi memerlukan bidang tanggal kunjungan lainnya. 
 
-9. Temukan bidang **Tanggal Kunjungan** (atau bidang yang serupa) dan di **kotak Jelaskan yang harus diubah**, masukkan teks Hapus Bidang Tanggal Kunjungan. 
+11. **Temukan bidang Tanggal** Kunjungan (atau bidang yang setara) dan di kotak **Apa yang ingin Anda lakukan berikutnya?** , masukkan teks: Hapus Bidang Tanggal Kunjungan (atau bidang yang setara). 
 
-10. Pilih tombol **Buka**. 
+>Jika diperlukan, perbarui nama bidang yang akan dihapus dari nama tabel yang relevan.
 
-11. Hapus bidang tanggal tambahan yang mungkin ada selain **Waktu masuk** dan **Waktu keluar**. 
+12. Pilih tombol **Buka**. 
+
+13. Hapus bidang tanggal tambahan yang mungkin ada selain **Waktu masuk** dan **Waktu keluar**. 
 
 Awalnya, ditambahkan bidang seperti bidang **Tujuan** diformat dengan tipe data teks. Kita akan meminta Copilot mengubahnya menjadi menu drop-down (Pilihan). 
 
-12. Di **kotak Jelaskan yang harus diubah**, masukkan teks berikut: Ubah bidang Tujuan menjadi menu pilihan dengan opsi berikut: Tur Kampus, Pameran Kerja, Bertemu dengan Profesor, Konseling Mahasiswa, Lainnya. 
-
-13. Pilih tombol **Buka**. 
-
-14. Karena kita juga ingin mengambil nomor gedung, di **kotak Jelaskan yang harus diubah**, masukkan: Tambahkan kolom gedung. 
+14. **Di menu Apa yang ingin Anda lakukan selanjutnya?** masukkan teks berikut: Ubah bidang Tujuan menjadi menu pilihan dengan pilihan berikut: Tur Kampus, Pameran Karier, Bertemu dengan Profesor, Konseling Siswa, Lainnya. 
 
 15. Pilih tombol **Buka**. 
 
-16. Setelah Anda puas dengan tabel Anda, pilih tombol **Buat Aplikasi**. 
+16. Karena kami juga ingin mengambil nomor bangunan, di **kolom Apa yang ingin Anda lakukan berikutnya?**, masukkan: Tambahkan kolom bangunan. 
 
-17. Jika diperlukan, pada layar **Selamat Datang di Power Apps Studio**, pilih **Jangan tampilkan ini lagi**, dan pilih tombol **Lewati**. 
+17. Pilih tombol **Buka**. 
 
-![Cuplikan layar aplikasi yang baru saja dibuat](media/bonus-lab-copilot-01.png)
+18. Setelah Anda puas dengan tabel Anda, pilih tombol **Simpan dan buka aplikasi** . 
+
+19. Jika perlu, Pada **layar Selesai berfungsi?** , pilih **Jangan tanya saya lagi**, dan pilih tombol **Simpan dan buka aplikasi** . 
+
+![Cuplikan layar aplikasi yang baru saja dibuat](media/bonus-lab-copilot-02.png)
 
 Selamat, Anda telah menggunakan Copilot untuk membuat aplikasi baru. 

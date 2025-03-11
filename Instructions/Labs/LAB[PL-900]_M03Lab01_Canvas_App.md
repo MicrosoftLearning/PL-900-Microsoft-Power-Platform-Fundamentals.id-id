@@ -39,7 +39,7 @@ Kami akan mengikuti garis besar di bawah ini untuk mendesain aplikasi kanvas:
 
 ### Tugas 1: Membuat aplikasi Laporan Pengeluaran
 
-1. Navigasikan ke https://make.powerapps.com
+1. Navigasikan ke `https://make.powerapps.com`
 
 1. Anda mungkin perlu mengautentikasi ulang - pilih **Masuk** dan ikuti petunjuk jika diperlukan.
 
@@ -59,7 +59,7 @@ Kami akan mengikuti garis besar di bawah ini untuk mendesain aplikasi kanvas:
 
     >   - **Masuk** dan pilih **Izinkan akses**
 
-1. Temukan dan pilih **Tabel laporan** pengeluaran.
+1. Temukan dan pilih **tabel Laporan** Pengeluaran.
 
 1. Pilih tombol **Koneksi** di sudut kanan bawah.
 
