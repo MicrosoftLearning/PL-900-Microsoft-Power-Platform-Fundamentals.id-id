@@ -20,11 +20,11 @@ Sepanjang kursus ini, Anda akan membangun aplikasi dan melakukan otomatisasi unt
 
 Sebagai bagian dari pembuatan aplikasi berbasis model, Anda akan menyelesaikan hal berikut:
 
-- Buat aplikasi berdasarkan model baru bernama Bellows Expense Management
+- Buat aplikasi berbasis model baru bernama Bellows Expense Management.
 
-- Mengedit navigasi aplikasi untuk merujuk tabel yang diperlukan
+- Edit navigasi aplikasi untuk mereferensikan tabel yang diperlukan.
 
-- Menyesuaikan bentuk dan tampilan tabel yang diperlukan untuk aplikasi
+- Kustomisasi formulir dan tampilan tabel yang diperlukan untuk aplikasi.
 
 Kami akan bekerja dengan komponen berikut:
 
@@ -50,15 +50,15 @@ Keduanya akan diintegrasikan ke aplikasi berbasis model untuk pengalaman penggun
 
 **Tujuan:** Dalam latihan ini, Anda akan menyesuaikan tampilan dan bentuk tabel yang dibuat khusus yang akan digunakan dalam aplikasi berbasis model.
 
-### Tugas 1: Edit Formulir Laporan Pengeluaran
+### Tugas #1: Edit Formulir Laporan Pengeluaran
 
 1. Jika Anda belum melakukannya, masuk ke https://make.powerapps.com
 
-1. Pilih lingkungan **Dev One** di kanan atas jika belum dipilih.
+1. **Pilih lingkungan Dev One** di kanan atas jika belum dipilih.
 
 1. Menggunakan navigasi di sebelah kiri, pilih **Tabel**, dan buka tabel **Laporan Pengeluaran**.
 
-Jika Anda tidak melihat tabel Laporan pengeluaran, pastikan Anda berada di lingkungan yang benar (Langkah 2).
+    >Jika Anda tidak melihat tabel Laporan pengeluaran, pastikan Anda berada di lingkungan yang benar (Langkah 2).
 
 1. Pada bagian **Pengalaman data**, pilih **Formulir** dan buka formulir **Informasi** dengan tipe Formulir**Utama**. (**Penting:** Pastikan Anda memilih formulir dengan jenis formulir **Utama**.)
 
@@ -72,15 +72,15 @@ Jika Anda tidak melihat tabel Laporan pengeluaran, pastikan Anda berada di lingk
 
     - **Tujuan Laporan**
 
-    - **Laporkan Tanggal Jatuh Tempo**
+    - **Tanggal jatuh tempo laporan**
 
     - **Laporkan Jumlah Total**
 
 1. Seret kolom **Alasan Status** dan letakkan di header formulir.
 
-Header adalah area kanan atas formulir. Anda mungkin perlu menciutkan panel Properti di sisi kanan layar untuk melihat bidang pada formulir.
+    >Header adalah area kanan atas formulir. Anda mungkin perlu menciutkan panel Properti di sisi kanan layar untuk melihat bidang pada formulir.
 
-1. Pilih bidang **Pemilik**. Di panel Properti, ubah **Label** menjadi Pemohon
+1. Pilih bidang **Pemilik**. Di panel Properti, ubah Label** menjadi Pemohon**.
 
 1. Pilih tombol **Simpan dan terbitkan** di kanan atas dan tunggu hingga penyimpanan dan penerbitan selesai.
 
@@ -88,7 +88,7 @@ Header adalah area kanan atas formulir. Anda mungkin perlu menciutkan panel Prop
 
 1. Menggunakan breadcrumb di kiri atas (**Tabel** > **Laporan Pengeluaran** > **Formulir**). Pilih **Pengeluaran Laporan** untuk kembali ke layar properti Tabel **Pengeluaran Laporan**.
 
-## Tugas #2: Tampilan Edit Laporan Pengeluaran Aktif
+## Tugas #2: Mengedit tampilan Laporan Pengeluaran Aktif
 
 Dalam tugas ini, kami akan memodifikasi tampilan Laporan Pengeluaran Aktif default dan membuat tampilan baru untuk laporan pengeluaran yang jatuh tempo hari ini.
 
@@ -98,17 +98,17 @@ Dalam tugas ini, kami akan memodifikasi tampilan Laporan Pengeluaran Aktif defau
 
     - **Tujuan Laporan**
 
-    - **Laporkan Tanggal Jatuh Tempo**
+    - **Tanggal jatuh tempo laporan**
 
-    - **Jumlah Laporan**
+    - **Laporkan Jumlah Total**
 
 1. Pilih menu drop-down pada kolom **Dibuat Pada** dan pilih **Hapus**. Bidang **Dibuat Pada** sekarang akan dihapus dari tampilan.
 
 1. Ubah ukuran lebar kolom individual agar sesuai dengan data.
 
-1. Di bawah **Urutkan berdasarkan …** pilih X untuk menghapus **Nama** dan sebagai gantinya, pilih **Laporkan Jumlah Total**.
+1. Di bawah **Urutkan berdasarkan …** pilih X untuk menghapus **Nama** Laporan dan sebagai gantinya, pilih **Laporkan Jumlah** Total.
 
-1. Pilih **Laporkan Jumlah Total** untuk mengubah urutan dari **Yang Lebih Besar ke yang Lebih Kecil**.
+1. Pilih **Laporkan Jumlah** Total untuk mengubah urutan pengurutan menjadi **Lebih Besar menjadi lebih** kecil.
 
 1. Pilih tombol **Simpan dan terbitkan** di kanan atas dan tunggu hingga penerbitan selesai.
 
@@ -136,13 +136,13 @@ Sekarang, kita akan mengkloning tampilan untuk membuat tampilan baru untuk lapor
 
 1. Pilih tombol **Simpan dan terbitkan** di kanan atas dan tunggu hingga penerbitan selesai.
 
-## Latihan 2: Membuat Aplikasi Berbasis Model
+## Latihan 2: Membuat aplikasi berbasis model
 
 **Tujuan:** Dalam latihan ini, Anda akan membuat aplikasi berbasis model, menyesuaikan peta situs, serta menguji aplikasi.
 
 Demi kesederhanaan dan waktu, kami tidak akan membahas semua kolom Laporan Pengeluaran di lab ini.
 
-### Tugas 1: Buat aplikasi
+### Tugas #1: Membuat aplikasi
 
 1. Jika Anda belum melakukannya, masuk ke https://make.powerapps.com
 
@@ -150,17 +150,17 @@ Demi kesederhanaan dan waktu, kami tidak akan membahas semua kolom Laporan Penge
 
 1. Pilih **+ Buat** di navigasi kiri.
 
-1. Buat Aplikasi Berbasis Model:
+1. Buat aplikasi berbasis model:
 
     - Pilih **Aplikasi kosong** di bagian **Mulai dari** layar **Buat aplikasi Anda**.
 
     - Di bagian **Aplikasi kosong berdasarkan Dataverse**, pilih **Buat**.
 
-    - Masukkan Manajemen Pengeluaran Karyawan untuk **Nama** dan pilih **Buat**.
+    - Masukkan `Employee Expense Management` untuk **Nama** dan pilih **Buat**.
 
-1. Setelah aplikasi berbasis model baru Anda dimuat, pilih tombol **+ Tambahkan Halaman**.
+1. Setelah aplikasi berbasis model baru Anda dimuat, pilih tombol **+ Tambahkan halaman** .
 
-1. Pada layar **Tambahkan Halaman**, pilih **tabel Dataverse**, lalu pilih tombol **Berikutnya**.
+1. **Pada layar Tambahkan halaman**, pilih **Tabel** dataverse.
 
 1. Pilih tabel berikut:
 
@@ -174,7 +174,7 @@ Demi kesederhanaan dan waktu, kami tidak akan membahas semua kolom Laporan Penge
 
 1. Pada Panel Navigasi, pilih **Grup Baru** di bawah tempatnya berbuah Navigasi. Anda mungkin perlu memperluas menu di sebelah kiri.
 
-1. Di sisi kanan layar, di bagian **Opsi tampilan**, ubah properti **Judul** menjadi Laporan
+1. Di sisi kanan layar, di bagian Opsi** tampilan**, ubah **properti Judul** menjadi Laporan.
 
 1. Klik **Simpan** dan tunggu hingga perubahan disimpan.
 
@@ -192,7 +192,7 @@ Demi kesederhanaan dan waktu, kami tidak akan membahas semua kolom Laporan Penge
 
 1. Pilih **+Baru** dari bilah perintah.
 
-1. Masukkan **Nama Depan** sebagai John dan **Nama Belakang** sebagai Doe
+1. Masukkan **Nama** Depan sebagai `John` dan **Nama** Belakang sebagai `Doe`.
 
 1. Berikan email pribadi Anda sebagai **Email**. Ini akan digunakan di lab mendatang, di mana Anda akan menerima email.
 
@@ -208,11 +208,11 @@ Demi kesederhanaan dan waktu, kami tidak akan membahas semua kolom Laporan Penge
 
 1. Masukkan bidang sebagai berikut:
 
-    - **Nama Laporan**: Laporan Pengujian baru
+    - **Nama** Laporan: `New Test Report`
 
     - **Tujuan Laporan**: pilih **Konferensi**
 
-    - **Laporkan tanggal jatuh tempo**: Pilih Tanggal hari ini
+    - **Tanggal jatuh tempo laporan**: Pilih Tanggal hari ini
 
 1. Pilih **Simpan &amp; Tutup**. Ini akan membuat Laporan Pengujian baru dan Anda akan dapat melihatnya di tampilan **Laporan Pengeluaran Aktif**.
 

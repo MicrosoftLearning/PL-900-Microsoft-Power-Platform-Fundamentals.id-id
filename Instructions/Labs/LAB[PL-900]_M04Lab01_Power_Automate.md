@@ -34,7 +34,7 @@ Berikut ini telah diidentifikasi sebagai persyaratan yang harus Anda terapkan un
 
 ### Tugas 1: Buat alur
 
-1. Navigasikan ke https://make.powerapps.com
+1. Navigasikan ke `https://make.powerapps.com`
 
 1. Anda mungkin perlu mengautentikasi ulang, pilih **Masuk** dan ikuti instruksi, jika diperlukan.
 
@@ -46,7 +46,7 @@ Berikut ini telah diidentifikasi sebagai persyaratan yang harus Anda terapkan un
 
 1. Pilih **+ Alur baru** dan pilih **Alur cloud otomatis**.
 
-1. Masukkan Pemberitahuan Pengeluaran untuk **Nama alur**.
+1. Masukkan `Expense Notification` untuk **Nama** alur.
 
 1. Di **Pilih pemicu alur Anda**, cari Dataverse
 
@@ -92,7 +92,7 @@ Ini adalah praktik yang baik, sehingga Anda dan editor alur lainnya dapat memaha
 
 1. Pilih bidang **Untuk** dan masukkan alamat email pribadi Anda. (Ada banyak cara agar kita dapat mengisi alamat email secara dinamis, tetapi untuk latihan ini kita akan menetapkannya secara manual.)  
 
-1. Di bidang **Subjek**, masukkan Laporan pengeluaran Anda telah dikirimkan
+1. **Di bidang Subjek**, masukkan`Your expense report was submitted`
 
 1. Masukkan teks berikut di **Isi Email**:
 
@@ -109,9 +109,9 @@ Konten dinamis perlu ditempatkan di tempat bidang diberi nama dalam tanda kurung
 
 1. Sorot teks **{First Name}**. Ganti dengan bidang **Nama Depan** dari langkah **Dapatkan pemilik**.
 
-1. Sorot teks **{Laporkan Jumlah Total}**. Ganti dengan bidang **Laporkan Jumlah Total** **Saat laporan pengeluaran dikirimkan** langkah.
+1. Sorot teks **{Laporkan Jumlah Total}**. Ganti dengan **bidang **Laporkan Jumlah** Total Saat Laporan Pengeluaran ditambahkan**.
 
-1. Sorot teks **{Laporkan Tanggal Jatuh Tempo}**. Gantikan dengan bidang**Tanggal Jatuh Tempo Laporan**dari langkah **Kapan laporan pengeluaran diserahkan**.
+1. Sorot teks **{Laporkan Tanggal Jatuh Tempo}**. Ganti dengan **bidang Laporkan tanggal** jatuh tempo dari **langkah Saat Laporan Pengeluaran ditambahkan** .
 
 1. Pilih **Simpan**.
 
@@ -141,7 +141,9 @@ Biarkan tab alur ini terbuka untuk tugas berikutnya. Alur Anda akan terlihat sep
 
     - **Nama Laporan:** Laporan Pengujian
 
-    - **Laporkan Tanggal Jatuh Tempo:** Besok 
+    - **Tujuan Laporan:** Konferensi
+
+    - **Tanggal jatuh tempo laporan:** Besok
 
 1. Pilih tombol **Simpan &amp; Tutup**.
 
