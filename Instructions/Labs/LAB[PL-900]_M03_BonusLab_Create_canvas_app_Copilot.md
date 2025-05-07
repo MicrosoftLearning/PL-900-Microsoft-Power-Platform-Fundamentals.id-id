@@ -34,58 +34,60 @@ Kami akan mengikuti garis besar di bawah ini untuk mendesain aplikasi kanvas:
 
 ### Tugas \#1: Buat aplikasi awal
 
-1. Navigasikan ke https://make.powerapps.com
+1. Buka `https://make.powerapps.com`.
 
 2. Anda mungkin perlu mengautentikasi ulang - pilih **Masuk** dan ikuti petunjuk jika diperlukan.
 
-3. Pilih lingkungan **Dev One** pada bagian kanan atas, jika belum dipilih.
+3. Pilih **lingkungan Dev One** pada bagian kanan atas, jika belum dipilih.
 
-4. Di Gunakan **kata sehari-hari untuk menjelaskan apa yang harus dikumpulkan, dilacak, dicantumkan, atau dikelola aplikasi Anda.** , masukkan teks berikut. `Create an application that logs visits to a college campus`. 
+4. Pilih **+ Buat** dari navigasi kiri layar. Di bawah bagian **Buat aplikasi** Anda, pilih **Mulai dengan Salinan**.
 
-5. Pilih tombol **Buka**.
+5. Dalam kotak **Mulai menggunakan Copilot** , masukkan teks berikut ini. `Create an application that logs visits to a college campus`. 
+
+6. Pilih tombol **Hasilkan**.
 
 Copilot akan mulai membuat struktur tabel untuk mendukung aplikasi Anda. 
 
 > **PENTING:** Saat menggunakan AI generatif, Anda tidak akan selalu mendapatkan hasil yang sama persis. Ada kemungkinan tabel Anda tidak akan sama persis dengan tabel yang dibuat untuk siswa lain. 
 
-6. Di sisi kanan, pilih struktur tabel di jendela Salinan lalu pilih **Opsi tabel**.
+7. Di sisi kanan, pilih struktur tabel di jendela Salinan lalu pilih **Opsi tabel**.
 
-7. Pilih **opsi Satu tabel** lalu pilih **Terapkan**.
+8. Pilih **opsi Satu tabel** lalu pilih **Terapkan**.
  
     ![Cuplikan layar struktur Tabel yang baru saja dibuat](media/bonus-lab-tablestr.png)
 
 
 > Untuk melihat struktur tabel, pilih tabel dan klik **tombol Tampilkan data** 
 
-8. Dalam kotak **Apa yang ingin Anda lakukan berikutnya?** , masukkan teks: Tambahkan dua kolom, Waktu masuk dan Waktu habis dalam tabel. Keduanya harus berupa bidang tanggal dan waktu. 
+9. Dalam kotak **Apa yang ingin Anda lakukan berikutnya?** , masukkan teks: Tambahkan dua kolom, Waktu masuk dan Waktu habis dalam tabel. Keduanya harus berupa bidang tanggal dan waktu. 
 
-9. Pilih tombol **Buka** atau tekan **Enter**. 
+10. Pilih tombol **Buka** atau tekan **Enter**. 
 
-10. Gulir ke sisi tabel dan verifikasi bahwa **kolom Waktu masuk** dan **Waktu Habis** dibuat. 
+11. Gulir ke sisi tabel dan verifikasi bahwa **kolom Waktu masuk** dan **Waktu Habis** dibuat. 
 
 Karena kita mencatat waktu pengunjung masuk dan keluar, kita tidak lagi memerlukan bidang tanggal kunjungan lainnya. 
 
-11. **Temukan bidang Tanggal** Kunjungan (atau bidang yang setara) dan di kotak **Apa yang ingin Anda lakukan berikutnya?** , masukkan teks: Hapus Bidang Tanggal Kunjungan (atau bidang yang setara). 
+12. **Temukan bidang Tanggal** Kunjungan (atau bidang yang setara) dan di kotak **Apa yang ingin Anda lakukan berikutnya?** , masukkan teks: Hapus Bidang Tanggal Kunjungan (atau bidang yang setara). 
 
 >Jika diperlukan, perbarui nama bidang yang akan dihapus dari nama tabel yang relevan.
 
-12. Pilih tombol **Buka**. 
+13. Pilih tombol **Buka**. 
 
-13. Hapus bidang tanggal tambahan yang mungkin ada selain **Waktu masuk** dan **Waktu keluar**. 
+14. Hapus bidang tanggal tambahan yang mungkin ada selain **Waktu masuk** dan **Waktu keluar**. 
 
 Awalnya, ditambahkan bidang seperti bidang **Tujuan** diformat dengan tipe data teks. Kita akan meminta Copilot mengubahnya menjadi menu drop-down (Pilihan). 
 
-14. **Di menu Apa yang ingin Anda lakukan selanjutnya?** masukkan teks berikut: Ubah bidang Tujuan menjadi menu pilihan dengan pilihan berikut: Tur Kampus, Pameran Karier, Bertemu dengan Profesor, Konseling Siswa, Lainnya. 
+15. **Di menu Apa yang ingin Anda lakukan selanjutnya?** masukkan teks berikut: Ubah bidang Tujuan menjadi menu pilihan dengan pilihan berikut: Tur Kampus, Pameran Karier, Bertemu dengan Profesor, Konseling Siswa, Lainnya. 
 
-15. Pilih tombol **Buka**. 
+16. Pilih tombol **Buka**. 
 
-16. Karena kami juga ingin mengambil nomor bangunan, di **kolom Apa yang ingin Anda lakukan berikutnya?**, masukkan: Tambahkan kolom bangunan. 
+17. Karena kami juga ingin mengambil nomor bangunan, di **kolom Apa yang ingin Anda lakukan berikutnya?**, masukkan: Tambahkan kolom bangunan. 
 
-17. Pilih tombol **Buka**. 
+18. Pilih tombol **Buka**. 
 
-18. Setelah Anda puas dengan tabel Anda, pilih tombol **Simpan dan buka aplikasi** . 
+19. Setelah Anda puas dengan tabel Anda, pilih tombol **Simpan dan buka aplikasi** . 
 
-19. Jika perlu, Pada **layar Selesai berfungsi?** , pilih **Jangan tanya saya lagi**, dan pilih tombol **Simpan dan buka aplikasi** . 
+20. Jika perlu, Pada **layar Selesai berfungsi?** , pilih **Jangan tanya saya lagi**, dan pilih tombol **Simpan dan buka aplikasi** . 
 
 ![Cuplikan layar aplikasi yang baru saja dibuat](media/bonus-lab-copilot-02.png)
 
