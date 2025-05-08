@@ -20,7 +20,7 @@ Sepanjang kursus ini, Anda akan membangun aplikasi dan melakukan otomatisasi unt
 
 Sebagai bagian dari pembuatan aplikasi berbasis model, Anda akan menyelesaikan hal berikut:
 
-- Buat aplikasi berbasis model baru bernama Bellows Expense Management.
+- Buat aplikasi berbasis model baru bernama Employee Expense Management.
 
 - Edit navigasi aplikasi untuk mereferensikan tabel yang diperlukan.
 
@@ -64,7 +64,7 @@ Keduanya akan diintegrasikan ke aplikasi berbasis model untuk pengalaman penggun
 
     >**PENTING:** Karena secara default semua formulir diberi nama Informasi, pastikan untuk memverifikasi bahwa formulir yang Anda pilih memiliki Jenis Formulir **Utama** dan bukan yang lain. Secara default, formulir memiliki dua bidang: Nama dan Pemilik.
 
-1. Di sisi kanan layar pada panel **Properti**, pilih bidang **Nama Tampilan**, dan ubah menjadi Informasi Laporan
+1. Di sisi kanan layar pada panel **Properti, pilih **bidang Nama** Tampilan, dan ubah ke `Report Information`** .
 
 1. Pilih **kolom Tabel** dari panel navigasi kiri dan tambahkan bidang berikut di bawah bidang **Pemilik** dengan menyeret kolom ke formulir atau cukup mengeklik nama kolom:
 
@@ -80,7 +80,7 @@ Keduanya akan diintegrasikan ke aplikasi berbasis model untuk pengalaman penggun
 
     >Header adalah area kanan atas formulir. Anda mungkin perlu menciutkan panel Properti di sisi kanan layar untuk melihat bidang pada formulir.
 
-1. Pilih bidang **Pemilik**. Di panel Properti, ubah Label** menjadi Pemohon**.
+1. Pilih bidang **Pemilik**. Di panel Properti, ubah Label** menjadi **`Requestor`.
 
 1. Pilih tombol **Simpan dan terbitkan** di kanan atas dan tunggu hingga penyimpanan dan penerbitan selesai.
 
@@ -120,7 +120,7 @@ Sekarang, kita akan mengkloning tampilan untuk membuat tampilan baru untuk lapor
 
 1. Pilih **Simpan Sebagai**.
 
-1. Ubah **Nama** menjadi Laporan Pengeluaran Jatuh Tempo Hari Ini dan pilih **Simpan**.
+1. **Ubah Nama** menjadi `Expense Reports Due Today` dan pilih **Simpan**.
 
 1. Pilih **Edit filter**, di panel Properti.
 
@@ -148,15 +148,13 @@ Demi kesederhanaan dan waktu, kami tidak akan membahas semua kolom Laporan Penge
 
 1. Pilih lingkungan **Dev One** di kanan atas, jika belum dipilih.
 
-1. Pilih **+ Buat** di navigasi kiri.
+1. Pilih **Solusi** di navigasi kiri.
 
-1. Buat aplikasi berbasis model:
+1. Buka **Solusi Manajemen** Pengeluaran.
 
-    - Pilih **Aplikasi kosong** di bagian **Mulai dari** layar **Buat aplikasi Anda**.
+1. Pilih **+Baru**, pilih **APP** lalu pilih **Aplikasi berbasis model**.
 
-    - Di bagian **Aplikasi kosong berdasarkan Dataverse**, pilih **Buat**.
-
-    - Masukkan `Employee Expense Management` untuk **Nama** dan pilih **Buat**.
+1. Masukkan `Employee Expense Management` untuk **Nama** dan pilih **Buat**.
 
 1. Setelah aplikasi berbasis model baru Anda dimuat, pilih tombol **+ Tambahkan halaman** .
 
@@ -174,7 +172,7 @@ Demi kesederhanaan dan waktu, kami tidak akan membahas semua kolom Laporan Penge
 
 1. Pada Panel Navigasi, pilih **Grup Baru** di bawah tempatnya berbuah Navigasi. Anda mungkin perlu memperluas menu di sebelah kiri.
 
-1. Di sisi kanan layar, di bagian Opsi** tampilan**, ubah **properti Judul** menjadi Laporan.
+1. Di sisi kanan layar, di bagian **Opsi** tampilan, ubah **properti Judul** menjadi `Reports`.
 
 1. Klik **Simpan** dan tunggu hingga perubahan disimpan.
 

@@ -43,27 +43,13 @@ Kami akan mengikuti garis besar di bawah ini untuk mendesain aplikasi kanvas:
 
 1. Anda mungkin perlu mengautentikasi ulang - pilih **Masuk** dan ikuti petunjuk jika diperlukan.
 
-1. Pilih **lingkungan Dev One** pada bagian kanan atas, jika belum dipilih.
+1. Pilih lingkungan **Dev One** pada bagian kanan atas, jika belum dipilih.
 
-1. Pilih **+ Buat** dari navigasi kiri layar. Di bagian **Mulai dari**, pilih **Dataverse**.
+1. Pilih **Aplikasi** dari navigasi kiri layar. Pilih **+ Aplikasi** baru lalu **Mulai dengan templat** aplikasi.
 
-1. Pilih koneksi Dataverse Anda.
+1. Di bawah **Aplikasi seluler yang berpusat pada data**, pilih **Dari Dataverse**.
 
-    >**Catatan**: Jika koneksi Dataverse tidak ada:
-
-    >   - Pilih **+Koneksi baru**
-
-    >   - Cari **Microsoft Dataverse**
-
-    >   - Pilih **Buat**
-
-    >   - **Masuk** dan pilih **Izinkan akses**
-
-1. Temukan dan pilih **tabel Laporan** Pengeluaran.
-
-1. Pilih tombol **Koneksi** di sudut kanan bawah.
-
-1. Setelah aplikasi Anda dibuat, pada layar Selamat Datang di Power Apps Studio, pilih **Jangan tampilkan ini lagi**, lalu pilih **Lewati**.
+1. Pilih **Tabel Laporan** Pengeluaran di **halaman Pilih Dataverse data untuk aplikasi** Anda dan pilih **Buat aplikasi**.
 
 1. Pada perancang aplikasi, pilih **Tombol pratinjau aplikasi** (ikon Putar) pada bilah perintah. (Anda juga dapat melakukan pratinjau aplikasi dengan menekan F5.) Silakan melihat-lihat dan lihat tampilan aplikasi Anda yang unik.
 
@@ -77,29 +63,29 @@ Dalam tugas ini, Anda akan menyesuaikan teks header di masing-masing dari tiga l
 
 1. Anda berada di layar Telusuri. Pilih **Label Laporan** Pengeluaran pada layar.
 
-1. Pada sisi kanan layar, di bawah tab Properti, perbarui properti kontrol **Teks** menjadi Laporan Pengeluaran Saya
+1. Di sisi kanan layar, di bawah tab Properti, perbarui **properti Kontrol teks** ke `My Expense Reports`.
 
 1. Pada tab **Properti,** ubah **Ukuran font** menjadi **24**.
 
 1. Pilih latar belakang layar yang kosong untuk melihat teks yang diperbarui pada layar Telusur Anda.
 
-1. Dengan menggunakan **tampilan Pohon**pada navigasi sebelah kiri, pilih **DetailScreen1**.
+1. **Menggunakan tampilan** Pohon di navigasi kiri, pilih **DetailLayanan layar**.
 
 1. Pilih **Label Laporan** Pengeluaran pada layar.
 
-1. Pada sisi kanan layar, di bawah tab **Properti,** perbarui properti kontrol **Teks** menjadi Detail Laporan
+1. Di sisi kanan layar, di bawah tab **Properti, perbarui **properti Kontrol teks** ke `Report Details`** .
 
 1. Klik latar belakang yang kosong untuk melihat teks yang diperbarui di layar Detail Anda.
 
-1. Dengan menggunakan **tampilan Pohon** pada navigasi sebelah kiri, pilih **EditScreen1** (Anda mungkin perlu menggulir ke bawah untuk melihatnya pada tampilan Pohon).
+1. **Menggunakan tampilan** Pohon di navigasi kiri, pilih **Edit Layar** (Anda mungkin perlu menggulir ke bawah untuk melihat ini pada tampilan Pohon).
 
 1. Pilih **Label Laporan** Pengeluaran pada layar.
 
-1. Pada sisi kanan layar, di tab **Properti,** ganti teks pada properti kontrol **Teks** dengan Detail Edit
+1. Di sisi kanan layar, pada tab **Properti, ganti teks di **** properti Kontrol teks dengan `Edit Details`** .
 
 1. Klik di latar belakang yang kosong untuk melihat teks yang diperbarui di layar Edit Anda.
 
-1. Dengan menggunakan **tampilan Pohon**, pada navigasi sebelah kiri, pilih **BrowseScreen1**.
+1. **Menggunakan tampilan** Pohon, di navigasi kiri, pilih **Telusuri Layar**.
 
 1. Pada bar alat, pilih tombol **Tema** dan dari daftar yang muncul, pilih warna tema **Merah**.
 
@@ -107,13 +93,13 @@ Dalam tugas ini, Anda akan menyesuaikan teks header di masing-masing dari tiga l
 
 Dalam tugas ini, Anda akan menguji aplikasi baru Anda.
 
-1. Dengan aplikasi dalam kondisi terbuka di Desainer Aplikasi, pilih **Pengaturan** (Anda mungkin perlu memilih … agar Ikon Pengaturan ditampilkan), pada bagian **Umum** perbarui nama aplikasi Anda menjadi Aplikasi Laporan Pengeluaran, pilih **X** untuk menutup layar pengaturan lalu pilih **Simpan**.
+1. Dengan aplikasi dalam kondisi terbuka di Desainer Aplikasi, pilih **Pengaturan** (Anda mungkin perlu memilih … untuk Ikon Pengaturan untuk ditampilkan), di bagian **Umum** perbarui nama aplikasi Anda untuk `Expense Report App` memilih **X** untuk menutup layar pengaturan lalu pilih **Simpan**.
 
-1. Di menu navigasi sebelah kiri, pilih **BrowseScreen1**.
+1. Menggunakan navigasi di sebelah kiri, pilih **Telusuri Layar**.
 
 1. Pada perancang aplikasi, pilih **Tombol pratinjau aplikasi** (ikon Putar) pada bilah perintah. (Anda juga dapat melakukan pratinjau aplikasi dengan menekan F5.)
 
-1. Setelah aplikasi terbuka, pada bidang **item Pencarian**, masukkan teks Perjalanan (Perhatikan cara item dalam galeri memfilter berdasarkan apa yang diketikkan pada bidang penelusuran).
+1. Setelah aplikasi terbuka, di **bidang Cari item** , masukkan teks `Trip` (Perhatikan bagaimana item di filter galeri berdasarkan apa yang diketik di bidang pencarian).
 
 1. Setelah catatan **Perjalanan ke Konferensi Power Platform** ditampilkan, pilih baris untuk menavigasi dan membuka layar Detail untuk Biaya tersebut.
  

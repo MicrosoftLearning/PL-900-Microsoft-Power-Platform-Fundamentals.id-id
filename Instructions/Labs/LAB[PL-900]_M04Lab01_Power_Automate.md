@@ -78,7 +78,7 @@ Ini adalah praktik yang baik, sehingga Anda dan editor alur lainnya dapat memaha
 
 1. Di bidang **ID Baris**, pilih **Pemilik (Nilai)** dari daftar **Konten dinamis**. Dalam langkah ini, Anda mencari Pemilik untuk baris Laporan Pengeluaran yang dibuat untuk memicu alur ini. 
 
-1. Pada tindakan **Dapatkan baris berdasarkan ID**, pilih elipsis (**...**) dan pilih **Ganti Nama**. Ganti nama tindakan ini Dapatkan Pemilik
+1. Pada tindakan **Dapatkan baris berdasarkan ID**, pilih elipsis (**...**) dan pilih **Ganti Nama**. Ganti nama tindakan `Get the Owner`ini .
 
 Ini adalah praktik yang baik, sehingga Anda dan editor alur lainnya dapat memahami tujuan langkah tanpa harus menyelami detailnya.
 
@@ -121,7 +121,7 @@ Biarkan tab alur ini terbuka untuk tugas berikutnya. Alur Anda akan terlihat sep
 
 ### Tugas #4: Memvalidasi dan menguji alurnya
 
-1. Buka tab baru di browser Anda dan navigasikan ke https://make.powerapps.com
+1. Buka tab baru di browser Anda dan navigasikan ke `https://make.powerapps.com`.
 
 1. Pilih lingkungan **Dev One** di kanan atas jika belum dipilih.
 
@@ -139,7 +139,7 @@ Biarkan tab alur ini terbuka untuk tugas berikutnya. Alur Anda akan terlihat sep
 
 1. Selesaikan**catatan Laporan Pengeluaran** sebagai berikut:
 
-    - **Nama Laporan:** Laporan Pengujian
+    - **Nama Laporan:** `Test Report`
 
     - **Tujuan Laporan:** Konferensi
 
