@@ -1,4 +1,4 @@
-# PL-900: Fundamental Power Platform
+# PL-900: Pengantar Microsoft Power Platform
 
 - **[Unduh Buku Pegangan Siswa Terbaru dan Konten AllFiles](https://learningdownloadcenter.microsoft.com/)**
 - **Apakah Anda seorang MCT?** - Lihat [Panduan Pengguna GitHub untuk MCT](https://microsoftlearning.github.io/MCT-User-Guide/) kami
