@@ -26,6 +26,8 @@ Sebelum memulai latihan ini, anda harus menyelesaikan lab berikut:
 > [!IMPORTANT]
 > Lab ini menggunakan AI untuk membangun komponen. Karena hasil AI dapat bervariasi, penting untuk dicatat bahwa hasil Anda mungkin berbeda (tetapi mirip) dengan apa yang didefinisikan di lab. Konsep dasar yang diuraikan dalam lab akan sama tidak peduli apa yang dibuat atau apa namanya. Jika tabel dan kolom tidak sama persis, Anda mungkin perlu menyesuaikan dengan apa yang dibuat untuk Anda.*
 
+**Anda dapat menemukan gambar untuk lab [ini di sini](https://myriumtechsolutions-my.sharepoint.com/:f:/p/derik_bormann/EnSzkatV6HlPvJBFUM8G6xkBd9flg9PfhBDKFW-yDZfPuw?e=v40ti4):**
+
 Perkiraan waktu untuk menyelesaikan latihan ini adalah **45 hingga 60** menit.
 
 ## Tugas 1: Masuk ke Power Apps dan jelajahi antarmuka

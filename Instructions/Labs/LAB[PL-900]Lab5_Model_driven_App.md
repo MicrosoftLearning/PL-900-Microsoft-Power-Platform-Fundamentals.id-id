@@ -132,7 +132,7 @@ Jika diminta untuk **Menyimpan perubahan, pilih **Simpan dan lanjutkan****.
 23.  Pilih tombol Panah** belakang **untuk kembali ke perancang aplikasi.
 24.  Di bawah **Navigasi**, arahkan mouse ke **atas formulir** Peristiwa **** dan pilih **Edit**.
 
-    Jika diminta untuk menyimpan perubahan, pilih **Simpan dan lanjutkan**.
+Jika diminta untuk menyimpan perubahan, pilih **Simpan dan lanjutkan**.
 
 25.  Pilih **bidang Detail Peristiwa1** dan tekan tombol **Hapus** di keyboard Anda.
 
@@ -184,13 +184,13 @@ Selanjutnya, kita akan menambahkan peristiwa baru.
 15.  Menggunakan navigasi di sebelah kiri, pilih **Peristiwa**.
 16.  Pada bilah perintah, pilih tombol **+ Baru** .
 17.  **Di layar Kejadian** Baru, konfigurasikan sebagai berikut:
-    -   **Nama Acara:** Konferensi musim semi.
-    -   **Tanggal Acara:** Tanggal besok.
-    -   **Peserta Maks:** 500
-    -   **Detail Acara:** Konferensi musim semi untuk menampilkan produk dan layanan terbaru dari vendor kami yang didukung.
-    -   **Jenis Acara:** Konferensi
-    -   **Lokasi:** Seattle
-    -   **Pendaftaran Diperlukan:** Ya/Benar
+- **Nama Acara:** Konferensi musim semi.
+- **Tanggal Acara:** Tanggal besok.
+- **Peserta Maks:** 500
+- **Detail Acara:** Konferensi musim semi untuk menampilkan produk dan layanan terbaru dari vendor kami yang didukung.
+- **Jenis Acara:** Konferensi
+- **Lokasi:** Seattle
+- **Pendaftaran Diperlukan:** Ya/Benar
 
 ![Cuplikan layar formulir Peristiwa yang telah selesai. ](media/802f68c4c34c635eeff620a23d42acd8.png)
 
@@ -201,12 +201,12 @@ Selanjutnya, kita akan menambahkan sesi baru untuk Acara.
 19.  Menggunakan navigasi di sebelah kiri, pilih **Sesi** Peristiwa.
 20.  Pilih tombol **+ Baru**.
 21.  Konfigurasikan **Sesi** Peristiwa sebagai berikut:
-    -   **Nama Sesi:** AI yang bertanggung jawab
-    -   **Tanggal Sesi:** Tanggal Besok
-    -   **Durasi:** 1,5 Jam
-    -   **Deskripsi Sesi:** Dengan semua solusi AI baru, menjadi bertanggung jawab adalah penting. Kita akan membahas tantangannya.
-    -   **Pembicara:** Suzanne Diaz
-    -   **Acara:** Konferensi Musim Semi
+- **Nama Sesi:** AI yang bertanggung jawab
+- **Tanggal Sesi:** Tanggal Besok
+- **Durasi:** 1,5 Jam
+- **Deskripsi Sesi:** Dengan semua solusi AI baru, menjadi bertanggung jawab adalah penting. Kita akan membahas tantangannya.
+- **Pembicara:** Suzanne Diaz
+- **Acara:** Konferensi Musim Semi
 
 ![Cuplikan layar formulir sesi Peristiwa yang telah selesai. ](media/6e509e4a29e6f253b5db3b4c9f82e42e.png)
 
@@ -217,10 +217,10 @@ Akhirnya, kita akan membuat **Pendaftaran** Sesi.
 23.  Menggunakan navigasi di sebelah kiri, pilih **Pendaftaran Sesi.**
 24.  Pada bilah **Perintah**, pilih **+ Baru**.
 25.  Selesaikan pendaftaran sesi sebagai berikut:
-    -   **Nama:** E, Pendaftaran Swenson.
-    -   **Tanggal Pendaftaran:** Tanggal Hari Ini
-    -   **Peserta:** Edgar Swenson
-    -   **Sesi:** Mark Jones
+- **Nama:** E, Pendaftaran Swenson.
+- **Tanggal Pendaftaran:** Tanggal Hari Ini
+- **Peserta:** Edgar Swenson
+- **Sesi:** Mark Jones
 
 ![Cuplikan layar formulir pendaftaran Sesi yang telah selesai.  ](media/16cccd9ebb949ba0f364211f1ee55d4d.png)
 
