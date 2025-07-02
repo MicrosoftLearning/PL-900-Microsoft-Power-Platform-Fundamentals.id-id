@@ -1,6 +1,6 @@
 ---
 lab:
-  title: 'Lab 1: Membuat Solusi'
+  title: 'Lab 1: Membuat solusi'
   learning path: 'Learning Path: Manage the Microsoft Power Platform environment'
   module: 'Module 1: Describe Microsoft Dataverse'
 ---
