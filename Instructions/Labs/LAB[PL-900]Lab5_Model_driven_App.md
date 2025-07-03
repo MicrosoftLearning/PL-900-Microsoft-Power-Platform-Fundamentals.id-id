@@ -10,7 +10,7 @@ Dalam latihan ini, pelajar akan membuat aplikasi berbasis model di Power Apps me
 
 **Setelah berhasil menyelesaikan lab ini, Anda akan:**
 
--   Buat aplikasi berbasis Model.
+-   Buat aplikasi berbasis model.
 -   Ubah formulir dan tampilan dalam aplikasi agar paling sesuai dengan kebutuhan Anda.
 -   Navigasikan melalui aplikasi berbasis model.
 
@@ -26,16 +26,16 @@ Dalam latihan ini Anda akan membangun aplikasi berbasis model untuk mengelola pe
 
 Sebelum memulai latihan ini, Disarankan agar selesai:
 
--   **Lab 2– Membuat Solusi Power Platform**
--   **Lab 3– Membuat Model Data**
+-   **Lab 1 – Membuat solusi**
+-   **Lab 2 – Membuat model data**
 
 Perkiraan waktu untuk menyelesaikan latihan ini adalah **20 hingga 30** menit.
 
-## Tugas 1: Buat Model untuk mendukung aplikasi berbasis Model baru Anda
+## Tugas 1: Buat model data untuk mendukung aplikasi berbasis model baru Anda
 
 Contoso saat ini menyimpan informasi kontak dalam instans Dataverse mereka, sehingga mereka ingin menggunakan Dataverse untuk melacak kursus dan pendaftaran kursus. Anda perlu membuat tabel yang diperlukan untuk mendukung aplikasi dan membangun aplikasi berbasis model berdasarkan model data tersebut.
 
-1.  Jika perlu, buka browser web dan navigasikan ke [portal pembuat Power Apps](https://make.powerapps.com/) , dan Masuk menggunakan kredensial akun Microsoft Anda.
+1.  Jika perlu, buka browser web dan navigasikan ke [portal pembuat Power Apps](https://make.powerapps.com/) , dan masuk menggunakan kredensial akun Microsoft Anda.
 2.  Menggunakan navigasi di sebelah kiri, pilih **Solusi.**
 3.  **Buka solusi Manajemen** Peristiwa yang Anda buat sebelumnya.
 4.  Pada bilah **Perintah** pilih **Aplikasi** berbasis Model Aplikasi \> **** Baru.** \> **
@@ -55,12 +55,11 @@ Contoso saat ini menyimpan informasi kontak dalam instans Dataverse mereka, sehi
 
 10. Pilih tombol **Tambahkan**.
 
-> [!NOTE]
-> Terkadang Anda akan diminta untuk masuk saat bekerja dengan perancang. Pilih X untuk membatalkan keluar dari layar masuk.
+> **Catatan:** Terkadang Anda akan diminta untuk masuk saat bekerja dengan perancang. Pilih X untuk membatalkan keluar dari layar masuk.
 
 ## Tugas 2: Edit aplikasi berbasis model agar sesuai dengan kebutuhan Anda
 
-Sekarang setelah aplikasi dibuat, kita akan membuat beberapa perubahan pada cara aplikasi disajikan. Kami memiliki dua golongan yang berbeda; Orang dan Peristiwa. Kami ingin memiliki tabel Kontak di grup Orang, dan semua tabel Peristiwa di grup Acara.
+Sekarang setelah aplikasi dibuat, kita akan membuat beberapa perubahan pada cara aplikasi disajikan. Kami ingin memiliki dua kelompok yang berbeda; Orang dan Peristiwa. Kami ingin memiliki tabel Kontak di grup Orang, dan semua tabel Peristiwa di grup Acara.
 
 1.  Di bawah **Navigasi** di sisi kiri layar, pilih **Grup** Baru.
 2.  Di sisi kanan aplikasi, perluas **panel Properti** .
@@ -79,7 +78,7 @@ Aplikasi Anda harus menyerupai gambar:
 
 ![cuplikan layar memperlihatkan peta situs yang diperbarui](media/ff039cad105533933959854cec4ec95e.png)
 
-## Tugas 3: Edit berbagai formulir dan tampilan di aplikasi berbasis model Anda agar sesuai dengan kebutuhan Anda.
+## Tugas 3: Edit berbagai formulir dan tampilan di aplikasi berbasis model Anda
 
 Aplikasi berbasis model menggunakan formulir dan tampilan untuk menyajikan data kepada pengguna di antarmuka Pengguna (UI). Kita akan membuat beberapa perubahan pada item tersebut.
 
@@ -109,47 +108,51 @@ Aplikasi berbasis model menggunakan formulir dan tampilan untuk menyajikan data 
 
 13. Pada bilah Perintah formulir **, pilih tombol **Simpan dan terbitkan**.**
 14. Pilih tombol Panah** belakang **untuk kembali ke perancang aplikasi berbasis model
-15. Di bawah **Navigasi** di sebelah kiri, arahkan kursor **ke **tampilan** Kontak, dan pilih ikon Edit**.
+15. Di bawah **Navigasi** di sebelah kiri, arahkan kursor **ke **tampilan** Kontak, dan pilih ikon Edit**. (Jika diminta untuk menyimpan, pilih **Simpan dan lanjutkan.**)
 16. Pilih **+ Tampilkan Kolom**.
-17. Cari dan tambahkan **kolom Tipe** Kontak ke formulir.
+17. Cari dan tambahkan **kolom Tipe** Kontak ke tampilan.
 18. Pilih tombol **Simpan dan Terbitkan** .
+19. Pilih tombol Panah** belakang **untuk kembali ke desainer applicaton berbasis model.
 
 Selanjutnya, kita akan membuat perubahan yang diperlukan pada formulir yang tersisa.
 
-19.  Di bawah **Navigasi**, pilih **Tampilan** Peristiwa.
+20.  Di bawah **Navigasi**, pilih **Tampilan Peristiwa**
+    
+Perhatikan bahwa mungkin **ada kolom EventDetails1** . Jika demikian, kita akan menghapusnya dari tampilan. *(Jika Anda tidak memilikinya, Anda dapat melompat ke **Tugas 4: Simpan dan Terbitkan**)*
 
-Perhatikan bahwa mungkin **ada kolom EventDetails1** . Jika demikian, kita akan menghapusnya dari tampilan. *(Jika Anda tidak memilikinya,* **Anda dapat melompat ke Langkah 28***)*
-
-20.  Arahkan mouse ke **atas tampilan** Peristiwa dan pilih tombol **Edit** .
+21.  Arahkan mouse ke **atas tampilan** Peristiwa dan pilih tombol **Edit** .
 
 Jika diminta untuk **Menyimpan perubahan, pilih **Simpan dan lanjutkan****.
 
-21.  Pada Tampilan **** pilih panah di samping **EventDetails1**, dan dari menu yang muncul, pilih **Hapus**.
+22.  Pada Tampilan **** pilih panah di samping **EventDetails1**, dan dari menu yang muncul, pilih **Hapus**.
 
 ![Cuplikan layar memperlihatkan cara menghapus kolom tambahan dari tampilan.](media/f0f1484a4f3a679abc18cdb1cd5c04da.png)
 
-22.  Pilih tombol **Simpan dan Terbitkan** .
-23.  Pilih tombol Panah** belakang **untuk kembali ke perancang aplikasi.
-24.  Di bawah **Navigasi**, arahkan mouse ke **atas formulir** Peristiwa **** dan pilih **Edit**.
+23.  Pilih tombol **Simpan dan Terbitkan** .
+24.  Pilih tombol Panah** belakang **untuk kembali ke perancang aplikasi.
+25.  Di bawah **Navigasi**, arahkan mouse ke **atas formulir** Peristiwa **** dan pilih **Edit**.
 
 Jika diminta untuk menyimpan perubahan, pilih **Simpan dan lanjutkan**.
 
-25.  Pilih **bidang Detail Peristiwa1** dan tekan tombol **Hapus** di keyboard Anda.
+26.  Pilih **bidang Detail Peristiwa1** dan tekan tombol **Hapus** di keyboard Anda.
 
 Formulir Anda harus menyerupai gambar:
 
 ![Cuplikan layar memperlihatkan formulir Peristiwa yang diperbarui, setelah kolom tambahan dihapus. ](media/d9e8903c79b01e85e32c6ef5279a2ad5.png)
 
-26.  Pilih tombol **Simpan dan terbitkan** .
-27.  Pilih tombol Panah** belakang **untuk kembali ke perancang aplikasi.
+Jika tidak cocok persis, itu baik-baik saja selama semua bidang dalam gambar ada di sana.  
 
-Jika Anda tidak memiliki bidang EventDetail1 pada formulir Anda, lanjutkan di sini.
+27.  Pilih tombol **Simpan dan terbitkan** .
+28.  Pilih tombol Panah** belakang **untuk kembali ke perancang aplikasi.
 
-28.  Pada bilah **Perintah** aplikasi, pilih tombol **Simpan dan Terbitkan** .
-29.  Pilih tombol **Kembali** untuk kembali ke **portal pembuat** Power Apps.
-30.  Pilih **Kembali ke solusi** untuk kembali ke layar Utama **Power Apps** .
+## Tugas 4: Simpan dan Terbitkan (Jika Anda tidak memiliki bidang EventDetail1 pada formulir Anda, lanjutkan di sini.)
 
-## Tugas 4: Uji aplikasi baru Anda
+1.  Pada bilah **Perintah** aplikasi, pilih tombol **Simpan dan Terbitkan** .
+2.  Pilih tombol **Kembali** untuk kembali ke **solusi Manajemen** Peristiwa.
+3.  Pilih **Kembali ke panah solusi** untuk kembali ke portal pembuat Power Apps** utama**.
+4.  Pilih panah **Kembali** untuk kembali ke layar Utama **Power Apps** .
+
+## Tugas 5: Uji aplikasi baru Anda
 
 Sekarang setelah aplikasi berbasis model Anda dibuat, kami akan menguji fungsionalitasnya.
 
@@ -157,9 +160,9 @@ Pertama kita akan menambahkan beberapa kontak.
 
 1.  Menggunakan navigasi di sebelah kiri, pilih **Aplikasi**.
 2.  Ubah aplikasi yang ditampilkan dari **Aplikasi** saya ke **Semua**.
-3.  Arahkan mouse ke **aplikasi Course Event Management** yang baru saja Anda buat dan pilih **ikon Putar** .
+3.  Arahkan mouse ke **atas aplikasi Manajemen** Peristiwa yang baru saja Anda buat dan pilih **ikon Putar** .
 4.  Menggunakan navigasi di sebelah kiri, pilih **Kontak**.
-5.  Pada bilah perintah, pilih tombol **+ Baru** .
+5.  Pada bilah **Perintah** , pilih tombol **+ Baru** .
 6.  **Di layar Kontak** Baru, konfigurasikan sebagai berikut:
     -   **Nama Depan:** Suzanne
     -   **Nama Belakang:** Diaz.
@@ -175,6 +178,7 @@ Pertama kita akan menambahkan beberapa kontak.
     -   **Nama Depan:** Edgar
     -   **Nama Belakang:** Swenson
     -   **Jabatan Pekerjaan:** Arsitek
+    -   **Email:** Masukkan alamat email Anda (Pastikan Anda menambahkan **alamat email Anda** .)
 12. Di header formulir, pilih panah bawah di samping **Tipe** Kontak.
 13. Atur **Tipe** Kontak ke **Peserta**.
 14. Pilih tombol **Simpan & Tutup** .
@@ -217,11 +221,13 @@ Akhirnya, kita akan membuat **Pendaftaran** Sesi.
 23.  Menggunakan navigasi di sebelah kiri, pilih **Pendaftaran Sesi.**
 24.  Pada bilah **Perintah**, pilih **+ Baru**.
 25.  Selesaikan pendaftaran sesi sebagai berikut:
-- **Nama:** E, Pendaftaran Swenson.
+- **Nama Pendaftaran:** E, Pendaftaran Swenson.
+- **Pemilik:** Biarkan apa adanya
 - **Tanggal Pendaftaran:** Tanggal Hari Ini
+- **Instruksi Khusus:** Tidak Ada Gluten
 - **Peserta:** Edgar Swenson
-- **Sesi:** Mark Jones
+- **Sesi Peristiwa:** AI yang bertanggung jawab
 
-![Cuplikan layar formulir pendaftaran Sesi yang telah selesai.  ](media/16cccd9ebb949ba0f364211f1ee55d4d.png)
+![Cuplikan layar formulir pendaftaran Sesi yang telah selesai.  ](media/Session-registration-form.png)
 
 26.  Pilih tombol Simpan dan Tutup **** .

@@ -16,7 +16,7 @@ Penyewa tidak boleh dibagikan atau digunakan untuk tujuan di luar lab praktik. P
 
 Penyewa tidak boleh dikonversi ke langganan berbayar. Penyewa yang diperoleh sebagai bagian dari kursus ini tetap menjadi milik Microsoft Corporation dan kami berhak mendapatkan akses dan repositorinya kapan saja.
 
-## Latihan 1 – Mengakses Microsoft Power Platform
+## Latihan 1: Mengakses Microsoft Power Platform
 
 Dalam latihan ini, Anda akan memverifikasi bahwa Anda dapat mengakses Power Apps.
 
@@ -57,3 +57,14 @@ Menerapkan pembaruan terbaru ke browser mencegah masalah di lab berikutnya saat 
 1. **Pilih Perintah (...)** di kanan atas browser, pilih **Bantuan dan umpan balik**, dan pilih **Tentang Microsoft Edge**.
 
 1. Terapkan pembaruan dan mulai ulang browser jika perlu.
+
+## Latihan 2: Mengunduh gambar
+
+1. Buka jendela browser di penyewa Anda, dan masukkan https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/tree/master/Allfiles.
+2. Anda akan melihat gambar di cuplikan layar.
+
+![File gambar.](media/images.png)
+
+3. Buka setiap gambar secara terpisah dan unduh dengan memilih **ikon Unduh** .
+
+![Tombol unduh gambar.](media/download-image.png)

@@ -22,12 +22,22 @@ Setelah berhasil menyelesaikan latihan ini, Anda akan:
 
 Sebelum memulai latihan ini, anda harus menyelesaikan lab berikut:
 
-- **Lab 3 – Membuat model data**
+- **Lab 2 – Membuat model data**
 
-> [!IMPORTANT]
-> Lab ini menggunakan AI untuk membangun komponen. Karena hasil AI dapat bervariasi, penting untuk dicatat bahwa hasil Anda mungkin berbeda (tetapi mirip) dengan apa yang didefinisikan di lab. Konsep dasar yang diuraikan dalam lab akan sama tidak peduli apa yang dibuat atau apa namanya. Jika tabel dan kolom tidak sama persis, Anda mungkin perlu menyesuaikan dengan apa yang dibuat untuk Anda.
+> **Penting:** Lab ini menggunakan AI untuk membangun komponen. Karena hasil AI dapat bervariasi, penting untuk dicatat bahwa hasil Anda mungkin berbeda (tetapi mirip) dengan apa yang didefinisikan di lab. Konsep dasar yang diuraikan dalam lab akan sama tidak peduli apa yang dibuat atau apa namanya. Jika tabel dan kolom tidak sama persis, Anda mungkin perlu menyesuaikan dengan apa yang dibuat untuk Anda.
 
 Perkiraan waktu untuk menyelesaikan latihan ini adalah **30 hingga 45** menit.
+
+**Sebelum memulai:** Jika ini pertama kalinya Anda mengakses portal pembuat Power Pages, Anda mungkin perlu menjalankan beberapa penyiapan.  Jika demikian, ikuti instruksi di bawah ini.  Jika tidak, Anda dapat melanjutkan ke **Tugas 1.**  
+
+1.  Jika perlu, navigasikan ke [Microsoft Power Pages](https://make.powerpages.microsoft.com).
+2.  Pada layar Selamat Datang di **Power Pages** , pilih tombol **Mulai** .
+
+![Cuplikan layar selamat datang Power Pages.](media/get-started.png)
+
+3. **Pada layar Beri tahu kami sedikit tentang diri Anda**, pilih tombol **Lewati**.
+
+![Cuplikan layar selamat datang Power Pages.](media/about-you.png)
 
 ## Tugas 1: Gunakan Copilot untuk membuat situs halaman Power baru.
 
@@ -55,7 +65,7 @@ Situs baru Anda akan dibuat di latar belakang, yang bisa memakan waktu beberapa 
 
 10.  Setelah situs Anda dibuat, buka (Jika belum diambil di sana.)
 
-> [! CATATAN:] Terkadang ketika situs Anda dimuat untuk pertama kalinya, Anda mungkin melihat pesan objek Liquid tidak ditemukan. Jika ini terjadi, Refresh (F5) jendela browser untuk memuat ulang situs. Situs akan muncul.
+> **Catatan:** Terkadang ketika situs Anda dimuat untuk pertama kalinya, Anda mungkin melihat pesan Objek liquid tidak ditemukan. Jika ini terjadi, Refresh (F5) jendela browser untuk memuat ulang situs. Situs akan muncul.
 
 ## Tugas 2: Mengubah konten situs Anda
 
@@ -220,19 +230,19 @@ Sekarang setelah kita mendefinisikan formulir yang diperlukan yang akan kita gun
     - **Pilih tampilan data:** Peristiwa Aktif, Peristiwa Tidak Aktif
     - **Nama yang Anda cantumkan:** Peristiwa
 9.  Pilih tab **Tindakan** dan konfigurasikan sebagai berikut:
-    1.  **Membuat rekaman baru:** Aktif
-        1. **Jenis Target:** Formulir
-        2. **Formulir:** Buat Peristiwa
-        3. **Label tampilan:** Buat Peristiwa Baru
-    2.  **Lihat detail:** Aktif
-        1.  **Jenis Target:** Formulir
-        2.  **Formulir:** Tampilkan Peristiwa
-        3.  **Label tampilan:** Lihat Detail Peristiwa
-    3.  **Edit rekaman:** Aktif
-        1.  **Jenis Target:** Formulir
-        2.  **Formulir:** Edit Peristiwa
-        3.  **Label tampilan:** Edit Peristiwa
-    4.  Pilih **Selesai**.
+    - **Membuat rekaman baru:** Aktif
+        - **Jenis Target:** Formulir
+        - **Formulir:** Buat Peristiwa
+        - **Label tampilan:** Buat Peristiwa Baru
+    - **Lihat detail:** Aktif
+        - **Jenis Target:** Formulir
+        - **Formulir:** Tampilkan Peristiwa
+        - **Label tampilan:** Lihat Detail Peristiwa
+    - **Edit rekaman:** Aktif
+        - **Jenis Target:** Formulir
+        - **Formulir:** Edit Peristiwa
+        - **Label tampilan:** Edit Peristiwa
+9. Pilih **Selesai**.
 
 ## Tugas 6: Memperbarui izin
 

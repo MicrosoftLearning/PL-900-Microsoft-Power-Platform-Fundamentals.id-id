@@ -13,19 +13,19 @@ Dalam latihan ini, Anda akan membuat solusi Power Platform untuk menyimpan berba
 
 Contoso Consulting adalah organisasi layanan profesional yang berspesialisasi dalam layanan konsultasi IT dan AI. Sepanjang tahun, mereka menawarkan banyak acara yang berbeda kepada pelanggan mereka. Beberapa di antaranya adalah acara gaya pameran dagang di mana mereka memiliki banyak mitra masuk dan memberikan detail tentang produk baru, tren pasar, dan layanan. Yang lain terjadi sepanjang tahun dan merupakan webinar cepat yang digunakan untuk memberikan detail tentang masing-masing produk.
 
-Contoso ingin menggunakan Power Platform untuk membangun solusi Manajemen Peristiwa yang dapat mereka gunakan untuk mengelola berbagai peristiwa yang mereka host sepanjang tahun.
+Contoso ingin menggunakan Power Platform untuk membangun solusi Manajemen peristiwa yang dapat mereka gunakan untuk mengelola berbagai peristiwa yang mereka host sepanjang tahun.
 
-Dalam latihan ini Anda akan membuat solusi yang akan digunakan untuk Manajemen Siklus Hidup Aplikasi, dan untuk mengelompokkan semua aplikasi, situs, dan alur yang berbeda yang kami buat bersama-sama sehingga dapat dikelola dan diangkut dengan mudah.
+Dalam latihan ini Anda membuat solusi yang akan digunakan untuk Manajemen Siklus Hidup Aplikasi (ALM), dan untuk mengelompokkan semua aplikasi, situs, dan alur yang berbeda yang kami buat bersama sehingga dapat dikelola dan diangkut dengan mudah.
 
 Perkiraan waktu untuk menyelesaikan latihan ini adalah **15 hingga 20** menit.
 
 Setelah berhasil menyelesaikan latihan ini, Anda akan:
 
-- Membuat Solusi Manajemen peristiwa
+- Membuat solusi Manajemen peristiwa
 - Tambahkan tabel Akun dan Kontak yang ada ke solusi.
 - Buat tabel baru yang disebut Peristiwa dari dalam solusi.
 
-## Tugas 1: Membuat solusi Manajemen Peristiwa
+## Tugas 1: Membuat solusi manajemen Peristiwa
 
 1.  Buka [Power Apps portal pembuat](https://make.powerapps.com).
 2.  Navigasi ke **Solusi**.
@@ -35,7 +35,7 @@ Setelah berhasil menyelesaikan latihan ini, Anda akan:
     - **Nama:** Manajemen peristiwa
 5.  Di bawah **Publisher**, pilih **+ Penerbit baru**
 6.  Konfigurasikan penerbit baru sebagai berikut
-    - **Nama tampilan:** EventMSLEventMSLearnarn
+    - **Nama tampilan:** EventMSLearn
     - **Nama:** EverntMSLearn
     - **Awalan:** mslearn
     - **Awalan nilai pilihan:** Biarkan default
@@ -48,7 +48,7 @@ Setelah berhasil menyelesaikan latihan ini, Anda akan:
 
 ![Cuplikan layar solusi yang telah selesai](media/f968526926661bfa401f10742e6f376f.png)
 
-10.  Pilih **Buat**.
+10.  Pilih **Buat** untuk membuat solusi.
 
 ## Tugas 2: Tambahkan komponen yang ada ke solusi.
 
@@ -56,14 +56,14 @@ Sekarang setelah kita membuat solusi untuk menyimpan komponen kita, kita akan me
 
 1.  Jika perlu, buka solusi Manajemen** Peristiwa yang **Anda buat di tugas sebelumnya.
 2.  Pada bilah **Perintah**, Pilih **Tambahkan yang sudah ada.**
-3.  Dari menu yang muncul, pilih **Tabel**.
+3.  Dari menu yang muncul, pilih **Tabel.**
 4.  **Pilih tabel Akun**, lalu pilih **Berikutnya.**
 5.  **Pada layar Pilih Tabel**, pilih **Sertakan semua objek.**
-6.  Pilih **Tambahkan**
+6.  Pilih **Tambahkan**.
 
-Sekarang setelah kita memiliki tabel Akun, kita akan menambahkan tabel kontak.
+Sekarang setelah kita memiliki tabel Akun, kita akan menambahkan tabel Kontak.
 
-7.  Pada bilah **Perintah**, Pilih tombol **Tambahkan yang** sudah ada lagi **.**
+7.  Pada bilah **Perintah**, Pilih tombol **Tambahkan yang** sudah ada lagi.
 8.  Dari menu yang muncul, pilih **Tabel.**
 9.  **Pilih tabel Kontak**, lalu pilih **Berikutnya.**
 10.  **Pada layar Pilih Tabel**, pilih **Sertakan semua objek**
@@ -71,4 +71,4 @@ Sekarang setelah kita memiliki tabel Akun, kita akan menambahkan tabel kontak.
 
 ![Cuplikan layar memperlihatkan tabel Akun dan Kontak dalam solusi.](media/a53817e242fca7371765583d9e565c36.png)
 
-Selamat, Anda telah berhasil membuat solusi baru menggunakan Microsoft power Platform. Kami akan terus menggunakan solusi untuk menambahkan komponen tambahan ke dalamnya.
+Selamat. Anda telah berhasil membuat solusi baru menggunakan Power Platform. Kami akan terus menggunakan solusi untuk menambahkan komponen tambahan ke dalamnya.
