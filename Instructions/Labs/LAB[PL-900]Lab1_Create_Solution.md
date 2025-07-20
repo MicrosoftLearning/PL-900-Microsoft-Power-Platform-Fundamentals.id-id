@@ -28,47 +28,47 @@ Setelah berhasil menyelesaikan latihan ini, Anda akan:
 ## Tugas 1: Membuat solusi manajemen Peristiwa
 
 1.  Buka [Power Apps portal pembuat](https://make.powerapps.com).
-2.  Navigasi ke **Solusi**.
-3.  Pada bilah perintah, pilih **Solusi Baru.**
-4.  Di layar solusi baru konfigurasikan sebagai berikut:
-    - **Nama Tampilan:** Manajemen Peristiwa
-    - **Nama:** Manajemen peristiwa
-5.  Di bawah **Publisher**, pilih **+ Penerbit baru**
-6.  Konfigurasikan penerbit baru sebagai berikut
+1.  Navigasi ke **Solusi**.
+1.  Pada bilah perintah, pilih **+Solusi baru.**
+1.  Di layar solusi baru konfigurasikan sebagai berikut:
+    - **Nama tampilan:** Manajemen Peristiwa
+    - **Nama:** EventManagement
+1.  Di bawah **Publisher**, pilih **+ Penerbit baru**
+1.  Konfigurasikan penerbit baru sebagai berikut
     - **Nama tampilan:** EventMSLearn
-    - **Nama:** EverntMSLearn
+    - **Nama:** EventMSLearn
     - **Awalan:** mslearn
     - **Awalan nilai pilihan:** Biarkan default
 
-![Cuplikan layar Buat Penerbit Baru.](media/61fa62c324d424f7c73c8291a0724130.png)
+    ![Cuplikan layar Buat Penerbit Baru.](media/61fa62c324d424f7c73c8291a0724130.png)
 
-7.  Pilih tombol **Simpan** untuk menyimpan penerbit.
-8.  **Di bidang Penerbit**, pilih **penerbit EventMSlearn** yang baru saja Anda buat.
-9.  Pilih **Atur sebagai solusi** pilihan Anda.
+1.  Pilih tombol **Simpan** untuk menyimpan penerbit.
+1.  **Di bidang Penerbit**, pilih **penerbit EventMSlearn** yang baru saja Anda buat.
+1.  Pilih **Atur sebagai solusi** pilihan Anda.
 
-![Cuplikan layar solusi yang telah selesai](media/f968526926661bfa401f10742e6f376f.png)
+    ![Cuplikan layar solusi yang telah selesai](media/f968526926661bfa401f10742e6f376f.png)
 
-10.  Pilih **Buat** untuk membuat solusi.
+1.  Pilih **Buat** untuk membuat solusi.
 
 ## Tugas 2: Tambahkan komponen yang ada ke solusi.
 
 Sekarang setelah kita membuat solusi untuk menyimpan komponen kita, kita akan menambahkan beberapa tabel yang ada ke dalamnya. Kami akan menambahkan tabel Akun dan Kontak, sehingga dapat dengan mudah digunakan di aplikasi, alur, dan situs Manajemen Peristiwa kami yang berbeda. Pertama, kita akan menambahkan tabel Akun ke solusi.
 
 1.  Jika perlu, buka solusi Manajemen** Peristiwa yang **Anda buat di tugas sebelumnya.
-2.  Pada bilah **Perintah**, Pilih **Tambahkan yang sudah ada.**
-3.  Dari menu yang muncul, pilih **Tabel.**
-4.  **Pilih tabel Akun**, lalu pilih **Berikutnya.**
-5.  **Pada layar Pilih Tabel**, pilih **Sertakan semua objek.**
-6.  Pilih **Tambahkan**.
+1.  Pada bilah **Perintah**, Pilih **Tambahkan yang sudah ada.**
+1.  Dari menu yang muncul, pilih **Tabel.**
+1.  **Pilih tabel Akun**, lalu pilih **Berikutnya.**
+1.  **Pada layar Tabel yang** dipilih, pilih **Sertakan semua objek.**
+1.  Pilih **Tambahkan**.
 
-Sekarang setelah kita memiliki tabel Akun, kita akan menambahkan tabel Kontak.
+    Sekarang setelah kita memiliki tabel Akun, kita akan menambahkan tabel Kontak.
 
-7.  Pada bilah **Perintah**, Pilih tombol **Tambahkan yang** sudah ada lagi.
-8.  Dari menu yang muncul, pilih **Tabel.**
-9.  **Pilih tabel Kontak**, lalu pilih **Berikutnya.**
-10.  **Pada layar Pilih Tabel**, pilih **Sertakan semua objek**
-11.  Pilih **Tambahkan**
+1.  Pada bilah **Perintah**, Pilih tombol **Tambahkan yang** sudah ada lagi.
+1.  Dari menu yang muncul, pilih **Tabel.**
+1.  **Pilih tabel Kontak**, lalu pilih **Berikutnya.**
+1.  **Pada layar Tabel yang** dipilih, pilih **Sertakan semua objek**
+1.  Pilih **Tambahkan**
 
-![Cuplikan layar memperlihatkan tabel Akun dan Kontak dalam solusi.](media/a53817e242fca7371765583d9e565c36.png)
+    ![Cuplikan layar memperlihatkan tabel Akun dan Kontak dalam solusi.](media/a53817e242fca7371765583d9e565c36.png)
 
 Selamat. Anda telah berhasil membuat solusi baru menggunakan Power Platform. Kami akan terus menggunakan solusi untuk menambahkan komponen tambahan ke dalamnya.
