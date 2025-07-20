@@ -61,10 +61,10 @@ Menerapkan pembaruan terbaru ke browser mencegah masalah di lab berikutnya saat 
 ## Latihan 2: Mengunduh gambar
 
 1. Buka jendela browser di penyewa Anda, dan masukkan https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/tree/master/Allfiles.
-2. Anda akan melihat gambar di cuplikan layar.
+1. Anda akan melihat gambar di cuplikan layar.
 
-![File gambar.](media/images.png)
+    ![File gambar.](media/images.png)
 
-3. Buka setiap gambar secara terpisah dan unduh dengan memilih **ikon Unduh** .
+1. Buka setiap gambar secara terpisah dan unduh dengan memilih **ikon Unduh** .
 
-![Tombol unduh gambar.](media/download-image.png)
+    ![Tombol unduh gambar.](media/download-image.png)
